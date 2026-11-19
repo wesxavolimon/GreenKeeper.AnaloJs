@@ -1,9 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 import {
   AdjustHumidifierUseCase,
+  CheckAuthUseCase,
   CompletePlantTaskUseCase,
   EvaluateDeviceAccessUseCase,
   LoadDashboardUseCase,
+  LoginUseCase,
+  LogoutUseCase,
   RegisterPwaUseCase,
   SelectRoomUseCase,
   ToggleFocusFavoriteUseCase,
@@ -11,6 +14,7 @@ import {
 } from '@application/index';
 import {
   APP_CONFIG_PORT,
+  AUTH_PORT,
   DASHBOARD_REPOSITORY_PORT,
   DEVICE_SIGNALS_PORT,
   provideGreenKeeperDependencies,
@@ -20,7 +24,18 @@ import {
 describe('Composition Root', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [...provideGreenKeeperDependencies()],
+      providers: [
+        ...provideGreenKeeperDependencies(),
+        {
+          provide: AUTH_PORT,
+          useClass: class {
+            login = vi.fn().mockResolvedValue(undefined);
+            logout = vi.fn().mockResolvedValue(undefined);
+            getUser = vi.fn().mockResolvedValue(null);
+            isAuthenticated = vi.fn().mockResolvedValue(false);
+          },
+        },
+      ],
     });
   });
 
@@ -55,5 +70,10 @@ describe('Composition Root', () => {
     await expect(TestBed.inject(RegisterPwaUseCase).execute()).resolves.toBe(
       false,
     );
+
+    expect(TestBed.inject(AUTH_PORT)).toBeDefined();
+    expect(TestBed.inject(LoginUseCase)).toBeDefined();
+    expect(TestBed.inject(LogoutUseCase)).toBeDefined();
+    expect(TestBed.inject(CheckAuthUseCase)).toBeDefined();
   });
 });

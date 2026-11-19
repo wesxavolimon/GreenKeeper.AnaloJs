@@ -2,11 +2,15 @@ import { InjectionToken, Provider } from '@angular/core';
 import {
   AdjustHumidifierUseCase,
   AppConfigPort,
+  AuthPort,
+  CheckAuthUseCase,
   CompletePlantTaskUseCase,
   DashboardRepositoryPort,
   DeviceSignalsPort,
   EvaluateDeviceAccessUseCase,
   LoadDashboardUseCase,
+  LoginUseCase,
+  LogoutUseCase,
   PwaRegistrationPort,
   RegisterPwaUseCase,
   SelectRoomUseCase,
@@ -14,6 +18,7 @@ import {
   TriggerPlannedFeatureNoticeUseCase,
 } from '@application/index';
 import {
+  Auth0Adapter,
   BrowserDeviceSignalsAdapter,
   BrowserPwaRegistrationAdapter,
   InMemoryDashboardRepository,
@@ -31,6 +36,7 @@ export const DASHBOARD_REPOSITORY_PORT =
 export const PWA_REGISTRATION_PORT = new InjectionToken<PwaRegistrationPort>(
   'PWA_REGISTRATION_PORT',
 );
+export const AUTH_PORT = new InjectionToken<AuthPort>('AUTH_PORT');
 
 export function provideGreenKeeperDependencies(): Provider[] {
   return [
@@ -98,6 +104,26 @@ export function provideGreenKeeperDependencies(): Provider[] {
       provide: RegisterPwaUseCase,
       useFactory: (pwa: PwaRegistrationPort) => new RegisterPwaUseCase(pwa),
       deps: [PWA_REGISTRATION_PORT],
+    },
+    {
+      provide: AUTH_PORT,
+      useFactory: (config: AppConfigPort) => new Auth0Adapter(config),
+      deps: [APP_CONFIG_PORT],
+    },
+    {
+      provide: LoginUseCase,
+      useFactory: (auth: AuthPort) => new LoginUseCase(auth),
+      deps: [AUTH_PORT],
+    },
+    {
+      provide: LogoutUseCase,
+      useFactory: (auth: AuthPort) => new LogoutUseCase(auth),
+      deps: [AUTH_PORT],
+    },
+    {
+      provide: CheckAuthUseCase,
+      useFactory: (auth: AuthPort) => new CheckAuthUseCase(auth),
+      deps: [AUTH_PORT],
     },
   ];
 }

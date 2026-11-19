@@ -1,16 +1,16 @@
 # Graph Report - GreenKeeper.AnaloJs  (2026-11-19)
 
 ## Corpus Check
-- 158 files · ~143,527 words
+- 162 files · ~144,119 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1701 nodes · 1772 edges · 125 communities (120 shown, 5 thin omitted)
+- 1710 nodes · 1774 edges · 125 communities (119 shown, 6 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b9a99959`
+- Built from commit: `17713dfe`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -133,14 +133,14 @@
 - concept.md
 - proposal.md
 - auth.spec.ts
-- PwaRegistrationPort
-- Home
+- LoginPage
+- DesktopInfoPage
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 23 edges
-2. `DashboardSnapshot` - 19 edges
+2. `Netlify Functions` - 19 edges
 3. `Netlify Functions` - 19 edges
-4. `Netlify Functions` - 19 edges
+4. `DashboardSnapshot` - 18 edges
 5. `Netlify Blobs` - 17 edges
 6. `Netlify Blobs` - 17 edges
 7. `Netlify configuration` - 15 edges
@@ -163,7 +163,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (125 total, 5 thin omitted)
+## Communities (125 total, 6 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
 Cohesion: 0.04
@@ -242,12 +242,12 @@ Cohesion: 0.04
 Nodes (44): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, @auth0/auth0-spa-js (+36 more)
 
 ### Community 19 - "app.spec.ts"
-Cohesion: 0.13
+Cohesion: 0.15
 Nodes (15): sampleSnapshot, DeviceAccessDecision, DeviceAccessReason, FocusInspectionTask, PlantFocusSummary, PlantMetrics, RoomPlantSummary, RoomTone (+7 more)
 
 ### Community 20 - "scripts"
-Cohesion: 0.15
-Nodes (11): AppConfig, AppConfigPort, DeviceSignalsPort, AppEnvironment, DeviceSignals, BrowserDeviceSignalsAdapter, BrowserDeviceSource, readDefaultBrowserDeviceSource() (+3 more)
+Cohesion: 0.13
+Nodes (8): DeviceSignalsPort, PwaRegistrationPort, DeviceSignals, BrowserDeviceSignalsAdapter, BrowserDeviceSource, readDefaultBrowserDeviceSource(), BrowserPwaRegistrationAdapter, ServiceWorkerRegistrar
 
 ### Community 21 - "PwaRegistrationPort"
 Cohesion: 0.10
@@ -266,8 +266,8 @@ Cohesion: 0.10
 Nodes (19): Background work after responding, Client reconnect, Configuration, Context (`context` arg or `getContext()`), Edge caching, Entry file and detection, Errors, Examples (+11 more)
 
 ### Community 34 - "index.ts"
-Cohesion: 0.34
-Nodes (13): AdjustHumidifierUseCase, CompletePlantTaskUseCase, EvaluateDeviceAccessUseCase, LoadDashboardUseCase, RegisterPwaUseCase, SelectRoomUseCase, ToggleFocusFavoriteUseCase, TriggerPlannedFeatureNoticeUseCase (+5 more)
+Cohesion: 0.20
+Nodes (17): App, appConfig, Component, mobileOnlyGuard(), AdjustHumidifierUseCase, CompletePlantTaskUseCase, EvaluateDeviceAccessUseCase, LoadDashboardUseCase (+9 more)
 
 ### Community 35 - "Netlify caching"
 Cohesion: 0.12
@@ -306,8 +306,8 @@ Cohesion: 0.13
 Nodes (14): Audit log (Pro plans or higher), CDN-edge RBAC (redirect rules), Client auth (browser), Configuration (dashboard-only), CSRF: required for server-side auth endpoints, Emails (Pro plans or higher), External JWT providers (Enterprise), Identity event functions (+6 more)
 
 ### Community 44 - "index.page.ts"
-Cohesion: 0.23
-Nodes (7): App, appConfig, Component, mobileOnlyGuard(), DesktopInfoPage, Component, routeMeta
+Cohesion: 0.15
+Nodes (4): authGuard(), Home, routeMeta, Component
 
 ### Community 45 - "Netlify Agent Runner"
 Cohesion: 0.14
@@ -450,8 +450,8 @@ Cohesion: 0.22
 Nodes (8): ADDED Requirements, Requirement: Controlled Development and Test Override, Requirement: Informative Screen for Non-Mobile Visitors, Requirement: Mobile-Only Access Detection, Scenario: Desktop or tablet browser accesses the app, Scenario: Non-mobile visitor lands on root or deep route, Scenario: Production build ignores dev override query parameters, Scenario: Standard mobile phone browser accesses the app
 
 ### Community 80 - "Auth0Adapter"
-Cohesion: 0.22
-Nodes (3): Auth0Adapter, mockAppConfig, mockAuth0
+Cohesion: 0.26
+Nodes (6): AppConfig, AppConfigPort, AppEnvironment, normalizeAppEnv(), RawEnvSource, ViteEnvConfigAdapter
 
 ### Community 81 - "Two-Layer Pattern: Company-Only Access + Per-User Identity"
 Cohesion: 0.25
@@ -618,26 +618,24 @@ Cohesion: 0.29
 Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ### Community 122 - "auth.spec.ts"
-Cohesion: 0.17
-Nodes (5): AuthPort, CheckAuthUseCase, LoginUseCase, LogoutUseCase, User
-
-### Community 123 - "PwaRegistrationPort"
-Cohesion: 0.28
-Nodes (3): PwaRegistrationPort, BrowserPwaRegistrationAdapter, ServiceWorkerRegistrar
+Cohesion: 0.11
+Nodes (8): AuthPort, CheckAuthUseCase, LoginUseCase, LogoutUseCase, User, Auth0Adapter, mockAppConfig, mockAuth0
 
 ## Knowledge Gaps
-- **1213 isolated node(s):** `mockAuth0`, `mockAppConfig`, `$schema`, `version`, `newProjectRoot` (+1208 more)
+- **1213 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1208 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `RegisterPwaUseCase` connect `index.ts` to `PwaRegistrationPort`, `index.page.ts`?**
+- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `Auth0Adapter`, `index.ts`, `app.spec.ts`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `index.ts`, `app.spec.ts`, `index.page.ts`, `scripts`?**
+- **Why does `Home` connect `index.page.ts` to `index.ts`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **What connects `mockAuth0`, `mockAppConfig`, `$schema` to the rest of the system?**
+- **Why does `BrowserPwaRegistrationAdapter` connect `scripts` to `index.ts`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
   _1213 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
@@ -645,5 +643,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `Decisions` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
-- **Should `concept.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
