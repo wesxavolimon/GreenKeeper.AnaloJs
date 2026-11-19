@@ -34,3 +34,5 @@ Thumbs.db
 *.log
 npm-debug.log*
 graphify-out/cache
+# Local Netlify folder
+.netlify

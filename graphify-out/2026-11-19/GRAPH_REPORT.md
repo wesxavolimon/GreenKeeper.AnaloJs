@@ -1,16 +1,16 @@
 # Graph Report - GreenKeeper.AnaloJs  (2026-11-19)
 
 ## Corpus Check
-- 54 files · ~23,052 words
+- 54 files · ~23,056 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 416 nodes · 553 edges · 32 communities (27 shown, 5 thin omitted)
+- 416 nodes · 547 edges · 32 communities (27 shown, 5 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `18a43644`
+- Built from commit: `4a593d51`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -45,7 +45,7 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 23 edges
-2. `DashboardSnapshot` - 19 edges
+2. `DashboardSnapshot` - 18 edges
 3. `DashboardRepositoryPort` - 13 edges
 4. `provideGreenKeeperDependencies()` - 12 edges
 5. `Home` - 11 edges
@@ -149,12 +149,12 @@ Cohesion: 0.06
 Nodes (32): description, devDependencies, @analogjs/platform, @analogjs/vite-plugin-angular, @analogjs/vitest-angular, @angular/build, @angular/cli, @angular/compiler-cli (+24 more)
 
 ### Community 19 - "app.spec.ts"
-Cohesion: 0.10
-Nodes (14): Home, Component, sampleSnapshot, DeviceAccessDecision, DeviceAccessReason, FocusInspectionTask, PlantFocusSummary, PlantMetrics (+6 more)
+Cohesion: 0.11
+Nodes (9): Home, Component, sampleSnapshot, DeviceAccessDecision, RoomPlantSummary, clampHumidityLevel(), countPendingTasks(), evaluateDeviceAccess() (+1 more)
 
 ### Community 20 - "scripts"
-Cohesion: 0.10
-Nodes (13): AppConfig, AppConfigPort, PwaRegistrationPort, AppEnvironment, DeviceSignals, BrowserDeviceSignalsAdapter, BrowserDeviceSource, readDefaultBrowserDeviceSource() (+5 more)
+Cohesion: 0.08
+Nodes (18): AppConfig, AppConfigPort, PwaRegistrationPort, AppEnvironment, DeviceAccessReason, DeviceSignals, FocusInspectionTask, PlantFocusSummary (+10 more)
 
 ### Community 21 - "PwaRegistrationPort"
 Cohesion: 0.12

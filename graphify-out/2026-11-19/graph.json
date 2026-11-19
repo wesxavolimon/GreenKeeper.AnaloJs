@@ -254,6 +254,56 @@
       "norm_label": "5. backlog e gaps conhecidos (mapeados em `claude.md`)"
     },
     {
+      "label": "rules.ts",
+      "file_type": "code",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_domain_rules",
+      "community": 19,
+      "norm_label": "rules.ts"
+    },
+    {
+      "label": "clampHumidityLevel()",
+      "file_type": "code",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_domain_rules_clamphumiditylevel",
+      "community": 19,
+      "norm_label": "clamphumiditylevel()"
+    },
+    {
+      "label": "countPendingTasks()",
+      "file_type": "code",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "src_domain_rules_countpendingtasks",
+      "community": 19,
+      "norm_label": "countpendingtasks()"
+    },
+    {
+      "label": "getActiveRoom()",
+      "file_type": "code",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "src_domain_rules_getactiveroom",
+      "community": 19,
+      "norm_label": "getactiveroom()"
+    },
+    {
+      "label": "evaluateDeviceAccess()",
+      "file_type": "code",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "src_domain_rules_evaluatedeviceaccess",
+      "community": 19,
+      "norm_label": "evaluatedeviceaccess()"
+    },
+    {
       "label": "angular.json",
       "file_type": "code",
       "source_file": "angular.json",
@@ -1859,7 +1909,7 @@
       "source_file": "src/domain/models.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 19,
+      "community": 20,
       "norm_label": "models.ts",
       "id": "src_domain_models"
     },
@@ -1879,7 +1929,7 @@
       "source_file": "src/domain/models.ts",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 19,
+      "community": 20,
       "norm_label": "roomtone",
       "id": "src_domain_models_roomtone"
     },
@@ -1889,7 +1939,7 @@
       "source_file": "src/domain/models.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 19,
+      "community": 20,
       "norm_label": "plantmetrics",
       "id": "src_domain_models_plantmetrics"
     },
@@ -1909,7 +1959,7 @@
       "source_file": "src/domain/models.ts",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 19,
+      "community": 20,
       "norm_label": "focusinspectiontask",
       "id": "src_domain_models_focusinspectiontask"
     },
@@ -1919,7 +1969,7 @@
       "source_file": "src/domain/models.ts",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 19,
+      "community": 20,
       "norm_label": "plantfocussummary",
       "id": "src_domain_models_plantfocussummary"
     },
@@ -1949,7 +1999,7 @@
       "source_file": "src/domain/models.ts",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 19,
+      "community": 20,
       "norm_label": "deviceaccessreason",
       "id": "src_domain_models_deviceaccessreason"
     },
@@ -1962,56 +2012,6 @@
       "community": 19,
       "norm_label": "deviceaccessdecision",
       "id": "src_domain_models_deviceaccessdecision"
-    },
-    {
-      "label": "rules.ts",
-      "file_type": "code",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "rules.ts",
-      "id": "src_domain_rules"
-    },
-    {
-      "label": "clampHumidityLevel()",
-      "file_type": "code",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "clamphumiditylevel()",
-      "id": "src_domain_rules_clamphumiditylevel"
-    },
-    {
-      "label": "countPendingTasks()",
-      "file_type": "code",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L24",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "countpendingtasks()",
-      "id": "src_domain_rules_countpendingtasks"
-    },
-    {
-      "label": "getActiveRoom()",
-      "file_type": "code",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L30",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "getactiveroom()",
-      "id": "src_domain_rules_getactiveroom"
-    },
-    {
-      "label": "evaluateDeviceAccess()",
-      "file_type": "code",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L35",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "evaluatedeviceaccess()",
-      "id": "src_domain_rules_evaluatedeviceaccess"
     },
     {
       "label": "browser-device-signals.adapter.ts",
@@ -4376,6 +4376,189 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/index.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_domain_index",
+      "target": "src_domain_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_domain_rules",
+      "target": "src_domain_rules_clamphumiditylevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_domain_rules",
+      "target": "src_domain_rules_countpendingtasks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "src_domain_rules",
+      "target": "src_domain_rules_evaluatedeviceaccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "src_domain_rules",
+      "target": "src_domain_rules_getactiveroom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/application/use-cases.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_application_use_cases",
+      "target": "src_domain_rules_clamphumiditylevel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/application/use-cases.ts",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "src_application_use_cases_adjusthumidifierusecase_execute",
+      "target": "src_domain_rules_clamphumiditylevel"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/domain.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_domain_domain_spec",
+      "target": "src_domain_rules_clamphumiditylevel"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/pages/index.page.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_pages_index_page",
+      "target": "src_domain_rules_countpendingtasks"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/pages/index.page.ts",
+      "source_location": "L613",
+      "weight": 1.0,
+      "source": "src_app_pages_index_page_home_pendingcount",
+      "target": "src_domain_rules_countpendingtasks"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/domain.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_domain_domain_spec",
+      "target": "src_domain_rules_countpendingtasks"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/pages/index.page.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_pages_index_page",
+      "target": "src_domain_rules_getactiveroom"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/pages/index.page.ts",
+      "source_location": "L609",
+      "weight": 1.0,
+      "source": "src_app_pages_index_page_home_activeroom",
+      "target": "src_domain_rules_getactiveroom"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/domain.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_domain_domain_spec",
+      "target": "src_domain_rules_getactiveroom"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/application/use-cases.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_application_use_cases",
+      "target": "src_domain_rules_evaluatedeviceaccess"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/application/use-cases.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_application_use_cases_evaluatedeviceaccessusecase_execute",
+      "target": "src_domain_rules_evaluatedeviceaccess"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/domain.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_domain_domain_spec",
+      "target": "src_domain_rules_evaluatedeviceaccess"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "angular.json",
@@ -5706,28 +5889,6 @@
       "target": "src_domain_models_roomplantsummary"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/pages/index.page.ts",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_pages_index_page",
-      "target": "src_domain_rules_countpendingtasks"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/pages/index.page.ts",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_pages_index_page",
-      "target": "src_domain_rules_getactiveroom"
-    },
-    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/app/pages/index.page.ts",
@@ -5828,28 +5989,6 @@
       "confidence_score": 1.0,
       "source": "src_app_pages_index_page_home_activeroom",
       "target": "src_domain_models_roomplantsummary"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/app/pages/index.page.ts",
-      "source_location": "L609",
-      "weight": 1.0,
-      "source": "src_app_pages_index_page_home_activeroom",
-      "target": "src_domain_rules_getactiveroom"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/app/pages/index.page.ts",
-      "source_location": "L613",
-      "weight": 1.0,
-      "source": "src_app_pages_index_page_home_pendingcount",
-      "target": "src_domain_rules_countpendingtasks"
     },
     {
       "relation": "imports_from",
@@ -6670,28 +6809,6 @@
       "target": "src_domain_models_deviceaccessdecision"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/application/use-cases.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_application_use_cases",
-      "target": "src_domain_rules_clamphumiditylevel"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/application/use-cases.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_application_use_cases",
-      "target": "src_domain_rules_evaluatedeviceaccess"
-    },
-    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/application/use-cases.ts",
@@ -6754,17 +6871,6 @@
       "confidence_score": 1.0,
       "source": "src_application_use_cases_evaluatedeviceaccessusecase_execute",
       "target": "src_domain_models_deviceaccessdecision"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/application/use-cases.ts",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "src_application_use_cases_evaluatedeviceaccessusecase_execute",
-      "target": "src_domain_rules_evaluatedeviceaccess"
     },
     {
       "relation": "method",
@@ -7085,17 +7191,6 @@
       "confidence_score": 1.0,
       "source": "src_application_use_cases_adjusthumidifierusecase_execute",
       "target": "src_domain_models_dashboardsnapshot"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/application/use-cases.ts",
-      "source_location": "L88",
-      "weight": 1.0,
-      "source": "src_application_use_cases_adjusthumidifierusecase_execute",
-      "target": "src_domain_rules_clamphumiditylevel"
     },
     {
       "relation": "method",
@@ -7449,50 +7544,6 @@
       "target": "src_domain_models_devicesignals"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/domain.spec.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_domain_spec",
-      "target": "src_domain_rules_clamphumiditylevel"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/domain.spec.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_domain_spec",
-      "target": "src_domain_rules_countpendingtasks"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/domain.spec.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_domain_spec",
-      "target": "src_domain_rules_evaluatedeviceaccess"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/domain.spec.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_domain_spec",
-      "target": "src_domain_rules_getactiveroom"
-    },
-    {
       "relation": "re_exports",
       "context": "export",
       "confidence": "EXTRACTED",
@@ -7502,17 +7553,6 @@
       "confidence_score": 1.0,
       "source": "src_domain_index",
       "target": "src_domain_models"
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/index.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_index",
-      "target": "src_domain_rules"
     },
     {
       "relation": "imports_from",
@@ -7648,28 +7688,6 @@
       "target": "src_domain_models_roomtone"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_rules",
-      "target": "src_domain_models"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_rules",
-      "target": "src_domain_models_appenvironment"
-    },
-    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -7679,28 +7697,6 @@
       "confidence_score": 1.0,
       "source": "src_infrastructure_vite_env_config_adapter",
       "target": "src_domain_models_appenvironment"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_rules",
-      "target": "src_domain_models_roomplantsummary"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_rules",
-      "target": "src_domain_models_dashboardsnapshot"
     },
     {
       "relation": "imports",
@@ -7761,17 +7757,6 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_rules",
-      "target": "src_domain_models_devicesignals"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/infrastructure/browser-device-signals.adapter.ts",
       "source_location": "L2",
       "weight": 1.0,
@@ -7789,57 +7774,6 @@
       "confidence_score": 1.0,
       "source": "src_infrastructure_browser_device_signals_adapter_browserdevicesignalsadapter_readsignals",
       "target": "src_domain_models_devicesignals"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_rules",
-      "target": "src_domain_models_deviceaccessdecision"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_rules",
-      "target": "src_domain_rules_clamphumiditylevel"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_rules",
-      "target": "src_domain_rules_countpendingtasks"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L35",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_rules",
-      "target": "src_domain_rules_evaluatedeviceaccess"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/domain/rules.ts",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_domain_rules",
-      "target": "src_domain_rules_getactiveroom"
     },
     {
       "relation": "contains",
@@ -9886,5 +9820,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "18a43644f1378be30ca7078a59ac0585e3a38504"
+  "built_at_commit": "4a593d51a7f2009f027ec45249e71f2444df43f3"
 }

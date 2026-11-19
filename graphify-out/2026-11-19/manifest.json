@@ -220,8 +220,8 @@
     "semantic_hash": ""
   },
   "src/domain/rules.ts": {
-    "mtime": 1795076870.955307,
-    "ast_hash": "be882f7e3b1e441f631867fb77718b68",
+    "mtime": 1795084666.9473524,
+    "ast_hash": "bc3a9e7d56e830675bfe2b62d88fface",
     "semantic_hash": ""
   },
   "src/infrastructure/browser-device-signals.adapter.ts": {
