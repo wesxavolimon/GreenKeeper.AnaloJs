@@ -36,3 +36,4 @@ npm-debug.log*
 graphify-out/cache
 # Local Netlify folder
 .netlify
+screenshots/
