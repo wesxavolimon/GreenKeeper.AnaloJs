@@ -9,7 +9,6 @@ O **GreenKeeper** (rebatizado visualmente como **PlantumHibis**) é um ecossiste
 
 ---
 
-
 ## 2. Ecossistema de Aplicações e Plataformas
 
 | Repositório | Papel no Produto | Stack Principal | Status |
@@ -25,6 +24,7 @@ O **GreenKeeper** (rebatizado visualmente como **PlantumHibis**) é um ecossiste
 ## 3. Requisitos Funcionais por Módulo
 
 ### 3.1. Autenticação, Cadastro Local-First e Sessão
+
 *Referências:* `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/AppUser.cs`, `GreenKeeper.Backend/app/Api/routers/accounts_router.py`, `GreenKeeper.Backend/app/Api/routers/auth_router.py`
 
 1. **Tela Unificada de Acesso (`LoginPage`):**
@@ -45,6 +45,7 @@ O **GreenKeeper** (rebatizado visualmente como **PlantumHibis**) é um ecossiste
 ---
 
 ### 3.2. Perfil do Usuário e Configurações (`ConfigSheet` & `PerfilPage`)
+
 *Referências:* `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/AppUser.cs`, `GreenKeeper.Backend/app/Api/routers/accounts_router.py`
 
 1. **Menu Global de Configurações (`ConfigSheet`):**
@@ -65,6 +66,7 @@ O **GreenKeeper** (rebatizado visualmente como **PlantumHibis**) é um ecossiste
 ---
 
 ### 3.3. Gestão de Ambientes: Casas e Áreas
+
 *Referências:* `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/Casa.cs`, `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/Area.cs`, `GreenKeeper.Backend/app/Api/routers/houses_router.py`, `GreenKeeper.Backend/app/Api/routers/areas_router.py`
 
 1. **Casas (`CasasPage` / `CasaEditSheet`):**
@@ -81,6 +83,7 @@ O **GreenKeeper** (rebatizado visualmente como **PlantumHibis**) é um ecossiste
 ---
 
 ### 3.4. Gestão de Plantas e Inteligência Botânica (Espécies)
+
 *Referências:* `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/Planta.cs`, `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/Especie.cs`, `GreenKeeper.Backend/app/Api/routers/plants_router.py`, `GreenKeeper.Backend/app/Api/routers/species_proxy_router.py`
 
 1. **Catálogo e Listagem de Plantas (`PlantasPage`):**
@@ -103,6 +106,7 @@ O **GreenKeeper** (rebatizado visualmente como **PlantumHibis**) é um ecossiste
 ---
 
 ### 3.5. Rotina de Cuidados e Tarefas Diárias
+
 *Referências:* `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/EventoRega.cs`, `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/EventoAdubacao.cs`, `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/EventoPoda.cs`, `GreenKeeper.Backend/app/Api/routers/events_router.py`
 
 1. **Registro de Eventos de Cuidado (`RegistrarCuidadoSheet`):**
@@ -121,6 +125,7 @@ O **GreenKeeper** (rebatizado visualmente como **PlantumHibis**) é um ecossiste
 ---
 
 ### 3.6. Inteligência Climática e Supressão por Chuva
+
 *Referências:* `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/MedicaoClima.cs`, `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/AlertaTermico.cs`
 
 1. **Integração Open-Meteo (`ClimaService`):**
@@ -134,6 +139,7 @@ O **GreenKeeper** (rebatizado visualmente como **PlantumHibis**) é um ecossiste
 ---
 
 ### 3.7. Sistema de Alertas Persistidos (`AlertasPage`)
+
 *Referências:* `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/Alerta.cs`, `GreenKeeper.Backend/app/Api/routers/alerts_router.py`
 
 1. **Geração Automática e Deduplicada (`IAlertaGeneratorService`):**
@@ -150,6 +156,7 @@ O **GreenKeeper** (rebatizado visualmente como **PlantumHibis**) é um ecossiste
 ---
 
 ### 3.8. Dashboard / Tela Inicial (`DashboardPage`)
+
 1. **Cabeçalho Contextual:** Saudação dinâmica (*Bom dia / Boa tarde / Boa noite* + apelido do usuário) e badge com a temperatura local atual.
 2. **Linha de Indicadores (Stats Row):** 4 contadores em tempo real:
    - Plantas ativas
@@ -164,6 +171,7 @@ O **GreenKeeper** (rebatizado visualmente como **PlantumHibis**) é um ecossiste
 ---
 
 ### 3.9. Sincronização Multi-Dispositivo (`SyncService` & `SyncSheet`)
+
 *Referências:* `GreenKeeper.Frontend/src/GreenKeeper.Domain/Entities/SyncHistoryEntry.cs`, `GreenKeeper.Backend/app/Api/routers/sync_router.py`
 
 1. **Protocolo Ciclo Único (`POST /sync`):**
