@@ -1,13 +1,18 @@
-# Graph Report - GreenKeeper.AnaloJs  (2026-11-18)
+# Graph Report - analogjs-pwa-skeleton  (2026-11-19)
 
 ## Corpus Check
-- 12 files · ~7,573 words
+- 51 files · ~14,878 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 124 nodes · 112 edges · 13 communities
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
+- 391 nodes · 532 edges · 29 communities (26 shown, 3 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `8001747d`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)
@@ -23,27 +28,50 @@
 - ADDED Requirements
 - ADDED Requirements
 - UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)
+- AGENTS.md — GreenKeeper.AnaloJs
+- RTK - Rust Token Killer (Google Antigravity)
+- UC-04: Instalação PWA e Captura Automatizada de Prints
+- dependencies
+- greenkeeper-analojs
+- devDependencies
+- app.spec.ts
+- scripts
+- PwaRegistrationPort
+- sw.js
+- architecture.spec.ts
 
 ## God Nodes (most connected - your core abstractions)
-1. `Decisions` - 8 edges
-2. `Tasks` - 7 edges
-3. `1. Dashboard Botânico (`Minhas Plantas`)` - 6 edges
-4. `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` - 5 edges
-5. `UC-02: Carregar Dashboard Botânico Direto (Sem Login)` - 5 edges
-6. `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` - 5 edges
-7. `UC-04: Instalação PWA e Captura Automatizada de Prints` - 5 edges
-8. `2. Tela Informativa (Exclusiva Desktop / Tablet)` - 5 edges
-9. `ADDED Requirements` - 4 edges
-10. `Requirement: In-Memory Repository Adapter and Local Dashboard Interactions` - 4 edges
+1. `compilerOptions` - 23 edges
+2. `DashboardSnapshot` - 19 edges
+3. `DashboardRepositoryPort` - 13 edges
+4. `provideGreenKeeperDependencies()` - 12 edges
+5. `Home` - 11 edges
+6. `scripts` - 9 edges
+7. `EvaluateDeviceAccessUseCase` - 9 edges
+8. `InMemoryDashboardRepository` - 9 edges
+9. `LoadDashboardUseCase` - 8 edges
+10. `SelectRoomUseCase` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `mobileOnlyGuard()` --indirect_call--> `EvaluateDeviceAccessUseCase`  [INFERRED]
+  src/app/guards/mobile-only.guard.ts → src/application/use-cases.ts
+- `provideGreenKeeperDependencies()` --indirect_call--> `EvaluateDeviceAccessUseCase`  [INFERRED]
+  src/composition/index.ts → src/application/use-cases.ts
+- `provideGreenKeeperDependencies()` --indirect_call--> `LoadDashboardUseCase`  [INFERRED]
+  src/composition/index.ts → src/application/use-cases.ts
+- `provideGreenKeeperDependencies()` --indirect_call--> `SelectRoomUseCase`  [INFERRED]
+  src/composition/index.ts → src/application/use-cases.ts
+- `provideGreenKeeperDependencies()` --indirect_call--> `CompletePlantTaskUseCase`  [INFERRED]
+  src/composition/index.ts → src/application/use-cases.ts
 
-## Communities (13 total, 0 thin omitted)
+## Import Cycles
+- None detected.
+
+## Communities (29 total, 3 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
-Cohesion: 0.12
-Nodes (15): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Fluxo Principal, Fluxo Principal (+7 more)
+Cohesion: 0.10
+Nodes (20): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit (+12 more)
 
 ### Community 1 - "1. Dashboard Botânico (`Minhas Plantas`)"
 Cohesion: 0.14
@@ -90,21 +118,60 @@ Cohesion: 0.33
 Nodes (5): ADDED Requirements, Requirement: Project README and AGENTS Documentation, Requirement: RTK and Graphify Initialization with Mandatory Pre-Stage Update Rule, Scenario: Developer or AI agent inspects repository root docs, Scenario: Graphify and RTK initialized in repository
 
 ### Community 12 - "UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)"
+Cohesion: 0.10
+Nodes (18): AGENTS.md — GreenKeeper.AnaloJs, Arquitetura (Clean Architecture pragmática no frontend), Escopo atual (esqueleto), Governança de ferramentas, Nomenclatura, O que é o projeto, Próximos proposes (registrados, FORA do escopo atual), Qualidade (+10 more)
+
+### Community 13 - "AGENTS.md — GreenKeeper.AnaloJs"
+Cohesion: 0.06
+Nodes (35): angularCompilerOptions, enableI18nLegacyMessageIdFormat, strictInjectionParameters, strictInputAccessModifiers, strictTemplates, compileOnSave, compilerOptions, baseUrl (+27 more)
+
+### Community 14 - "RTK - Rust Token Killer (Google Antigravity)"
 Cohesion: 0.40
-Nodes (5): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend Unit, Fluxo Principal, Fluxos Alternativos, UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)
+Nodes (4): Meta Commands, RTK - Rust Token Killer (Google Antigravity), Rule, Why
+
+### Community 15 - "UC-04: Instalação PWA e Captura Automatizada de Prints"
+Cohesion: 0.06
+Nodes (36): build, serve, test, builder, configurations, defaultConfiguration, options, development (+28 more)
+
+### Community 16 - "dependencies"
+Cohesion: 0.18
+Nodes (11): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, rxjs (+3 more)
+
+### Community 17 - "greenkeeper-analojs"
+Cohesion: 0.10
+Nodes (24): App, appConfig, Component, mobileOnlyGuard(), DesktopInfoPage, Component, routeMeta, DashboardRepositoryPort (+16 more)
+
+### Community 18 - "devDependencies"
+Cohesion: 0.06
+Nodes (32): description, devDependencies, @analogjs/platform, @analogjs/vite-plugin-angular, @analogjs/vitest-angular, @angular/build, @angular/cli, @angular/compiler-cli (+24 more)
+
+### Community 20 - "scripts"
+Cohesion: 0.08
+Nodes (23): AppConfig, AppConfigPort, DeviceSignalsPort, sampleSnapshot, AppEnvironment, DeviceAccessDecision, DeviceAccessReason, DeviceSignals (+15 more)
+
+### Community 21 - "PwaRegistrationPort"
+Cohesion: 0.24
+Nodes (3): PwaRegistrationPort, BrowserPwaRegistrationAdapter, ServiceWorkerRegistrar
 
 ## Knowledge Gaps
-- **78 isolated node(s):** `Visão`, `Mapa Funcional`, `Ator 1: Usuário (no Celular)`, `Ator 2: Visitante (em Desktop ou Tablet)`, `Arquitetura Macro` (+73 more)
+- **201 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+196 more)
   These have ≤1 connection - possible missing edges or undocumented components.
+- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` connect `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` to `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
-- **What connects `Visão`, `Mapa Funcional`, `Ator 1: Usuário (no Celular)` to the rest of the system?**
-  _78 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `scripts`?**
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **Why does `Home` connect `app.spec.ts` to `greenkeeper-analojs`, `scripts`?**
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **Are the 8 inferred relationships involving `provideGreenKeeperDependencies()` (e.g. with `AdjustHumidifierUseCase` and `CompletePlantTaskUseCase`) actually correct?**
+  _`provideGreenKeeperDependencies()` has 8 INFERRED edges - model-reasoned connections that need verification._
+- **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
+  _201 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
-  _Cohesion score 0.125 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+- **Should `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` be split into smaller, more focused modules?**
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
