@@ -4,6 +4,266 @@
   "graph": {},
   "nodes": [
     {
+      "label": "antigravity-rtk-rules.md",
+      "file_type": "document",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_rules_antigravity_rtk_rules",
+      "community": 14,
+      "norm_label": "antigravity-rtk-rules.md"
+    },
+    {
+      "label": "RTK - Rust Token Killer (Google Antigravity)",
+      "file_type": "document",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_rules_antigravity_rtk_rules_rtk_rust_token_killer_google_antigravity",
+      "community": 14,
+      "norm_label": "rtk - rust token killer (google antigravity)"
+    },
+    {
+      "label": "Rule",
+      "file_type": "document",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "agents_rules_antigravity_rtk_rules_rule",
+      "community": 14,
+      "norm_label": "rule"
+    },
+    {
+      "label": "Meta Commands",
+      "file_type": "document",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "agents_rules_antigravity_rtk_rules_meta_commands",
+      "community": 14,
+      "norm_label": "meta commands"
+    },
+    {
+      "label": "Why",
+      "file_type": "document",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "agents_rules_antigravity_rtk_rules_why",
+      "community": 14,
+      "norm_label": "why"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents",
+      "community": 12,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "AGENTS.md \u2014 GreenKeeper.AnaloJs",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_agents_md_greenkeeper_analojs",
+      "community": 13,
+      "norm_label": "agents.md \u2014 greenkeeper.analojs"
+    },
+    {
+      "label": "\u26d4 Regras absolutas",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "agents_regras_absolutas",
+      "community": 13,
+      "norm_label": "\u26d4 regras absolutas"
+    },
+    {
+      "label": "Nomenclatura",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "agents_nomenclatura",
+      "community": 13,
+      "norm_label": "nomenclatura"
+    },
+    {
+      "label": "O que \u00e9 o projeto",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "agents_o_que_\u00e9_o_projeto",
+      "community": 13,
+      "norm_label": "o que e o projeto"
+    },
+    {
+      "label": "Escopo atual (esqueleto)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "agents_escopo_atual_esqueleto",
+      "community": 13,
+      "norm_label": "escopo atual (esqueleto)"
+    },
+    {
+      "label": "Pr\u00f3ximos proposes (registrados, FORA do escopo atual)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "agents_pr\u00f3ximos_proposes_registrados_fora_do_escopo_atual",
+      "community": 13,
+      "norm_label": "proximos proposes (registrados, fora do escopo atual)"
+    },
+    {
+      "label": "Arquitetura (Clean Architecture pragm\u00e1tica no frontend)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "agents_arquitetura_clean_architecture_pragm\u00e1tica_no_frontend",
+      "community": 13,
+      "norm_label": "arquitetura (clean architecture pragmatica no frontend)"
+    },
+    {
+      "label": "Qualidade",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "agents_qualidade",
+      "community": 13,
+      "norm_label": "qualidade"
+    },
+    {
+      "label": "Governan\u00e7a de ferramentas",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "agents_governan\u00e7a_de_ferramentas",
+      "community": 13,
+      "norm_label": "governanca de ferramentas"
+    },
+    {
+      "label": "Skills relevantes",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "agents_skills_relevantes",
+      "community": 13,
+      "norm_label": "skills relevantes"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 12,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "\ud83c\udf3f GreenKeeper.AnaloJs",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_greenkeeper_analojs",
+      "community": 12,
+      "norm_label": "\ud83c\udf3f greenkeeper.analojs"
+    },
+    {
+      "label": "O que j\u00e1 faz",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "readme_o_que_j\u00e1_faz",
+      "community": 12,
+      "norm_label": "o que ja faz"
+    },
+    {
+      "label": "Arquitetura",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "readme_arquitetura",
+      "community": 12,
+      "norm_label": "arquitetura"
+    },
+    {
+      "label": "Docker (sem instalar nada no host)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "readme_docker_sem_instalar_nada_no_host",
+      "community": 12,
+      "norm_label": "docker (sem instalar nada no host)"
+    },
+    {
+      "label": "Vari\u00e1veis de ambiente",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "readme_vari\u00e1veis_de_ambiente",
+      "community": 12,
+      "norm_label": "variaveis de ambiente"
+    },
+    {
+      "label": "Prints das telas",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "readme_prints_das_telas",
+      "community": 12,
+      "norm_label": "prints das telas"
+    },
+    {
+      "label": "Qualidade",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "readme_qualidade",
+      "community": 12,
+      "norm_label": "qualidade"
+    },
+    {
+      "label": "Roadmap (pr\u00f3ximos proposes)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "readme_roadmap_pr\u00f3ximos_proposes",
+      "community": 12,
+      "norm_label": "roadmap (proximos proposes)"
+    },
+    {
+      "label": "Desenvolvimento com agentes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "readme_desenvolvimento_com_agentes",
+      "community": 12,
+      "norm_label": "desenvolvimento com agentes"
+    },
+    {
       "label": "concept.md",
       "file_type": "document",
       "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
@@ -1010,7 +1270,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_03_interagir_localmente_com_o_dashboard_concluir_tarefa_selecionar_ambiente_ajustar_umidificador",
-      "community": 12,
+      "community": 0,
       "norm_label": "uc-03: interagir localmente com o dashboard (concluir tarefa, selecionar ambiente, ajustar umidificador)"
     },
     {
@@ -1020,7 +1280,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxo_principal_75",
-      "community": 12,
+      "community": 0,
       "norm_label": "fluxo principal"
     },
     {
@@ -1030,7 +1290,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxos_alternativos_80",
-      "community": 12,
+      "community": 0,
       "norm_label": "fluxos alternativos"
     },
     {
@@ -1040,7 +1300,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_unit_84",
-      "community": 12,
+      "community": 0,
       "norm_label": "cenarios de teste \u2014 frontend unit"
     },
     {
@@ -1050,7 +1310,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_e2e_95",
-      "community": 12,
+      "community": 0,
       "norm_label": "cenarios de teste \u2014 frontend e2e"
     },
     {
@@ -1060,7 +1320,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_04_instala\u00e7\u00e3o_pwa_e_captura_automatizada_de_prints",
-      "community": 0,
+      "community": 15,
       "norm_label": "uc-04: instalacao pwa e captura automatizada de prints"
     },
     {
@@ -1070,7 +1330,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxo_principal_108",
-      "community": 0,
+      "community": 15,
       "norm_label": "fluxo principal"
     },
     {
@@ -1080,7 +1340,7 @@
       "source_location": "L112",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxos_alternativos_112",
-      "community": 0,
+      "community": 15,
       "norm_label": "fluxos alternativos"
     },
     {
@@ -1090,7 +1350,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_unit_115",
-      "community": 0,
+      "community": 15,
       "norm_label": "cenarios de teste \u2014 frontend unit"
     },
     {
@@ -1100,7 +1360,7 @@
       "source_location": "L120",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_e2e_120",
-      "community": 0,
+      "community": 15,
       "norm_label": "cenarios de teste \u2014 frontend e2e"
     },
     {
@@ -1245,6 +1505,246 @@
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_rules_antigravity_rtk_rules",
+      "target": "agents_rules_antigravity_rtk_rules_rtk_rust_token_killer_google_antigravity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "agents_rules_antigravity_rtk_rules_rtk_rust_token_killer_google_antigravity",
+      "target": "agents_rules_antigravity_rtk_rules_meta_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "agents_rules_antigravity_rtk_rules_rtk_rust_token_killer_google_antigravity",
+      "target": "agents_rules_antigravity_rtk_rules_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "agents_rules_antigravity_rtk_rules_rtk_rust_token_killer_google_antigravity",
+      "target": "agents_rules_antigravity_rtk_rules_why",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents",
+      "target": "agents_agents_md_greenkeeper_analojs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "agents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "agents_agents_md_greenkeeper_analojs",
+      "target": "agents_arquitetura_clean_architecture_pragm\u00e1tica_no_frontend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "agents_agents_md_greenkeeper_analojs",
+      "target": "agents_governan\u00e7a_de_ferramentas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "agents_agents_md_greenkeeper_analojs",
+      "target": "agents_nomenclatura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "agents_agents_md_greenkeeper_analojs",
+      "target": "agents_o_que_\u00e9_o_projeto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "agents_agents_md_greenkeeper_analojs",
+      "target": "agents_qualidade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "agents_agents_md_greenkeeper_analojs",
+      "target": "agents_regras_absolutas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "agents_agents_md_greenkeeper_analojs",
+      "target": "agents_skills_relevantes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "agents_o_que_\u00e9_o_projeto",
+      "target": "agents_escopo_atual_esqueleto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "agents_o_que_\u00e9_o_projeto",
+      "target": "agents_pr\u00f3ximos_proposes_registrados_fora_do_escopo_atual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_greenkeeper_analojs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "readme_greenkeeper_analojs",
+      "target": "readme_arquitetura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "readme_greenkeeper_analojs",
+      "target": "readme_desenvolvimento_com_agentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "readme_greenkeeper_analojs",
+      "target": "readme_docker_sem_instalar_nada_no_host",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "readme_greenkeeper_analojs",
+      "target": "readme_o_que_j\u00e1_faz",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "readme_greenkeeper_analojs",
+      "target": "readme_prints_das_telas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "readme_greenkeeper_analojs",
+      "target": "readme_qualidade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "readme_greenkeeper_analojs",
+      "target": "readme_roadmap_pr\u00f3ximos_proposes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "readme_greenkeeper_analojs",
+      "target": "readme_vari\u00e1veis_de_ambiente",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -2366,5 +2866,6 @@
       "confidence_score": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "3af9018390ba1d727711c1ee5dfd738145af0e3a"
 }

@@ -23,7 +23,7 @@
   - `AGENTS.md`: regras de arquitetura, fluxo OpenSpec/worktree, **regra obrigatória de executar `graphify update .` antes de todo `git add`**, lista curada das skills relevantes de `C:\Users\User\.skills-manager\skills` e registro detalhado dos 3 próximos proposes (1. PostgreSQL Docker + Supabase `@supabase/supabase-js`; 2. Auth0 + Google; 3. Convite familiar por email + notificação no celular + compartilhamento de database).
   - **Done:** `README.md` e `AGENTS.md` revisados e completos.
 
-- [ ] 1.4 **Commit + push do grupo 1 (com `graphify update .` antes do `git add`)**
+- [x] 1.4 **Commit + push do grupo 1 (com `graphify update .` antes do `git add`)**
   - **Comando:** `graphify update . && git add ... && git commit -m "chore: bootstrap governance, rtk, graphify and docs" && git push -u origin feature/analogjs-pwa-skeleton`
   - **Done:** Commit registrado em `feature/analogjs-pwa-skeleton` (após autorização explícita).
 
@@ -31,24 +31,24 @@
 
 ## 2. Fundação AnalogJS, Docker e Configurações Local/Produção
 
-- [ ] 2.1 **Criar estrutura base do projeto AnalogJS + Tailwind CSS (`ssr: false`, sem backend próprio)**
+- [x] 2.1 **Criar estrutura base do projeto AnalogJS + Tailwind CSS (`ssr: false`, sem backend próprio)**
   - Configurar `package.json` (`@analogjs/platform`, `@analogjs/router`, `@angular/*`, `tailwindcss`, `vite-plugin-pwa`, `vitest`, `@vitest/coverage-v8`, `@playwright/test`), `tsconfig.json` (strict mode + path aliases `@domain/*`, `@application/*`, `@infrastructure/*`, `@composition/*`, `@app/*`) e `vite.config.ts` sem Nitro server routes.
   - **Done:** Estrutura inicial compilável via Vite/AnalogJS sem rotas de backend.
 
-- [ ] 2.2 **Configurar ambiente Docker Compose (zero pegada local)**
+- [x] 2.2 **Configurar ambiente Docker Compose (zero pegada local)**
   - Criar `Dockerfile` (Node 22) e `docker-compose.yml` com serviços `app` (dev/build AnalogJS), `test` (`vitest run --coverage`) e `playwright` (`mcr.microsoft.com/playwright` para captura de prints).
   - **Done:** `docker compose build` e comandos de teste/preview funcionam em container.
 
-- [ ] 2.3 **Configurar variáveis Local e Produção (`netlify.toml`, `.env.example`)**
+- [x] 2.3 **Configurar variáveis Local e Produção (`netlify.toml`, `.env.example`)**
   - Criar `.env.example` (`VITE_APP_ENV=development` e placeholders `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, `VITE_AUTH0_DOMAIN`, `VITE_AUTH0_CLIENT_ID`).
   - Criar `netlify.toml` com `[build]` (`command = "npm run build"`, `publish = ...`) e redirect SPA `/* -> /index.html` status `200`.
   - **Done:** `netlify.toml` e `.env.example` presentes e válidos.
 
-- [ ] 2.4 **Configurar PWA (`manifest.webmanifest`, ícones e Service Worker)**
+- [x] 2.4 **Configurar PWA (`manifest.webmanifest`, ícones e Service Worker)**
   - Configurar `vite-plugin-pwa` (ou `@angular/service-worker` / manifest estático + ícones PNG) e registrar SW no cliente de forma resiliente.
   - **Done:** Build de produção gera `manifest.webmanifest` e arquivo de Service Worker registrados corretamente.
 
-- [ ] 2.5 **Commit + push do grupo 2 (com `graphify update .` antes do `git add`)**
+- [x] 2.5 **Commit + push do grupo 2 (com `graphify update .` antes do `git add`)**
   - **Done:** Commit registrado após autorização explícita.
 
 ---

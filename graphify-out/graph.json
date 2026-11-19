@@ -4,6 +4,1326 @@
   "graph": {},
   "nodes": [
     {
+      "label": "angular.json",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "angular",
+      "community": 17,
+      "norm_label": "angular.json"
+    },
+    {
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "angular_schema",
+      "community": 17,
+      "norm_label": "$schema"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "angular_version",
+      "community": 17,
+      "norm_label": "version"
+    },
+    {
+      "label": "newProjectRoot",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "angular_newprojectroot",
+      "community": 17,
+      "norm_label": "newprojectroot"
+    },
+    {
+      "label": "projects",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "angular_projects",
+      "community": 17,
+      "norm_label": "projects"
+    },
+    {
+      "label": "greenkeeper-analojs",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "angular_projects_greenkeeper_analojs",
+      "community": 17,
+      "norm_label": "greenkeeper-analojs"
+    },
+    {
+      "label": "projectType",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "angular_greenkeeper_analojs_projecttype",
+      "community": 17,
+      "norm_label": "projecttype"
+    },
+    {
+      "label": "root",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "angular_greenkeeper_analojs_root",
+      "community": 17,
+      "norm_label": "root"
+    },
+    {
+      "label": "sourceRoot",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "angular_greenkeeper_analojs_sourceroot",
+      "community": 17,
+      "norm_label": "sourceroot"
+    },
+    {
+      "label": "prefix",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "angular_greenkeeper_analojs_prefix",
+      "community": 17,
+      "norm_label": "prefix"
+    },
+    {
+      "label": "architect",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "angular_greenkeeper_analojs_architect",
+      "community": 17,
+      "norm_label": "architect"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "angular_architect_build",
+      "community": 15,
+      "norm_label": "build"
+    },
+    {
+      "label": "builder",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "angular_build_builder",
+      "community": 15,
+      "norm_label": "builder"
+    },
+    {
+      "label": "options",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "angular_build_options",
+      "community": 15,
+      "norm_label": "options"
+    },
+    {
+      "label": "configFile",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "angular_options_configfile",
+      "community": 15,
+      "norm_label": "configfile"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "angular_options_main",
+      "community": 15,
+      "norm_label": "main"
+    },
+    {
+      "label": "outputPath",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "angular_options_outputpath",
+      "community": 15,
+      "norm_label": "outputpath"
+    },
+    {
+      "label": "tsConfig",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "angular_options_tsconfig",
+      "community": 15,
+      "norm_label": "tsconfig"
+    },
+    {
+      "label": "defaultConfiguration",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "angular_build_defaultconfiguration",
+      "community": 15,
+      "norm_label": "defaultconfiguration"
+    },
+    {
+      "label": "configurations",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "angular_build_configurations",
+      "community": 15,
+      "norm_label": "configurations"
+    },
+    {
+      "label": "development",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "angular_configurations_development",
+      "community": 15,
+      "norm_label": "development"
+    },
+    {
+      "label": "mode",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "angular_development_mode",
+      "community": 15,
+      "norm_label": "mode"
+    },
+    {
+      "label": "production",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "angular_configurations_production",
+      "community": 15,
+      "norm_label": "production"
+    },
+    {
+      "label": "sourcemap",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "angular_production_sourcemap",
+      "community": 15,
+      "norm_label": "sourcemap"
+    },
+    {
+      "label": "mode",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "angular_production_mode",
+      "community": 15,
+      "norm_label": "mode"
+    },
+    {
+      "label": "serve",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "angular_architect_serve",
+      "community": 15,
+      "norm_label": "serve"
+    },
+    {
+      "label": "builder",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "angular_serve_builder",
+      "community": 15,
+      "norm_label": "builder"
+    },
+    {
+      "label": "defaultConfiguration",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "angular_serve_defaultconfiguration",
+      "community": 15,
+      "norm_label": "defaultconfiguration"
+    },
+    {
+      "label": "options",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "angular_serve_options",
+      "community": 15,
+      "norm_label": "options"
+    },
+    {
+      "label": "buildTarget",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "angular_options_buildtarget",
+      "community": 15,
+      "norm_label": "buildtarget"
+    },
+    {
+      "label": "port",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "angular_options_port",
+      "community": 15,
+      "norm_label": "port"
+    },
+    {
+      "label": "configurations",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "angular_serve_configurations",
+      "community": 15,
+      "norm_label": "configurations"
+    },
+    {
+      "label": "buildTarget",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "angular_development_buildtarget",
+      "community": 15,
+      "norm_label": "buildtarget"
+    },
+    {
+      "label": "hmr",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "angular_development_hmr",
+      "community": 15,
+      "norm_label": "hmr"
+    },
+    {
+      "label": "buildTarget",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "angular_production_buildtarget",
+      "community": 15,
+      "norm_label": "buildtarget"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "angular_architect_test",
+      "community": 17,
+      "norm_label": "test"
+    },
+    {
+      "label": "builder",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "angular_test_builder",
+      "community": 17,
+      "norm_label": "builder"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 16,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 16,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_version",
+      "community": 16,
+      "norm_label": "version"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_description",
+      "community": 16,
+      "norm_label": "description"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_type",
+      "community": 16,
+      "norm_label": "type"
+    },
+    {
+      "label": "engines",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_engines",
+      "community": 16,
+      "norm_label": "engines"
+    },
+    {
+      "label": "node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_engines_node",
+      "community": 16,
+      "norm_label": "node"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 20,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "ng",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "package_scripts_ng",
+      "community": 20,
+      "norm_label": "ng"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "package_scripts_dev",
+      "community": 20,
+      "norm_label": "dev"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "package_scripts_start",
+      "community": 20,
+      "norm_label": "start"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_scripts_build",
+      "community": 20,
+      "norm_label": "build"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "package_scripts_preview",
+      "community": 20,
+      "norm_label": "preview"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "package_scripts_test",
+      "community": 20,
+      "norm_label": "test"
+    },
+    {
+      "label": "test:coverage",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "package_scripts_test_coverage",
+      "community": 20,
+      "norm_label": "test:coverage"
+    },
+    {
+      "label": "e2e:screenshots",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "package_scripts_e2e_screenshots",
+      "community": 20,
+      "norm_label": "e2e:screenshots"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "package_private",
+      "community": 16,
+      "norm_label": "private"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 16,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "@analogjs/router",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "package_dependencies_analogjs_router",
+      "community": 16,
+      "norm_label": "@analogjs/router"
+    },
+    {
+      "label": "@angular/common",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "package_dependencies_angular_common",
+      "community": 16,
+      "norm_label": "@angular/common"
+    },
+    {
+      "label": "@angular/compiler",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "package_dependencies_angular_compiler",
+      "community": 16,
+      "norm_label": "@angular/compiler"
+    },
+    {
+      "label": "@angular/core",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "package_dependencies_angular_core",
+      "community": 16,
+      "norm_label": "@angular/core"
+    },
+    {
+      "label": "@angular/platform-browser",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "package_dependencies_angular_platform_browser",
+      "community": 16,
+      "norm_label": "@angular/platform-browser"
+    },
+    {
+      "label": "@angular/router",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "package_dependencies_angular_router",
+      "community": 16,
+      "norm_label": "@angular/router"
+    },
+    {
+      "label": "@tailwindcss/vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "package_dependencies_tailwindcss_vite",
+      "community": 16,
+      "norm_label": "@tailwindcss/vite"
+    },
+    {
+      "label": "rxjs",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "package_dependencies_rxjs",
+      "community": 16,
+      "norm_label": "rxjs"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "package_dependencies_tailwindcss",
+      "community": 16,
+      "norm_label": "tailwindcss"
+    },
+    {
+      "label": "tslib",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "package_dependencies_tslib",
+      "community": 16,
+      "norm_label": "tslib"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "package_devdependencies",
+      "community": 18,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@analogjs/platform",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "package_devdependencies_analogjs_platform",
+      "community": 18,
+      "norm_label": "@analogjs/platform"
+    },
+    {
+      "label": "@analogjs/vite-plugin-angular",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "package_devdependencies_analogjs_vite_plugin_angular",
+      "community": 18,
+      "norm_label": "@analogjs/vite-plugin-angular"
+    },
+    {
+      "label": "@analogjs/vitest-angular",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "package_devdependencies_analogjs_vitest_angular",
+      "community": 18,
+      "norm_label": "@analogjs/vitest-angular"
+    },
+    {
+      "label": "@angular/build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "package_devdependencies_angular_build",
+      "community": 18,
+      "norm_label": "@angular/build"
+    },
+    {
+      "label": "@angular/cli",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "package_devdependencies_angular_cli",
+      "community": 18,
+      "norm_label": "@angular/cli"
+    },
+    {
+      "label": "@angular/compiler-cli",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "package_devdependencies_angular_compiler_cli",
+      "community": 18,
+      "norm_label": "@angular/compiler-cli"
+    },
+    {
+      "label": "@playwright/test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "package_devdependencies_playwright_test",
+      "community": 18,
+      "norm_label": "@playwright/test"
+    },
+    {
+      "label": "@vitest/coverage-v8",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "package_devdependencies_vitest_coverage_v8",
+      "community": 18,
+      "norm_label": "@vitest/coverage-v8"
+    },
+    {
+      "label": "jsdom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "package_devdependencies_jsdom",
+      "community": 18,
+      "norm_label": "jsdom"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "package_devdependencies_typescript",
+      "community": 18,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "package_devdependencies_vite",
+      "community": 18,
+      "norm_label": "vite"
+    },
+    {
+      "label": "vitest",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "package_devdependencies_vitest",
+      "community": 18,
+      "norm_label": "vitest"
+    },
+    {
+      "label": "overrides",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "package_overrides",
+      "community": 16,
+      "norm_label": "overrides"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "package_overrides_vite",
+      "community": 16,
+      "norm_label": "vite"
+    },
+    {
+      "label": "vitest",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "package_overrides_vitest",
+      "community": 16,
+      "norm_label": "vitest"
+    },
+    {
+      "label": "sw.js",
+      "file_type": "code",
+      "source_file": "public/sw.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "public_sw",
+      "community": 22,
+      "norm_label": "sw.js"
+    },
+    {
+      "label": "SHELL",
+      "file_type": "code",
+      "source_file": "public/sw.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "public_sw_shell",
+      "community": 22,
+      "norm_label": "shell"
+    },
+    {
+      "label": "app.config.ts",
+      "file_type": "code",
+      "source_file": "src/app/app.config.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app_app_config",
+      "community": 19,
+      "norm_label": "app.config.ts"
+    },
+    {
+      "label": "appConfig",
+      "file_type": "code",
+      "source_file": "src/app/app.config.ts",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_app_app_config_appconfig",
+      "community": 19,
+      "norm_label": "appconfig"
+    },
+    {
+      "label": "app.spec.ts",
+      "file_type": "code",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app_app_spec",
+      "community": 19,
+      "norm_label": "app.spec.ts"
+    },
+    {
+      "label": "app.ts",
+      "file_type": "code",
+      "source_file": "src/app/app.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app_app",
+      "community": 19,
+      "norm_label": "app.ts"
+    },
+    {
+      "label": "App",
+      "file_type": "code",
+      "source_file": "src/app/app.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_app_app_app",
+      "community": 19,
+      "norm_label": "app"
+    },
+    {
+      "label": "Component",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_app_app_ts_component",
+      "community": 19,
+      "norm_label": "component"
+    },
+    {
+      "label": "index.page.ts",
+      "file_type": "code",
+      "source_file": "src/app/pages/index.page.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app_pages_index_page",
+      "community": 19,
+      "norm_label": "index.page.ts"
+    },
+    {
+      "label": "Home",
+      "file_type": "code",
+      "source_file": "src/app/pages/index.page.ts",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_app_pages_index_page_home",
+      "community": 19,
+      "norm_label": "home"
+    },
+    {
+      "label": "Component",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_app_pages_index_page_ts_component",
+      "community": 19,
+      "norm_label": "component"
+    },
+    {
+      "label": "main.ts",
+      "file_type": "code",
+      "source_file": "src/main.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main",
+      "community": 19,
+      "norm_label": "main.ts"
+    },
+    {
+      "label": "test-setup.ts",
+      "file_type": "code",
+      "source_file": "src/test-setup.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_test_setup",
+      "community": 23,
+      "norm_label": "test-setup.ts"
+    },
+    {
+      "label": "vite-env.d.ts",
+      "file_type": "code",
+      "source_file": "src/vite-env.d.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_vite_env_d",
+      "community": 24,
+      "norm_label": "vite-env.d.ts"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tsconfig",
+      "community": 21,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "compileOnSave",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "tsconfig_compileonsave",
+      "community": 21,
+      "norm_label": "compileonsave"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions",
+      "community": 13,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "ignoreDeprecations",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_ignoredeprecations",
+      "community": 13,
+      "norm_label": "ignoredeprecations"
+    },
+    {
+      "label": "baseUrl",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_baseurl",
+      "community": 13,
+      "norm_label": "baseurl"
+    },
+    {
+      "label": "paths",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_paths",
+      "community": 13,
+      "norm_label": "paths"
+    },
+    {
+      "label": "@domain/*",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "tsconfig_paths_domain",
+      "community": 13,
+      "norm_label": "@domain/*"
+    },
+    {
+      "label": "@application/*",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "tsconfig_paths_application",
+      "community": 13,
+      "norm_label": "@application/*"
+    },
+    {
+      "label": "@infrastructure/*",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "tsconfig_paths_infrastructure",
+      "community": 13,
+      "norm_label": "@infrastructure/*"
+    },
+    {
+      "label": "@composition/*",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "tsconfig_paths_composition",
+      "community": 13,
+      "norm_label": "@composition/*"
+    },
+    {
+      "label": "@app/*",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "tsconfig_paths_app",
+      "community": 13,
+      "norm_label": "@app/*"
+    },
+    {
+      "label": "outDir",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_outdir",
+      "community": 13,
+      "norm_label": "outdir"
+    },
+    {
+      "label": "forceConsistentCasingInFileNames",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "community": 13,
+      "norm_label": "forceconsistentcasinginfilenames"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_strict",
+      "community": 13,
+      "norm_label": "strict"
+    },
+    {
+      "label": "noImplicitOverride",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_noimplicitoverride",
+      "community": 13,
+      "norm_label": "noimplicitoverride"
+    },
+    {
+      "label": "noPropertyAccessFromIndexSignature",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_nopropertyaccessfromindexsignature",
+      "community": 13,
+      "norm_label": "nopropertyaccessfromindexsignature"
+    },
+    {
+      "label": "noImplicitReturns",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_noimplicitreturns",
+      "community": 13,
+      "norm_label": "noimplicitreturns"
+    },
+    {
+      "label": "noFallthroughCasesInSwitch",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "community": 13,
+      "norm_label": "nofallthroughcasesinswitch"
+    },
+    {
+      "label": "sourceMap",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_sourcemap",
+      "community": 13,
+      "norm_label": "sourcemap"
+    },
+    {
+      "label": "declaration",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_declaration",
+      "community": 13,
+      "norm_label": "declaration"
+    },
+    {
+      "label": "downlevelIteration",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_downleveliteration",
+      "community": 13,
+      "norm_label": "downleveliteration"
+    },
+    {
+      "label": "experimentalDecorators",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_experimentaldecorators",
+      "community": 13,
+      "norm_label": "experimentaldecorators"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_moduleresolution",
+      "community": 13,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_isolatedmodules",
+      "community": 13,
+      "norm_label": "isolatedmodules"
+    },
+    {
+      "label": "importHelpers",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_importhelpers",
+      "community": 13,
+      "norm_label": "importhelpers"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_target",
+      "community": 13,
+      "norm_label": "target"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_module",
+      "community": 13,
+      "norm_label": "module"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_lib",
+      "community": 13,
+      "norm_label": "lib"
+    },
+    {
+      "label": "useDefineForClassFields",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_usedefineforclassfields",
+      "community": 13,
+      "norm_label": "usedefineforclassfields"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_skiplibcheck",
+      "community": 13,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "angularCompilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "tsconfig_angularcompileroptions",
+      "community": 21,
+      "norm_label": "angularcompileroptions"
+    },
+    {
+      "label": "enableI18nLegacyMessageIdFormat",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "tsconfig_angularcompileroptions_enablei18nlegacymessageidformat",
+      "community": 21,
+      "norm_label": "enablei18nlegacymessageidformat"
+    },
+    {
+      "label": "strictInjectionParameters",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "tsconfig_angularcompileroptions_strictinjectionparameters",
+      "community": 21,
+      "norm_label": "strictinjectionparameters"
+    },
+    {
+      "label": "strictInputAccessModifiers",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "tsconfig_angularcompileroptions_strictinputaccessmodifiers",
+      "community": 21,
+      "norm_label": "strictinputaccessmodifiers"
+    },
+    {
+      "label": "strictTemplates",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "tsconfig_angularcompileroptions_stricttemplates",
+      "community": 21,
+      "norm_label": "stricttemplates"
+    },
+    {
+      "label": "references",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "tsconfig_references",
+      "community": 21,
+      "norm_label": "references"
+    },
+    {
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "vite.config.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "vite_config",
+      "community": 25,
+      "norm_label": "vite.config.ts"
+    },
+    {
       "label": "antigravity-rtk-rules.md",
       "file_type": "document",
       "source_file": ".agents/rules/antigravity-rtk-rules.md",
@@ -70,7 +1390,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents_agents_md_greenkeeper_analojs",
-      "community": 13,
+      "community": 12,
       "norm_label": "agents.md \u2014 greenkeeper.analojs"
     },
     {
@@ -80,7 +1400,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "agents_regras_absolutas",
-      "community": 13,
+      "community": 12,
       "norm_label": "\u26d4 regras absolutas"
     },
     {
@@ -90,7 +1410,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "agents_nomenclatura",
-      "community": 13,
+      "community": 12,
       "norm_label": "nomenclatura"
     },
     {
@@ -100,7 +1420,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "agents_o_que_\u00e9_o_projeto",
-      "community": 13,
+      "community": 12,
       "norm_label": "o que e o projeto"
     },
     {
@@ -110,7 +1430,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "agents_escopo_atual_esqueleto",
-      "community": 13,
+      "community": 12,
       "norm_label": "escopo atual (esqueleto)"
     },
     {
@@ -120,7 +1440,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "agents_pr\u00f3ximos_proposes_registrados_fora_do_escopo_atual",
-      "community": 13,
+      "community": 12,
       "norm_label": "proximos proposes (registrados, fora do escopo atual)"
     },
     {
@@ -130,7 +1450,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "agents_arquitetura_clean_architecture_pragm\u00e1tica_no_frontend",
-      "community": 13,
+      "community": 12,
       "norm_label": "arquitetura (clean architecture pragmatica no frontend)"
     },
     {
@@ -140,7 +1460,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "agents_qualidade",
-      "community": 13,
+      "community": 12,
       "norm_label": "qualidade"
     },
     {
@@ -150,7 +1470,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "agents_governan\u00e7a_de_ferramentas",
-      "community": 13,
+      "community": 12,
       "norm_label": "governanca de ferramentas"
     },
     {
@@ -160,7 +1480,7 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "agents_skills_relevantes",
-      "community": 13,
+      "community": 12,
       "norm_label": "skills relevantes"
     },
     {
@@ -1320,7 +2640,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_04_instala\u00e7\u00e3o_pwa_e_captura_automatizada_de_prints",
-      "community": 15,
+      "community": 0,
       "norm_label": "uc-04: instalacao pwa e captura automatizada de prints"
     },
     {
@@ -1330,7 +2650,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxo_principal_108",
-      "community": 15,
+      "community": 0,
       "norm_label": "fluxo principal"
     },
     {
@@ -1340,7 +2660,7 @@
       "source_location": "L112",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxos_alternativos_112",
-      "community": 15,
+      "community": 0,
       "norm_label": "fluxos alternativos"
     },
     {
@@ -1350,7 +2670,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_unit_115",
-      "community": 15,
+      "community": 0,
       "norm_label": "cenarios de teste \u2014 frontend unit"
     },
     {
@@ -1360,7 +2680,7 @@
       "source_location": "L120",
       "_origin": "ast",
       "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_e2e_120",
-      "community": 15,
+      "community": 0,
       "norm_label": "cenarios de teste \u2014 frontend e2e"
     },
     {
@@ -1505,6 +2825,1338 @@
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "angular",
+      "target": "angular_newprojectroot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "angular",
+      "target": "angular_projects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "angular",
+      "target": "angular_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "angular",
+      "target": "angular_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "angular_projects",
+      "target": "angular_projects_greenkeeper_analojs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "angular_projects_greenkeeper_analojs",
+      "target": "angular_greenkeeper_analojs_architect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "angular_projects_greenkeeper_analojs",
+      "target": "angular_greenkeeper_analojs_prefix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "angular_projects_greenkeeper_analojs",
+      "target": "angular_greenkeeper_analojs_projecttype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "angular_projects_greenkeeper_analojs",
+      "target": "angular_greenkeeper_analojs_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "angular_projects_greenkeeper_analojs",
+      "target": "angular_greenkeeper_analojs_sourceroot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "angular_greenkeeper_analojs_architect",
+      "target": "angular_architect_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "angular_greenkeeper_analojs_architect",
+      "target": "angular_architect_serve",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "angular_greenkeeper_analojs_architect",
+      "target": "angular_architect_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "angular_architect_build",
+      "target": "angular_build_builder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "angular_architect_build",
+      "target": "angular_build_configurations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "angular_architect_build",
+      "target": "angular_build_defaultconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "angular_architect_build",
+      "target": "angular_build_options",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "angular_build_options",
+      "target": "angular_options_configfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "angular_build_options",
+      "target": "angular_options_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "angular_build_options",
+      "target": "angular_options_outputpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "angular_build_options",
+      "target": "angular_options_tsconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "angular_build_configurations",
+      "target": "angular_configurations_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "angular_build_configurations",
+      "target": "angular_configurations_production",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "angular_configurations_development",
+      "target": "angular_development_buildtarget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "angular_configurations_development",
+      "target": "angular_development_hmr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "angular_configurations_development",
+      "target": "angular_development_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "angular_serve_configurations",
+      "target": "angular_configurations_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "angular_configurations_production",
+      "target": "angular_production_buildtarget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "angular_configurations_production",
+      "target": "angular_production_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "angular_configurations_production",
+      "target": "angular_production_sourcemap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "angular_serve_configurations",
+      "target": "angular_configurations_production",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "angular_architect_serve",
+      "target": "angular_serve_builder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "angular_architect_serve",
+      "target": "angular_serve_configurations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "angular_architect_serve",
+      "target": "angular_serve_defaultconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "angular_architect_serve",
+      "target": "angular_serve_options",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "angular_serve_options",
+      "target": "angular_options_buildtarget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "angular_serve_options",
+      "target": "angular_options_port",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "angular_architect_test",
+      "target": "angular_test_builder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_engines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_overrides",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_engines",
+      "target": "package_engines_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_e2e_screenshots",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_ng",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test_coverage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_analogjs_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_angular_common",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_angular_compiler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_angular_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_angular_platform_browser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_angular_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_rxjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_tailwindcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_tailwindcss_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_tslib",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_analogjs_platform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_analogjs_vite_plugin_angular",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_analogjs_vitest_angular",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_angular_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_angular_cli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_angular_compiler_cli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_jsdom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_playwright_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vitest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vitest_coverage_v8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "package_overrides",
+      "target": "package_overrides_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "package_overrides",
+      "target": "package_overrides_vitest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/sw.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "public_sw",
+      "target": "public_sw_shell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.config.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_app_config",
+      "target": "src_app_app_config_appconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_app_spec",
+      "target": "src_app_app_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_app_app_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_app_spec",
+      "target": "src_app_app_config_appconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_app_app_config_appconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app_app_spec",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app_app_spec",
+      "target": "src_app_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_app_spec",
+      "target": "src_app_pages_index_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_app_spec",
+      "target": "src_app_pages_index_page_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app_app",
+      "target": "src_app_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "context": "decorator",
+      "source": "src_app_app_app",
+      "target": "src_app_app_ts_component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_app_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/pages/index.page.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_pages_index_page",
+      "target": "src_app_pages_index_page_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/pages/index.page.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "decorator",
+      "source": "src_app_pages_index_page_home",
+      "target": "src_app_pages_index_page_ts_component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "tsconfig",
+      "target": "tsconfig_angularcompileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tsconfig",
+      "target": "tsconfig_compileonsave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tsconfig",
+      "target": "tsconfig_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "tsconfig",
+      "target": "tsconfig_references",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_baseurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_declaration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_downleveliteration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_experimentaldecorators",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_ignoredeprecations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_importhelpers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_isolatedmodules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_lib",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_moduleresolution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_noimplicitoverride",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_noimplicitreturns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_nopropertyaccessfromindexsignature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_outdir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_sourcemap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_strict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_target",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_usedefineforclassfields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions_paths",
+      "target": "tsconfig_paths_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions_paths",
+      "target": "tsconfig_paths_application",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions_paths",
+      "target": "tsconfig_paths_composition",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions_paths",
+      "target": "tsconfig_paths_domain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions_paths",
+      "target": "tsconfig_paths_infrastructure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "tsconfig_angularcompileroptions",
+      "target": "tsconfig_angularcompileroptions_enablei18nlegacymessageidformat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "tsconfig_angularcompileroptions",
+      "target": "tsconfig_angularcompileroptions_strictinjectionparameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "tsconfig_angularcompileroptions",
+      "target": "tsconfig_angularcompileroptions_strictinputaccessmodifiers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "tsconfig_angularcompileroptions",
+      "target": "tsconfig_angularcompileroptions_stricttemplates",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -2867,5 +5519,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "3af9018390ba1d727711c1ee5dfd738145af0e3a"
+  "built_at_commit": "b4e8844595327a078ed35b196506b9c32a8dc9f9"
 }

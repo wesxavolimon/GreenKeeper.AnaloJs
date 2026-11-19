@@ -14,5 +14,15 @@
   "12": "UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)",
   "13": "AGENTS.md — GreenKeeper.AnaloJs",
   "14": "RTK - Rust Token Killer (Google Antigravity)",
-  "15": "UC-04: Instalação PWA e Captura Automatizada de Prints"
+  "15": "UC-04: Instalação PWA e Captura Automatizada de Prints",
+  "16": "dependencies",
+  "17": "greenkeeper-analojs",
+  "18": "devDependencies",
+  "19": "app.spec.ts",
+  "20": "scripts",
+  "21": "angularCompilerOptions",
+  "22": "sw.js",
+  "23": "test-setup.ts",
+  "24": "vite-env.d.ts",
+  "25": "vite.config.ts"
 }
