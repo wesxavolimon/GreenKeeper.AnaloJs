@@ -1,0 +1,25 @@
+# Dependencies and build outputs
+node_modules/
+dist/
+.analog/
+.nitro/
+.output/
+.angular/
+.vite/
+coverage/
+
+# Worktrees and caches
+worktrees/
+graphify-out/cache/
+
+# Environment and logs
+.env
+.env.local
+*.log
+
+# Binary assets
+screenshots/
+*.png
+*.ico
+*.woff
+*.woff2
