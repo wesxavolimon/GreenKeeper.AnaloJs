@@ -47,7 +47,7 @@ export function evaluateDeviceAccess(
     signals.viewportWidth <= MAX_MOBILE_VIEWPORT_WIDTH &&
     (signals.coarsePointer || signals.maxTouchPoints > 0);
 
-  if (isMobileUa || isTouchPhoneViewport) {
+  if (appEnv === 'production' && (isMobileUa || isTouchPhoneViewport)) {
     return {
       allowed: true,
       reason: 'mobile-device',
