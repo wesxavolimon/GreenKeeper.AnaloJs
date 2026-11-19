@@ -1,9 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { RegisterPwaUseCase } from '@application/index';
 
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
   template: `<router-outlet />`,
 })
-export class App {}
+export class App implements OnInit {
+  private readonly registerPwa = inject(RegisterPwaUseCase);
+
+  ngOnInit(): void {
+    void this.registerPwa.execute();
+  }
+}

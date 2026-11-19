@@ -1,16 +1,16 @@
-# Graph Report - analogjs-pwa-skeleton  (2026-11-18)
+# Graph Report - analogjs-pwa-skeleton  (2026-11-19)
 
 ## Corpus Check
-- 46 files · ~12,089 words
+- 48 files · ~14,401 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 375 nodes · 487 edges · 27 communities (25 shown, 2 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 8 edges (avg confidence: 0.8)
+- 390 nodes · 533 edges · 26 communities (24 shown, 2 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e766a08d`
+- Built from commit: `fd6b7e64`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -36,38 +36,37 @@
 - devDependencies
 - app.spec.ts
 - scripts
-- angularCompilerOptions
 - sw.js
 - architecture.spec.ts
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 23 edges
-2. `DashboardSnapshot` - 18 edges
+2. `DashboardSnapshot` - 19 edges
 3. `DashboardRepositoryPort` - 13 edges
-4. `provideGreenKeeperDependencies()` - 10 edges
-5. `scripts` - 9 edges
-6. `InMemoryDashboardRepository` - 9 edges
-7. `🌿 GreenKeeper.AnaloJs` - 9 edges
-8. `AGENTS.md — GreenKeeper.AnaloJs` - 8 edges
-9. `Decisions` - 8 edges
-10. `AppConfigPort` - 7 edges
+4. `provideGreenKeeperDependencies()` - 12 edges
+5. `Home` - 11 edges
+6. `scripts` - 9 edges
+7. `EvaluateDeviceAccessUseCase` - 9 edges
+8. `InMemoryDashboardRepository` - 9 edges
+9. `🌿 GreenKeeper.AnaloJs` - 9 edges
+10. `LoadDashboardUseCase` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `ViteEnvConfigAdapter` --implements--> `AppConfigPort`  [EXTRACTED]
-  src/infrastructure/vite-env-config.adapter.ts → src/application/ports.ts
-- `BrowserDeviceSignalsAdapter` --implements--> `DeviceSignalsPort`  [EXTRACTED]
-  src/infrastructure/browser-device-signals.adapter.ts → src/application/ports.ts
+- `mobileOnlyGuard()` --indirect_call--> `EvaluateDeviceAccessUseCase`  [INFERRED]
+  src/app/guards/mobile-only.guard.ts → src/application/use-cases.ts
 - `provideGreenKeeperDependencies()` --indirect_call--> `EvaluateDeviceAccessUseCase`  [INFERRED]
   src/composition/index.ts → src/application/use-cases.ts
 - `provideGreenKeeperDependencies()` --indirect_call--> `LoadDashboardUseCase`  [INFERRED]
   src/composition/index.ts → src/application/use-cases.ts
 - `provideGreenKeeperDependencies()` --indirect_call--> `SelectRoomUseCase`  [INFERRED]
   src/composition/index.ts → src/application/use-cases.ts
+- `provideGreenKeeperDependencies()` --indirect_call--> `CompletePlantTaskUseCase`  [INFERRED]
+  src/composition/index.ts → src/application/use-cases.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (27 total, 2 thin omitted)
+## Communities (26 total, 2 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
 Cohesion: 0.10
@@ -134,28 +133,24 @@ Cohesion: 0.06
 Nodes (36): build, serve, test, builder, configurations, defaultConfiguration, options, development (+28 more)
 
 ### Community 16 - "dependencies"
-Cohesion: 0.18
-Nodes (11): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, rxjs (+3 more)
+Cohesion: 0.22
+Nodes (9): scripts, build, dev, e2e:screenshots, ng, preview, start, test (+1 more)
 
 ### Community 17 - "greenkeeper-analojs"
-Cohesion: 0.11
-Nodes (20): AppConfigPort, DashboardRepositoryPort, DeviceSignalsPort, AdjustHumidifierUseCase, CompletePlantTaskUseCase, EvaluateDeviceAccessUseCase, LoadDashboardUseCase, RegisterPwaUseCase (+12 more)
+Cohesion: 0.09
+Nodes (24): App, appConfig, Component, mobileOnlyGuard(), DesktopInfoPage, Component, routeMeta, DashboardRepositoryPort (+16 more)
 
 ### Community 18 - "devDependencies"
 Cohesion: 0.06
-Nodes (32): description, devDependencies, @analogjs/platform, @analogjs/vite-plugin-angular, @analogjs/vitest-angular, @angular/build, @angular/cli, @angular/compiler-cli (+24 more)
+Nodes (34): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, rxjs (+26 more)
 
 ### Community 19 - "app.spec.ts"
-Cohesion: 0.33
-Nodes (5): App, appConfig, Component, Home, Component
+Cohesion: 0.10
+Nodes (15): Home, Component, sampleSnapshot, DeviceAccessDecision, DeviceAccessReason, DeviceSignals, FocusInspectionTask, PlantFocusSummary (+7 more)
 
 ### Community 20 - "scripts"
 Cohesion: 0.10
-Nodes (20): AppConfig, sampleSnapshot, AppEnvironment, DeviceAccessDecision, DeviceAccessReason, DeviceSignals, FocusInspectionTask, PlantFocusSummary (+12 more)
-
-### Community 21 - "angularCompilerOptions"
-Cohesion: 0.28
-Nodes (3): PwaRegistrationPort, BrowserPwaRegistrationAdapter, ServiceWorkerRegistrar
+Nodes (13): AppConfig, AppConfigPort, DeviceSignalsPort, PwaRegistrationPort, AppEnvironment, BrowserDeviceSignalsAdapter, BrowserDeviceSource, readDefaultBrowserDeviceSource() (+5 more)
 
 ## Knowledge Gaps
 - **202 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+197 more)
@@ -165,8 +160,12 @@ Nodes (3): PwaRegistrationPort, BrowserPwaRegistrationAdapter, ServiceWorkerRegi
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `scripts`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
+- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `app.spec.ts`, `scripts`?**
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **Why does `Home` connect `app.spec.ts` to `greenkeeper-analojs`?**
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **Are the 8 inferred relationships involving `provideGreenKeeperDependencies()` (e.g. with `AdjustHumidifierUseCase` and `CompletePlantTaskUseCase`) actually correct?**
+  _`provideGreenKeeperDependencies()` has 8 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
   _202 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
@@ -175,7 +174,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` be split into smaller, more focused modules?**
   _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
-- **Should `AGENTS.md — GreenKeeper.AnaloJs` be split into smaller, more focused modules?**
-  _Cohesion score 0.05555555555555555 - nodes in this community are weakly interconnected._
-- **Should `UC-04: Instalação PWA e Captura Automatizada de Prints` be split into smaller, more focused modules?**
-  _Cohesion score 0.057057057057057055 - nodes in this community are weakly interconnected._

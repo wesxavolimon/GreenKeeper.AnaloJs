@@ -83,22 +83,22 @@
 
 ## 4. UI AnalogJS: Mobile-Only Gate, Tela Informativa e Dashboard Botânico
 
-- [ ] 4.1 **Implementar `mobileOnlyGuard` e Tela Informativa (`/desktop-info`)**
+- [x] 4.1 **Implementar `mobileOnlyGuard` e Tela Informativa (`/desktop-info`)**
   - Guard bloqueando rotas do app quando `EvaluateDeviceAccessUseCase` retornar `allowed: false`, redirecionando para `/desktop-info`.
   - Página `/desktop-info` estilizada na identidade `#F4F6F2` / `#1A1E1D` / `emerald-600` (`Plus Jakarta Sans`), apresentando o app e instruindo acesso pelo celular.
   - **Done:** Desktop/tablet bloqueado em qualquer rota; override só ativo fora de `production`.
 
-- [ ] 4.2 **Implementar Dashboard direto (`/`) fiel ao HTML *GreenKeeper — Cuidados Botânicos***
+- [x] 4.2 **Implementar Dashboard direto (`/`) fiel ao HTML *GreenKeeper — Cuidados Botânicos***
   - Adaptar para tela cheia real do celular (`min-h-[100dvh]`, sem moldura desktop e sem status bar falsa `09:41` / Dynamic Island).
   - Implementar componentes: `DashboardHeader`, `StackedRooms` (com SVG da *Calathea*, métricas `18% Água` / `98% Luz`, botão `Concluir`), `PlantFocusCard` (*Aloe Arborescens*, *Rega*, *Inspeção*), `ClimateHumidityWidget` (`64%`, partículas, botões `-`/`+`) e `FloatingCameraDock` (botão *Câmera*).
   - **Done:** Todas as interações locais funcionam via use cases.
 
-- [ ] 4.3 **Escrever testes unitários de UI/Guards e validar 100% de cobertura global**
+- [x] 4.3 **Escrever testes unitários de UI/Guards e validar 100% de cobertura global**
   - Configurar Vitest (`thresholds: 100` para `lines`, `branches`, `functions`, `statements`).
   - Executar `docker compose run --rm test` e garantir 100% verde.
   - **Done:** `vitest run --coverage` sai com código 0 e 100% em todas as métricas.
 
-- [ ] 4.4 **Commit + push do grupo 4 (com `graphify update .` antes do `git add`)**
+- [x] 4.4 **Commit + push do grupo 4 (com `graphify update .` antes do `git add`)**
   - **Done:** Commit registrado após autorização explícita.
 
 ---
