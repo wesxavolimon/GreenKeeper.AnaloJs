@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md": {
-    "mtime": 1795057031.2312229,
-    "ast_hash": "bbca183897414578f9ecd868d813337a",
+    "mtime": 1795057250.8888552,
+    "ast_hash": "9ab4bf696c813321515cdaf6f70d2637",
     "semantic_hash": ""
   },
   "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md": {
@@ -100,23 +100,23 @@
     "semantic_hash": ""
   },
   "src/app/app.config.ts": {
-    "mtime": 1795056426.7897851,
-    "ast_hash": "2273311d4af91e8875998f2792875c83",
+    "mtime": 1795057127.9726653,
+    "ast_hash": "6113d23552130930b5794b8f58ca03ec",
     "semantic_hash": ""
   },
   "src/app/app.spec.ts": {
-    "mtime": 1795056813.9382236,
-    "ast_hash": "5bd4bf4f73bf9d8f66a178b31e794181",
+    "mtime": 1795057223.6892376,
+    "ast_hash": "1bd7549ae8c082d8982fb57ccbad85c9",
     "semantic_hash": ""
   },
   "src/app/app.ts": {
-    "mtime": 1795056426.8109684,
-    "ast_hash": "8bc2519a12d081f48b0161b20932cc9a",
+    "mtime": 1795057129.477164,
+    "ast_hash": "accdccf89b0ede4a7dd66f8d4f6b2852",
     "semantic_hash": ""
   },
   "src/app/pages/index.page.ts": {
-    "mtime": 1795056426.8542573,
-    "ast_hash": "eaf55b6686d1bce37fa2fb2fbec73480",
+    "mtime": 1795057221.7155333,
+    "ast_hash": "8b704ee11dbbeb3d657e444867c639e1",
     "semantic_hash": ""
   },
   "src/main.ts": {
@@ -252,6 +252,16 @@
   "src/infrastructure/vite-env-config.adapter.ts": {
     "mtime": 1795056918.5223176,
     "ast_hash": "299b39e7931cb67c3848436dbdb6d830",
+    "semantic_hash": ""
+  },
+  "src/app/guards/mobile-only.guard.ts": {
+    "mtime": 1795057131.8471673,
+    "ast_hash": "c4ddc620cdfeb2ab211c403266448c4a",
+    "semantic_hash": ""
+  },
+  "src/app/pages/desktop-info.page.ts": {
+    "mtime": 1795057133.5115526,
+    "ast_hash": "dfc0cadffb02588bce5b5221400e2c67",
     "semantic_hash": ""
   }
 }

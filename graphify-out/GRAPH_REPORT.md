@@ -1,16 +1,16 @@
 # Graph Report - analogjs-pwa-skeleton  (2026-11-19)
 
 ## Corpus Check
-- 48 files · ~14,401 words
+- 51 files · ~14,878 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 390 nodes · 533 edges · 26 communities (24 shown, 2 thin omitted)
+- 391 nodes · 532 edges · 29 communities (26 shown, 3 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fd6b7e64`
+- Built from commit: `8001747d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -36,6 +36,7 @@
 - devDependencies
 - app.spec.ts
 - scripts
+- PwaRegistrationPort
 - sw.js
 - architecture.spec.ts
 
@@ -48,8 +49,8 @@
 6. `scripts` - 9 edges
 7. `EvaluateDeviceAccessUseCase` - 9 edges
 8. `InMemoryDashboardRepository` - 9 edges
-9. `🌿 GreenKeeper.AnaloJs` - 9 edges
-10. `LoadDashboardUseCase` - 8 edges
+9. `LoadDashboardUseCase` - 8 edges
+10. `SelectRoomUseCase` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `mobileOnlyGuard()` --indirect_call--> `EvaluateDeviceAccessUseCase`  [INFERRED]
@@ -66,7 +67,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (26 total, 2 thin omitted)
+## Communities (29 total, 3 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
 Cohesion: 0.10
@@ -118,7 +119,7 @@ Nodes (5): ADDED Requirements, Requirement: Project README and AGENTS Documentat
 
 ### Community 12 - "UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)"
 Cohesion: 0.10
-Nodes (19): AGENTS.md — GreenKeeper.AnaloJs, Arquitetura (Clean Architecture pragmática no frontend), Escopo atual (esqueleto), Governança de ferramentas, Nomenclatura, O que é o projeto, Próximos proposes (registrados, FORA do escopo atual), Qualidade (+11 more)
+Nodes (18): AGENTS.md — GreenKeeper.AnaloJs, Arquitetura (Clean Architecture pragmática no frontend), Escopo atual (esqueleto), Governança de ferramentas, Nomenclatura, O que é o projeto, Próximos proposes (registrados, FORA do escopo atual), Qualidade (+10 more)
 
 ### Community 13 - "AGENTS.md — GreenKeeper.AnaloJs"
 Cohesion: 0.06
@@ -133,44 +134,44 @@ Cohesion: 0.06
 Nodes (36): build, serve, test, builder, configurations, defaultConfiguration, options, development (+28 more)
 
 ### Community 16 - "dependencies"
-Cohesion: 0.22
-Nodes (9): scripts, build, dev, e2e:screenshots, ng, preview, start, test (+1 more)
+Cohesion: 0.18
+Nodes (11): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, rxjs (+3 more)
 
 ### Community 17 - "greenkeeper-analojs"
-Cohesion: 0.09
+Cohesion: 0.10
 Nodes (24): App, appConfig, Component, mobileOnlyGuard(), DesktopInfoPage, Component, routeMeta, DashboardRepositoryPort (+16 more)
 
 ### Community 18 - "devDependencies"
 Cohesion: 0.06
-Nodes (34): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, rxjs (+26 more)
-
-### Community 19 - "app.spec.ts"
-Cohesion: 0.10
-Nodes (15): Home, Component, sampleSnapshot, DeviceAccessDecision, DeviceAccessReason, DeviceSignals, FocusInspectionTask, PlantFocusSummary (+7 more)
+Nodes (32): description, devDependencies, @analogjs/platform, @analogjs/vite-plugin-angular, @analogjs/vitest-angular, @angular/build, @angular/cli, @angular/compiler-cli (+24 more)
 
 ### Community 20 - "scripts"
-Cohesion: 0.10
-Nodes (13): AppConfig, AppConfigPort, DeviceSignalsPort, PwaRegistrationPort, AppEnvironment, BrowserDeviceSignalsAdapter, BrowserDeviceSource, readDefaultBrowserDeviceSource() (+5 more)
+Cohesion: 0.08
+Nodes (23): AppConfig, AppConfigPort, DeviceSignalsPort, sampleSnapshot, AppEnvironment, DeviceAccessDecision, DeviceAccessReason, DeviceSignals (+15 more)
+
+### Community 21 - "PwaRegistrationPort"
+Cohesion: 0.24
+Nodes (3): PwaRegistrationPort, BrowserPwaRegistrationAdapter, ServiceWorkerRegistrar
 
 ## Knowledge Gaps
-- **202 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+197 more)
+- **201 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+196 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `app.spec.ts`, `scripts`?**
+- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `scripts`?**
   _High betweenness centrality (0.012) - this node is a cross-community bridge._
-- **Why does `Home` connect `app.spec.ts` to `greenkeeper-analojs`?**
+- **Why does `Home` connect `app.spec.ts` to `greenkeeper-analojs`, `scripts`?**
   _High betweenness centrality (0.012) - this node is a cross-community bridge._
 - **Are the 8 inferred relationships involving `provideGreenKeeperDependencies()` (e.g. with `AdjustHumidifierUseCase` and `CompletePlantTaskUseCase`) actually correct?**
   _`provideGreenKeeperDependencies()` has 8 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
-  _202 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _201 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
   _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` be split into smaller, more focused modules?**
-  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._

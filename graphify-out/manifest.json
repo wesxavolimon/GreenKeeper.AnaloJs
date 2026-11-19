@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md": {
-    "mtime": 1795057250.8888552,
-    "ast_hash": "9ab4bf696c813321515cdaf6f70d2637",
+    "mtime": 1795057461.038407,
+    "ast_hash": "8434508e3f06ebd66f9e6e197e06d91c",
     "semantic_hash": ""
   },
   "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md": {
@@ -80,8 +80,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1795056238.333364,
-    "ast_hash": "26768a86b848cf0595b39fbdeb6f9560",
+    "mtime": 1795057449.7508292,
+    "ast_hash": "af669c2efc6093046e5460dffacf7e4c",
     "semantic_hash": ""
   },
   "angular.json": {
@@ -115,8 +115,8 @@
     "semantic_hash": ""
   },
   "src/app/pages/index.page.ts": {
-    "mtime": 1795057221.7155333,
-    "ast_hash": "8b704ee11dbbeb3d657e444867c639e1",
+    "mtime": 1795057392.74172,
+    "ast_hash": "3b95602a03d59a416fc418e9ade13374",
     "semantic_hash": ""
   },
   "src/main.ts": {
@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "docker-compose.yml": {
-    "mtime": 1795056400.7858338,
-    "ast_hash": "10112981bfd7f7dbec1208184a636ce6",
+    "mtime": 1795057296.3961132,
+    "ast_hash": "6ebb2cd91cbbb020f0b948bea3af5754",
     "semantic_hash": ""
   },
   "index.html": {
@@ -262,6 +262,21 @@
   "src/app/pages/desktop-info.page.ts": {
     "mtime": 1795057133.5115526,
     "ast_hash": "dfc0cadffb02588bce5b5221400e2c67",
+    "semantic_hash": ""
+  },
+  "e2e/screenshots.spec.ts": {
+    "mtime": 1795057294.3829439,
+    "ast_hash": "8e6a3ab1a155bbaa57969b6dd7dfa461",
+    "semantic_hash": ""
+  },
+  "playwright.config.ts": {
+    "mtime": 1795057292.7923632,
+    "ast_hash": "530e7139d79aa2047d5409065c56d0e7",
+    "semantic_hash": ""
+  },
+  "test-results/.last-run.json": {
+    "mtime": 1795057401.7997758,
+    "ast_hash": "f196824657d8858bc7fa44eecbba38b1",
     "semantic_hash": ""
   }
 }

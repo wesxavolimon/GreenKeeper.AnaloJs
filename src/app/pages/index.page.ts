@@ -565,7 +565,7 @@ export const routeMeta: RouteMeta = {
 
       <!-- BEGIN: FloatingBottomNavigation -->
       <nav
-        class="fixed bottom-5 inset-x-0 mx-auto flex items-center justify-center z-40 pointer-events-none"
+        class="absolute bottom-5 inset-x-0 mx-auto flex items-center justify-center z-40 pointer-events-none"
         data-purpose="floating-dock"
       >
         <button

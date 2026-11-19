@@ -105,18 +105,18 @@
 
 ## 5. Captura Automatizada de Prints (Playwright) e Validação Final
 
-- [ ] 5.1 **Implementar script Playwright para capturar prints das telas em Docker**
+- [x] 5.1 **Implementar script Playwright para capturar prints das telas em Docker**
   - Configurar `playwright.config.ts` / script de captura que serve o build estático e salva:
     - `screenshots/mobile-dashboard.png` (`390x844`, `isMobile: true`, `hasTouch: true`)
     - `screenshots/desktop-info.png` (`1280x800`, desktop sem override)
   - Executar `docker compose run --rm playwright` e inspecionar visualmente os PNGs gerados comparando com o HTML de referência.
   - **Done:** Ambos os prints gerados em Docker e validados visualmente.
 
-- [ ] 5.2 **Checklist Pré-PR**
+- [x] 5.2 **Checklist Pré-PR**
   - Atualizar `README.md` com instruções finais e referência aos prints gerados.
   - Executar `graphify update .` (obrigatório antes do `git add`).
   - **Done:** `README.md` atualizado e grafo sincronizado.
 
-- [ ] 5.3 **Commit final + push + criar PR no GitHub**
+- [x] 5.3 **Commit final + push + criar PR no GitHub**
   - Push de `feature/analogjs-pwa-skeleton` e criação de Pull Request para `develop` no repositório `wesxavolimon/GreenKeeper.AnaloJs` (somente após autorização explícita do usuário).
   - **Done:** PR aberto apontando `feature/analogjs-pwa-skeleton` → `develop`.
