@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md": {
-    "mtime": 1795056840.7606564,
-    "ast_hash": "4639db3df77fd36e85df87e773323972",
+    "mtime": 1795057031.2312229,
+    "ast_hash": "bbca183897414578f9ecd868d813337a",
     "semantic_hash": ""
   },
   "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md": {
@@ -167,6 +167,91 @@
   "public/icons/icon.svg": {
     "mtime": 1795056436.8167856,
     "ast_hash": "5beb14cfb6bfbb2cfee59dc5ecf39f4e",
+    "semantic_hash": ""
+  },
+  "src/application/application.spec.ts": {
+    "mtime": 1795056975.5113845,
+    "ast_hash": "3864b5932c14648f2752728aed9a1d5e",
+    "semantic_hash": ""
+  },
+  "src/application/index.ts": {
+    "mtime": 1795056886.0646057,
+    "ast_hash": "d9b7605b26a0257fa060fcca14e9fb22",
+    "semantic_hash": ""
+  },
+  "src/application/ports.ts": {
+    "mtime": 1795056882.9940927,
+    "ast_hash": "e47bb99a7e74c2b5afb994f79076dfb8",
+    "semantic_hash": ""
+  },
+  "src/application/use-cases.ts": {
+    "mtime": 1795056884.4425845,
+    "ast_hash": "fc876dd80c2c753ac3c99d3e986ea35a",
+    "semantic_hash": ""
+  },
+  "src/architecture.spec.ts": {
+    "mtime": 1795057023.1689076,
+    "ast_hash": "536ae53dc956acb78f36bb2a726a6955",
+    "semantic_hash": ""
+  },
+  "src/composition/composition.spec.ts": {
+    "mtime": 1795056978.5904627,
+    "ast_hash": "6ef7e50150e77554a6560c4e5d74cfd8",
+    "semantic_hash": ""
+  },
+  "src/composition/index.ts": {
+    "mtime": 1795056924.5392568,
+    "ast_hash": "a6fe6eb7000de314bec2f3aa7bc25bef",
+    "semantic_hash": ""
+  },
+  "src/domain/domain.spec.ts": {
+    "mtime": 1795056973.786183,
+    "ast_hash": "daba8a25d8ab5125f1e4a35acd20b165",
+    "semantic_hash": ""
+  },
+  "src/domain/index.ts": {
+    "mtime": 1795056881.6900134,
+    "ast_hash": "72eb141ff164f533669016765c24864f",
+    "semantic_hash": ""
+  },
+  "src/domain/models.ts": {
+    "mtime": 1795056878.519782,
+    "ast_hash": "e5c63d3011963e04ac02fa6b395a44a0",
+    "semantic_hash": ""
+  },
+  "src/domain/rules.ts": {
+    "mtime": 1795056880.4261312,
+    "ast_hash": "9d6fd33a6b552c4a1fca49f82261d427",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/browser-device-signals.adapter.ts": {
+    "mtime": 1795056919.9062173,
+    "ast_hash": "9195d387d93f04802b83e216965158e3",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/browser-pwa-registration.adapter.ts": {
+    "mtime": 1795056921.1752596,
+    "ast_hash": "3b8bf8595de8e12b0e3850e741f4a2fe",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/in-memory-dashboard.repository.ts": {
+    "mtime": 1795056917.260148,
+    "ast_hash": "ca02a063ec6748a9bcfcfcf687e6a39c",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/index.ts": {
+    "mtime": 1795056922.9723742,
+    "ast_hash": "e82daaefdce582607b2c64cf73a31550",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/infrastructure.spec.ts": {
+    "mtime": 1795056976.9294834,
+    "ast_hash": "430d91928218a9f427e5ded71ca57d48",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/vite-env-config.adapter.ts": {
+    "mtime": 1795056918.5223176,
+    "ast_hash": "299b39e7931cb67c3848436dbdb6d830",
     "semantic_hash": ""
   }
 }

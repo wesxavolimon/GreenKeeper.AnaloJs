@@ -1,16 +1,16 @@
 # Graph Report - analogjs-pwa-skeleton  (2026-11-18)
 
 ## Corpus Check
-- 29 files · ~9,590 words
+- 46 files · ~12,089 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 282 nodes · 268 edges · 26 communities (25 shown, 1 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
+- 375 nodes · 487 edges · 27 communities (25 shown, 2 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 8 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b4e88445`
+- Built from commit: `e766a08d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -38,26 +38,36 @@
 - scripts
 - angularCompilerOptions
 - sw.js
+- architecture.spec.ts
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 23 edges
-2. `scripts` - 9 edges
-3. `🌿 GreenKeeper.AnaloJs` - 9 edges
-4. `AGENTS.md — GreenKeeper.AnaloJs` - 8 edges
-5. `Decisions` - 8 edges
-6. `Tasks` - 7 edges
-7. `greenkeeper-analojs` - 6 edges
-8. `paths` - 6 edges
-9. `1. Dashboard Botânico (`Minhas Plantas`)` - 6 edges
-10. `build` - 5 edges
+2. `DashboardSnapshot` - 18 edges
+3. `DashboardRepositoryPort` - 13 edges
+4. `provideGreenKeeperDependencies()` - 10 edges
+5. `scripts` - 9 edges
+6. `InMemoryDashboardRepository` - 9 edges
+7. `🌿 GreenKeeper.AnaloJs` - 9 edges
+8. `AGENTS.md — GreenKeeper.AnaloJs` - 8 edges
+9. `Decisions` - 8 edges
+10. `AppConfigPort` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `ViteEnvConfigAdapter` --implements--> `AppConfigPort`  [EXTRACTED]
+  src/infrastructure/vite-env-config.adapter.ts → src/application/ports.ts
+- `BrowserDeviceSignalsAdapter` --implements--> `DeviceSignalsPort`  [EXTRACTED]
+  src/infrastructure/browser-device-signals.adapter.ts → src/application/ports.ts
+- `provideGreenKeeperDependencies()` --indirect_call--> `EvaluateDeviceAccessUseCase`  [INFERRED]
+  src/composition/index.ts → src/application/use-cases.ts
+- `provideGreenKeeperDependencies()` --indirect_call--> `LoadDashboardUseCase`  [INFERRED]
+  src/composition/index.ts → src/application/use-cases.ts
+- `provideGreenKeeperDependencies()` --indirect_call--> `SelectRoomUseCase`  [INFERRED]
+  src/composition/index.ts → src/application/use-cases.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (26 total, 1 thin omitted)
+## Communities (27 total, 2 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
 Cohesion: 0.10
@@ -112,55 +122,53 @@ Cohesion: 0.10
 Nodes (19): AGENTS.md — GreenKeeper.AnaloJs, Arquitetura (Clean Architecture pragmática no frontend), Escopo atual (esqueleto), Governança de ferramentas, Nomenclatura, O que é o projeto, Próximos proposes (registrados, FORA do escopo atual), Qualidade (+11 more)
 
 ### Community 13 - "AGENTS.md — GreenKeeper.AnaloJs"
-Cohesion: 0.07
-Nodes (28): compilerOptions, baseUrl, declaration, downlevelIteration, experimentalDecorators, forceConsistentCasingInFileNames, ignoreDeprecations, importHelpers (+20 more)
+Cohesion: 0.06
+Nodes (35): angularCompilerOptions, enableI18nLegacyMessageIdFormat, strictInjectionParameters, strictInputAccessModifiers, strictTemplates, compileOnSave, compilerOptions, baseUrl (+27 more)
 
 ### Community 14 - "RTK - Rust Token Killer (Google Antigravity)"
 Cohesion: 0.40
 Nodes (4): Meta Commands, RTK - Rust Token Killer (Google Antigravity), Rule, Why
 
 ### Community 15 - "UC-04: Instalação PWA e Captura Automatizada de Prints"
-Cohesion: 0.09
-Nodes (24): build, serve, builder, configurations, defaultConfiguration, options, development, production (+16 more)
+Cohesion: 0.06
+Nodes (36): build, serve, test, builder, configurations, defaultConfiguration, options, development (+28 more)
 
 ### Community 16 - "dependencies"
-Cohesion: 0.09
-Nodes (21): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, rxjs (+13 more)
+Cohesion: 0.18
+Nodes (11): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, rxjs (+3 more)
 
 ### Community 17 - "greenkeeper-analojs"
-Cohesion: 0.15
-Nodes (12): test, architect, prefix, projectType, root, sourceRoot, newProjectRoot, projects (+4 more)
+Cohesion: 0.11
+Nodes (20): AppConfigPort, DashboardRepositoryPort, DeviceSignalsPort, AdjustHumidifierUseCase, CompletePlantTaskUseCase, EvaluateDeviceAccessUseCase, LoadDashboardUseCase, RegisterPwaUseCase (+12 more)
 
 ### Community 18 - "devDependencies"
-Cohesion: 0.15
-Nodes (13): devDependencies, @analogjs/platform, @analogjs/vite-plugin-angular, @analogjs/vitest-angular, @angular/build, @angular/cli, @angular/compiler-cli, jsdom (+5 more)
+Cohesion: 0.06
+Nodes (32): description, devDependencies, @analogjs/platform, @analogjs/vite-plugin-angular, @analogjs/vitest-angular, @angular/build, @angular/cli, @angular/compiler-cli (+24 more)
 
 ### Community 19 - "app.spec.ts"
 Cohesion: 0.33
 Nodes (5): App, appConfig, Component, Home, Component
 
 ### Community 20 - "scripts"
-Cohesion: 0.22
-Nodes (9): scripts, build, dev, e2e:screenshots, ng, preview, start, test (+1 more)
+Cohesion: 0.10
+Nodes (20): AppConfig, sampleSnapshot, AppEnvironment, DeviceAccessDecision, DeviceAccessReason, DeviceSignals, FocusInspectionTask, PlantFocusSummary (+12 more)
 
 ### Community 21 - "angularCompilerOptions"
-Cohesion: 0.25
-Nodes (7): angularCompilerOptions, enableI18nLegacyMessageIdFormat, strictInjectionParameters, strictInputAccessModifiers, strictTemplates, compileOnSave, references
+Cohesion: 0.28
+Nodes (3): PwaRegistrationPort, BrowserPwaRegistrationAdapter, ServiceWorkerRegistrar
 
 ## Knowledge Gaps
-- **192 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+187 more)
+- **202 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+197 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `compilerOptions` connect `AGENTS.md — GreenKeeper.AnaloJs` to `angularCompilerOptions`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
-- **Why does `devDependencies` connect `devDependencies` to `dependencies`?**
+- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `scripts`?**
   _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
-  _192 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _202 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
   _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**
@@ -168,4 +176,6 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` be split into smaller, more focused modules?**
   _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
 - **Should `AGENTS.md — GreenKeeper.AnaloJs` be split into smaller, more focused modules?**
-  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05555555555555555 - nodes in this community are weakly interconnected._
+- **Should `UC-04: Instalação PWA e Captura Automatizada de Prints` be split into smaller, more focused modules?**
+  _Cohesion score 0.057057057057057055 - nodes in this community are weakly interconnected._

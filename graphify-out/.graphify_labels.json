@@ -24,5 +24,6 @@
   "22": "sw.js",
   "23": "test-setup.ts",
   "24": "vite-env.d.ts",
-  "25": "vite.config.ts"
+  "25": "vite.config.ts",
+  "26": "architecture.spec.ts"
 }

@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md": {
-    "mtime": 1795056244.7993176,
-    "ast_hash": "f63eef455e71f45a456aa85feb5418d9",
+    "mtime": 1795056840.7606564,
+    "ast_hash": "4639db3df77fd36e85df87e773323972",
     "semantic_hash": ""
   },
   "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md": {
@@ -82,6 +82,91 @@
   "README.md": {
     "mtime": 1795056238.333364,
     "ast_hash": "26768a86b848cf0595b39fbdeb6f9560",
+    "semantic_hash": ""
+  },
+  "angular.json": {
+    "mtime": 1795056445.9157138,
+    "ast_hash": "b60e387f387e281a2274e0bbc77d0cc1",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1795056706.6697214,
+    "ast_hash": "5a8d7d89baf2b3a92d9b45494aa5b47b",
+    "semantic_hash": ""
+  },
+  "public/sw.js": {
+    "mtime": 1795056426.894611,
+    "ast_hash": "dfb36d6fd17a64c5a078c76d3df4b51f",
+    "semantic_hash": ""
+  },
+  "src/app/app.config.ts": {
+    "mtime": 1795056426.7897851,
+    "ast_hash": "2273311d4af91e8875998f2792875c83",
+    "semantic_hash": ""
+  },
+  "src/app/app.spec.ts": {
+    "mtime": 1795056813.9382236,
+    "ast_hash": "5bd4bf4f73bf9d8f66a178b31e794181",
+    "semantic_hash": ""
+  },
+  "src/app/app.ts": {
+    "mtime": 1795056426.8109684,
+    "ast_hash": "8bc2519a12d081f48b0161b20932cc9a",
+    "semantic_hash": ""
+  },
+  "src/app/pages/index.page.ts": {
+    "mtime": 1795056426.8542573,
+    "ast_hash": "eaf55b6686d1bce37fa2fb2fbec73480",
+    "semantic_hash": ""
+  },
+  "src/main.ts": {
+    "mtime": 1795056426.764876,
+    "ast_hash": "0815d5d4549ba20adb2d7b221dcc00d6",
+    "semantic_hash": ""
+  },
+  "src/test-setup.ts": {
+    "mtime": 1795056308.2004356,
+    "ast_hash": "8fa3d5f1d14f57dde9b91a3f078078fc",
+    "semantic_hash": ""
+  },
+  "src/vite-env.d.ts": {
+    "mtime": 1795056308.204435,
+    "ast_hash": "0352474ba2918efe13895edbc3780d94",
+    "semantic_hash": ""
+  },
+  "tsconfig.app.json": {
+    "mtime": 1795056539.7033415,
+    "ast_hash": "f1566ab05c05b0ea97042f6f763b0604",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1795056612.1209455,
+    "ast_hash": "6a54a55474b0e72660d9bbedbbce618b",
+    "semantic_hash": ""
+  },
+  "tsconfig.spec.json": {
+    "mtime": 1795056811.908743,
+    "ast_hash": "a704876af7453b50d0d44ccd7ab5c83c",
+    "semantic_hash": ""
+  },
+  "vite.config.ts": {
+    "mtime": 1795056810.4274435,
+    "ast_hash": "2f2f409522a671ac68020dbd9111c734",
+    "semantic_hash": ""
+  },
+  "docker-compose.yml": {
+    "mtime": 1795056400.7858338,
+    "ast_hash": "10112981bfd7f7dbec1208184a636ce6",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1795056426.7238445,
+    "ast_hash": "4024b40d5213bf2e2176d20520965bfe",
+    "semantic_hash": ""
+  },
+  "public/icons/icon.svg": {
+    "mtime": 1795056436.8167856,
+    "ast_hash": "5beb14cfb6bfbb2cfee59dc5ecf39f4e",
     "semantic_hash": ""
   }
 }

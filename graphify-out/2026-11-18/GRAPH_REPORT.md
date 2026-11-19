@@ -1,16 +1,16 @@
 # Graph Report - analogjs-pwa-skeleton  (2026-11-18)
 
 ## Corpus Check
-- 15 files · ~8,627 words
+- 29 files · ~9,590 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 150 nodes · 136 edges · 16 communities
+- 282 nodes · 268 edges · 26 communities (25 shown, 1 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3af90183`
+- Built from commit: `b4e88445`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -31,27 +31,37 @@
 - AGENTS.md — GreenKeeper.AnaloJs
 - RTK - Rust Token Killer (Google Antigravity)
 - UC-04: Instalação PWA e Captura Automatizada de Prints
+- dependencies
+- greenkeeper-analojs
+- devDependencies
+- app.spec.ts
+- scripts
+- angularCompilerOptions
+- sw.js
 
 ## God Nodes (most connected - your core abstractions)
-1. `🌿 GreenKeeper.AnaloJs` - 9 edges
-2. `AGENTS.md — GreenKeeper.AnaloJs` - 8 edges
-3. `Decisions` - 8 edges
-4. `Tasks` - 7 edges
-5. `1. Dashboard Botânico (`Minhas Plantas`)` - 6 edges
-6. `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` - 5 edges
-7. `UC-02: Carregar Dashboard Botânico Direto (Sem Login)` - 5 edges
-8. `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` - 5 edges
-9. `UC-04: Instalação PWA e Captura Automatizada de Prints` - 5 edges
-10. `2. Tela Informativa (Exclusiva Desktop / Tablet)` - 5 edges
+1. `compilerOptions` - 23 edges
+2. `scripts` - 9 edges
+3. `🌿 GreenKeeper.AnaloJs` - 9 edges
+4. `AGENTS.md — GreenKeeper.AnaloJs` - 8 edges
+5. `Decisions` - 8 edges
+6. `Tasks` - 7 edges
+7. `greenkeeper-analojs` - 6 edges
+8. `paths` - 6 edges
+9. `1. Dashboard Botânico (`Minhas Plantas`)` - 6 edges
+10. `build` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (16 total, 0 thin omitted)
+## Import Cycles
+- None detected.
+
+## Communities (26 total, 1 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
-Cohesion: 0.12
-Nodes (15): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Fluxo Principal, Fluxo Principal (+7 more)
+Cohesion: 0.10
+Nodes (20): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit (+12 more)
 
 ### Community 1 - "1. Dashboard Botânico (`Minhas Plantas`)"
 Cohesion: 0.14
@@ -98,33 +108,64 @@ Cohesion: 0.33
 Nodes (5): ADDED Requirements, Requirement: Project README and AGENTS Documentation, Requirement: RTK and Graphify Initialization with Mandatory Pre-Stage Update Rule, Scenario: Developer or AI agent inspects repository root docs, Scenario: Graphify and RTK initialized in repository
 
 ### Community 12 - "UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)"
-Cohesion: 0.18
-Nodes (9): Arquitetura, Desenvolvimento com agentes, Docker (sem instalar nada no host), 🌿 GreenKeeper.AnaloJs, O que já faz, Prints das telas, Qualidade, Roadmap (próximos proposes) (+1 more)
+Cohesion: 0.10
+Nodes (19): AGENTS.md — GreenKeeper.AnaloJs, Arquitetura (Clean Architecture pragmática no frontend), Escopo atual (esqueleto), Governança de ferramentas, Nomenclatura, O que é o projeto, Próximos proposes (registrados, FORA do escopo atual), Qualidade (+11 more)
 
 ### Community 13 - "AGENTS.md — GreenKeeper.AnaloJs"
-Cohesion: 0.20
-Nodes (10): AGENTS.md — GreenKeeper.AnaloJs, Arquitetura (Clean Architecture pragmática no frontend), Escopo atual (esqueleto), Governança de ferramentas, Nomenclatura, O que é o projeto, Próximos proposes (registrados, FORA do escopo atual), Qualidade (+2 more)
+Cohesion: 0.07
+Nodes (28): compilerOptions, baseUrl, declaration, downlevelIteration, experimentalDecorators, forceConsistentCasingInFileNames, ignoreDeprecations, importHelpers (+20 more)
 
 ### Community 14 - "RTK - Rust Token Killer (Google Antigravity)"
 Cohesion: 0.40
 Nodes (4): Meta Commands, RTK - Rust Token Killer (Google Antigravity), Rule, Why
 
 ### Community 15 - "UC-04: Instalação PWA e Captura Automatizada de Prints"
-Cohesion: 0.40
-Nodes (5): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend Unit, Fluxo Principal, Fluxos Alternativos, UC-04: Instalação PWA e Captura Automatizada de Prints
+Cohesion: 0.09
+Nodes (24): build, serve, builder, configurations, defaultConfiguration, options, development, production (+16 more)
+
+### Community 16 - "dependencies"
+Cohesion: 0.09
+Nodes (21): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, rxjs (+13 more)
+
+### Community 17 - "greenkeeper-analojs"
+Cohesion: 0.15
+Nodes (12): test, architect, prefix, projectType, root, sourceRoot, newProjectRoot, projects (+4 more)
+
+### Community 18 - "devDependencies"
+Cohesion: 0.15
+Nodes (13): devDependencies, @analogjs/platform, @analogjs/vite-plugin-angular, @analogjs/vitest-angular, @angular/build, @angular/cli, @angular/compiler-cli, jsdom (+5 more)
+
+### Community 19 - "app.spec.ts"
+Cohesion: 0.33
+Nodes (5): App, appConfig, Component, Home, Component
+
+### Community 20 - "scripts"
+Cohesion: 0.22
+Nodes (9): scripts, build, dev, e2e:screenshots, ng, preview, start, test (+1 more)
+
+### Community 21 - "angularCompilerOptions"
+Cohesion: 0.25
+Nodes (7): angularCompilerOptions, enableI18nLegacyMessageIdFormat, strictInjectionParameters, strictInputAccessModifiers, strictTemplates, compileOnSave, references
 
 ## Knowledge Gaps
-- **97 isolated node(s):** `Rule`, `Meta Commands`, `Why`, `⛔ Regras absolutas`, `Nomenclatura` (+92 more)
+- **192 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+187 more)
   These have ≤1 connection - possible missing edges or undocumented components.
+- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `AGENTS.md — GreenKeeper.AnaloJs` connect `AGENTS.md — GreenKeeper.AnaloJs` to `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
-- **What connects `Rule`, `Meta Commands`, `Why` to the rest of the system?**
-  _97 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `compilerOptions` connect `AGENTS.md — GreenKeeper.AnaloJs` to `angularCompilerOptions`?**
+  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+- **Why does `devDependencies` connect `devDependencies` to `dependencies`?**
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
+- **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
+  _192 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
-  _Cohesion score 0.125 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+- **Should `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` be split into smaller, more focused modules?**
+  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
+- **Should `AGENTS.md — GreenKeeper.AnaloJs` be split into smaller, more focused modules?**
+  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._

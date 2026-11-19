@@ -55,28 +55,28 @@
 
 ## 3. Clean Architecture TS: Domain, Application, Infrastructure e Composition
 
-- [ ] 3.1 **Implementar camada `src/domain/` (100% pura)**
+- [x] 3.1 **Implementar camada `src/domain/` (100% pura)**
   - Entidades e tipos: `Room`, `Plant`, `PlantFocus`, `PlantTask`, `HumidityControl`, `DashboardSnapshot`.
   - Regras puras: `clampHumidityLevel`, `countPendingTasks`, `DeviceAccessPolicy.evaluate(signals, appEnv)`.
   - **Done:** Zero imports externos em `src/domain/`.
 
-- [ ] 3.2 **Implementar camada `src/application/` (Ports e Use Cases)**
+- [x] 3.2 **Implementar camada `src/application/` (Ports e Use Cases)**
   - Ports: `DashboardRepositoryPort`, `DeviceSignalsPort`, `AppConfigPort`, `PwaRegistrationPort`.
   - Use cases: `EvaluateDeviceAccessUseCase`, `LoadDashboardUseCase`, `CompletePlantTaskUseCase`, `SelectRoomUseCase`, `AdjustHumidifierUseCase`, `RegisterPwaUseCase`.
   - **Done:** Zero imports de Angular ou `src/infrastructure/` em `src/application/`.
 
-- [ ] 3.3 **Implementar camada `src/infrastructure/` e `src/composition/`**
+- [x] 3.3 **Implementar camada `src/infrastructure/` e `src/composition/`**
   - `InMemoryDashboardRepository` (com dados iniciais fiéis ao HTML *Cuidados Botânicos*: *Corredor*, *Sala de Estar*, *Banheiro / Calathea*, *Aloe Arborescens*, `64%` umidade, `3` tarefas).
   - `BrowserDeviceSignalsAdapter`, `ViteEnvConfigAdapter`, `BrowserPwaRegistrationAdapter`.
   - `provideGreenKeeperDependencies()` em `src/composition/`.
   - **Done:** Todos os ports injetados exclusivamente via `src/composition/`.
 
-- [ ] 3.4 **Escrever testes unitários das camadas `domain`, `application`, `infrastructure`, `composition` e fronteiras**
+- [x] 3.4 **Escrever testes unitários das camadas `domain`, `application`, `infrastructure`, `composition` e fronteiras**
   - Testes de fronteira arquitetural (AST/regex validando imports proibidos entre camadas).
   - Testes unitários cobrindo 100% de linhas, branches, funções e statements.
   - **Done:** Suíte de camada pura e infra passando em Docker com 100% de cobertura.
 
-- [ ] 3.5 **Commit + push do grupo 3 (com `graphify update .` antes do `git add`)**
+- [x] 3.5 **Commit + push do grupo 3 (com `graphify update .` antes do `git add`)**
   - **Done:** Commit registrado após autorização explícita.
 
 ---
