@@ -1,16 +1,16 @@
 # Graph Report - GreenKeeper.AnaloJs  (2026-11-19)
 
 ## Corpus Check
-- 156 files · ~143,143 words
+- 158 files · ~143,527 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1691 nodes · 1762 edges · 124 communities (120 shown, 4 thin omitted)
+- 1701 nodes · 1780 edges · 122 communities (118 shown, 4 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4990a21d`
+- Built from commit: `49d77bf5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -90,7 +90,6 @@
 - Vite + React on Netlify
 - Vite + React on Netlify
 - ADDED Requirements
-- PwaRegistrationPort
 - Two-Layer Pattern: Company-Only Access + Per-User Identity
 - Advanced Identity Patterns
 - Two-Layer Pattern: Company-Only Access + Per-User Identity
@@ -133,7 +132,6 @@
 - concept.md
 - proposal.md
 - auth.spec.ts
-- Home
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 23 edges
@@ -162,11 +160,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (124 total, 4 thin omitted)
+## Communities (122 total, 4 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
-Cohesion: 0.08
-Nodes (24): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+16 more)
+Cohesion: 0.04
+Nodes (44): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+36 more)
 
 ### Community 1 - "1. Dashboard Botânico (`Minhas Plantas`)"
 Cohesion: 0.04
@@ -177,8 +175,8 @@ Cohesion: 0.05
 Nodes (36): 10. Stack, 11. Justificativa da stack, 12. Fases de construção, 13. Specs funcionais detalhadas, 14. Ordem recomendada de implementação, 1. Visão geral, 2. Problema que resolve, 3. Público-alvo (+28 more)
 
 ### Community 3 - "concept.md"
-Cohesion: 0.04
-Nodes (45): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+37 more)
+Cohesion: 0.07
+Nodes (25): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+17 more)
 
 ### Community 4 - "ADDED Requirements"
 Cohesion: 0.07
@@ -233,7 +231,7 @@ Cohesion: 0.10
 Nodes (19): Custom headers, Environment variables, Functions, Ignore builds, Injecting env values into headers/redirects, JavaScript SPAs, Modern vs legacy syntax to reach for, Monorepos (+11 more)
 
 ### Community 17 - "greenkeeper-analojs"
-Cohesion: 0.13
+Cohesion: 0.12
 Nodes (4): DashboardRepositoryPort, DashboardSnapshot, INITIAL_BOTANICAL_SNAPSHOT, InMemoryDashboardRepository
 
 ### Community 18 - "devDependencies"
@@ -241,12 +239,12 @@ Cohesion: 0.04
 Nodes (44): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, @auth0/auth0-spa-js (+36 more)
 
 ### Community 19 - "app.spec.ts"
-Cohesion: 0.15
-Nodes (13): DeviceAccessDecision, DeviceAccessReason, FocusInspectionTask, PlantFocusSummary, PlantMetrics, RoomPlantSummary, RoomTone, clampHumidityLevel() (+5 more)
+Cohesion: 0.12
+Nodes (17): DeviceSignalsPort, sampleSnapshot, DeviceAccessDecision, DeviceAccessReason, DeviceSignals, FocusInspectionTask, PlantFocusSummary, PlantMetrics (+9 more)
 
 ### Community 20 - "scripts"
 Cohesion: 0.13
-Nodes (12): AppConfig, AppConfigPort, DeviceSignalsPort, sampleSnapshot, AppEnvironment, DeviceSignals, BrowserDeviceSignalsAdapter, BrowserDeviceSource (+4 more)
+Nodes (10): AppConfig, AppConfigPort, PwaRegistrationPort, AppEnvironment, readDefaultBrowserDeviceSource(), BrowserPwaRegistrationAdapter, ServiceWorkerRegistrar, normalizeAppEnv() (+2 more)
 
 ### Community 21 - "PwaRegistrationPort"
 Cohesion: 0.10
@@ -305,8 +303,8 @@ Cohesion: 0.13
 Nodes (14): Audit log (Pro plans or higher), CDN-edge RBAC (redirect rules), Client auth (browser), Configuration (dashboard-only), CSRF: required for server-side auth endpoints, Emails (Pro plans or higher), External JWT providers (Enterprise), Identity event functions (+6 more)
 
 ### Community 44 - "index.page.ts"
-Cohesion: 0.23
-Nodes (7): App, appConfig, Component, mobileOnlyGuard(), DesktopInfoPage, Component, routeMeta
+Cohesion: 0.11
+Nodes (11): App, appConfig, Component, mobileOnlyGuard(), DesktopInfoPage, Component, Home, routeMeta (+3 more)
 
 ### Community 45 - "Netlify Agent Runner"
 Cohesion: 0.14
@@ -447,10 +445,6 @@ Nodes (8): Build and Deploy, Forms (AJAX Pattern), Local Dev, Netlify Functions,
 ### Community 79 - "ADDED Requirements"
 Cohesion: 0.22
 Nodes (8): ADDED Requirements, Requirement: Controlled Development and Test Override, Requirement: Informative Screen for Non-Mobile Visitors, Requirement: Mobile-Only Access Detection, Scenario: Desktop or tablet browser accesses the app, Scenario: Non-mobile visitor lands on root or deep route, Scenario: Production build ignores dev override query parameters, Scenario: Standard mobile phone browser accesses the app
-
-### Community 80 - "PwaRegistrationPort"
-Cohesion: 0.25
-Nodes (3): PwaRegistrationPort, BrowserPwaRegistrationAdapter, ServiceWorkerRegistrar
 
 ### Community 81 - "Two-Layer Pattern: Company-Only Access + Per-User Identity"
 Cohesion: 0.25
@@ -617,32 +611,28 @@ Cohesion: 0.29
 Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ### Community 122 - "auth.spec.ts"
-Cohesion: 0.17
-Nodes (5): AuthPort, CheckAuthUseCase, LoginUseCase, LogoutUseCase, User
-
-### Community 123 - "Home"
-Cohesion: 0.20
-Nodes (3): Home, Component, countPendingTasks()
+Cohesion: 0.11
+Nodes (8): AuthPort, CheckAuthUseCase, LoginUseCase, LogoutUseCase, User, Auth0Adapter, mockAppConfig, mockAuth0
 
 ## Knowledge Gaps
-- **1211 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1206 more)
+- **1213 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1208 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `BrowserPwaRegistrationAdapter` connect `PwaRegistrationPort` to `index.ts`, `scripts`?**
+- **Why does `AuthPort` connect `auth.spec.ts` to `index.ts`, `scripts`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **Why does `CheckAuthUseCase` connect `auth.spec.ts` to `index.ts`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `User` connect `auth.spec.ts` to `index.ts`, `app.spec.ts`, `scripts`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
-  _1211 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1213 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
-  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `Decisions` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
-- **Should `concept.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._

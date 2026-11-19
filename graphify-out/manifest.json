@@ -115,13 +115,13 @@
     "semantic_hash": ""
   },
   "src/application/ports.ts": {
-    "mtime": 1795106533.7829182,
-    "ast_hash": "32b82343d6d27ab4e1adb49db8eede06",
+    "mtime": 1795106614.306788,
+    "ast_hash": "215b517d593b7ce190d8d49459890c5b",
     "semantic_hash": ""
   },
   "src/application/use-cases.ts": {
-    "mtime": 1795106548.3709366,
-    "ast_hash": "67d6d512b2c232c714e060dd42c99062",
+    "mtime": 1795106627.3532968,
+    "ast_hash": "d25699ec50b3c85fc9226627076e39d9",
     "semantic_hash": ""
   },
   "src/architecture.spec.ts": {
@@ -820,8 +820,18 @@
     "semantic_hash": ""
   },
   "src/application/auth.spec.ts": {
-    "mtime": 1795106555.284011,
-    "ast_hash": "3513f365d5dce9567c4996db5311783a",
+    "mtime": 1795106639.4668417,
+    "ast_hash": "64518e523475ab83851c7a2e6508174e",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/auth0.adapter.spec.ts": {
+    "mtime": 1795106766.077818,
+    "ast_hash": "4654a01c7fdafe0ca1ec9b6637df893d",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/auth0.adapter.ts": {
+    "mtime": 1795106620.684014,
+    "ast_hash": "62c4bcc40465db7e4e6b824b570dbbae",
     "semantic_hash": ""
   }
 }

@@ -1010,7 +1010,7 @@
       "source_location": "L596",
       "_origin": "ast",
       "id": "src_app_pages_index_page_home",
-      "community": 123,
+      "community": 44,
       "norm_label": "home"
     },
     {
@@ -1020,7 +1020,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_app_pages_index_page_ts_component",
-      "community": 123,
+      "community": 44,
       "norm_label": "component"
     },
     {
@@ -1030,7 +1030,7 @@
       "source_location": "L608",
       "_origin": "ast",
       "id": "src_app_pages_index_page_home_activeroom",
-      "community": 19,
+      "community": 44,
       "norm_label": ".activeroom()"
     },
     {
@@ -1040,7 +1040,7 @@
       "source_location": "L612",
       "_origin": "ast",
       "id": "src_app_pages_index_page_home_pendingcount",
-      "community": 123,
+      "community": 44,
       "norm_label": ".pendingcount()"
     },
     {
@@ -1050,7 +1050,7 @@
       "source_location": "L616",
       "_origin": "ast",
       "id": "src_app_pages_index_page_home_wateringstatuslabel",
-      "community": 123,
+      "community": 44,
       "norm_label": ".wateringstatuslabel()"
     },
     {
@@ -1060,7 +1060,7 @@
       "source_location": "L620",
       "_origin": "ast",
       "id": "src_app_pages_index_page_home_onselectroom",
-      "community": 123,
+      "community": 44,
       "norm_label": ".onselectroom()"
     },
     {
@@ -1070,7 +1070,7 @@
       "source_location": "L624",
       "_origin": "ast",
       "id": "src_app_pages_index_page_home_oncompletewatering",
-      "community": 123,
+      "community": 44,
       "norm_label": ".oncompletewatering()"
     },
     {
@@ -1080,7 +1080,7 @@
       "source_location": "L628",
       "_origin": "ast",
       "id": "src_app_pages_index_page_home_ontogglefavorite",
-      "community": 123,
+      "community": 44,
       "norm_label": ".ontogglefavorite()"
     },
     {
@@ -1090,7 +1090,7 @@
       "source_location": "L632",
       "_origin": "ast",
       "id": "src_app_pages_index_page_home_onadjusthumidity",
-      "community": 123,
+      "community": 44,
       "norm_label": ".onadjusthumidity()"
     },
     {
@@ -1100,7 +1100,7 @@
       "source_location": "L636",
       "_origin": "ast",
       "id": "src_app_pages_index_page_home_onplannedaction",
-      "community": 123,
+      "community": 44,
       "norm_label": ".onplannedaction()"
     },
     {
@@ -1180,7 +1180,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_application_ports_devicesignalsport",
-      "community": 20,
+      "community": 19,
       "norm_label": "devicesignalsport"
     },
     {
@@ -1190,7 +1190,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "src_application_ports_devicesignalsport_readsignals",
-      "community": 20,
+      "community": 19,
       "norm_label": ".readsignals()"
     },
     {
@@ -1230,7 +1230,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_application_ports_pwaregistrationport",
-      "community": 80,
+      "community": 20,
       "norm_label": "pwaregistrationport"
     },
     {
@@ -1240,7 +1240,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_application_ports_pwaregistrationport_registerserviceworker",
-      "community": 80,
+      "community": 20,
       "norm_label": ".registerserviceworker()"
     },
     {
@@ -1320,7 +1320,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_application_use_cases_evaluatedeviceaccessusecase_constructor",
-      "community": 20,
+      "community": 19,
       "norm_label": ".constructor()"
     },
     {
@@ -1480,7 +1480,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "src_application_use_cases_adjusthumidifierusecase_execute",
-      "community": 19,
+      "community": 17,
       "norm_label": ".execute()"
     },
     {
@@ -1530,7 +1530,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "src_application_use_cases_registerpwausecase_constructor",
-      "community": 80,
+      "community": 20,
       "norm_label": ".constructor()"
     },
     {
@@ -1760,7 +1760,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_domain_domain_spec",
-      "community": 20,
+      "community": 19,
       "norm_label": "domain.spec.ts"
     },
     {
@@ -1770,7 +1770,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_domain_domain_spec_samplesnapshot",
-      "community": 20,
+      "community": 19,
       "norm_label": "samplesnapshot"
     },
     {
@@ -1780,7 +1780,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_domain_index",
-      "community": 20,
+      "community": 19,
       "norm_label": "index.ts"
     },
     {
@@ -1830,7 +1830,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_domain_models_roomplantsummary",
-      "community": 19,
+      "community": 44,
       "norm_label": "roomplantsummary"
     },
     {
@@ -1870,7 +1870,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "src_domain_models_devicesignals",
-      "community": 20,
+      "community": 19,
       "norm_label": "devicesignals"
     },
     {
@@ -1930,7 +1930,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_domain_rules_countpendingtasks",
-      "community": 123,
+      "community": 19,
       "norm_label": "countpendingtasks()"
     },
     {
@@ -1940,7 +1940,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_domain_rules_getactiveroom",
-      "community": 19,
+      "community": 44,
       "norm_label": "getactiveroom()"
     },
     {
@@ -1984,13 +1984,113 @@
       "norm_label": "validatesession()"
     },
     {
+      "label": "auth0.adapter.spec.ts",
+      "file_type": "code",
+      "source_file": "src/infrastructure/auth0.adapter.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_infrastructure_auth0_adapter_spec",
+      "community": 122,
+      "norm_label": "auth0.adapter.spec.ts"
+    },
+    {
+      "label": "mockAuth0",
+      "file_type": "code",
+      "source_file": "src/infrastructure/auth0.adapter.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_infrastructure_auth0_adapter_spec_mockauth0",
+      "community": 122,
+      "norm_label": "mockauth0"
+    },
+    {
+      "label": "mockAppConfig",
+      "file_type": "code",
+      "source_file": "src/infrastructure/auth0.adapter.spec.ts",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "src_infrastructure_auth0_adapter_spec_mockappconfig",
+      "community": 122,
+      "norm_label": "mockappconfig"
+    },
+    {
+      "label": "auth0.adapter.ts",
+      "file_type": "code",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_infrastructure_auth0_adapter",
+      "community": 122,
+      "norm_label": "auth0.adapter.ts"
+    },
+    {
+      "label": "Auth0Adapter",
+      "file_type": "code",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "src_infrastructure_auth0_adapter_auth0adapter",
+      "community": 122,
+      "norm_label": "auth0adapter"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "src_infrastructure_auth0_adapter_auth0adapter_constructor",
+      "community": 20,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".login()",
+      "file_type": "code",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "src_infrastructure_auth0_adapter_auth0adapter_login",
+      "community": 122,
+      "norm_label": ".login()"
+    },
+    {
+      "label": ".logout()",
+      "file_type": "code",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "src_infrastructure_auth0_adapter_auth0adapter_logout",
+      "community": 122,
+      "norm_label": ".logout()"
+    },
+    {
+      "label": ".getUser()",
+      "file_type": "code",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "src_infrastructure_auth0_adapter_auth0adapter_getuser",
+      "community": 122,
+      "norm_label": ".getuser()"
+    },
+    {
+      "label": ".isAuthenticated()",
+      "file_type": "code",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "src_infrastructure_auth0_adapter_auth0adapter_isauthenticated",
+      "community": 122,
+      "norm_label": ".isauthenticated()"
+    },
+    {
       "label": "browser-device-signals.adapter.ts",
       "file_type": "code",
       "source_file": "src/infrastructure/browser-device-signals.adapter.ts",
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_infrastructure_browser_device_signals_adapter",
-      "community": 20,
+      "community": 19,
       "norm_label": "browser-device-signals.adapter.ts"
     },
     {
@@ -2000,7 +2100,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "src_infrastructure_browser_device_signals_adapter_browserdevicesource",
-      "community": 20,
+      "community": 19,
       "norm_label": "browserdevicesource"
     },
     {
@@ -2020,7 +2120,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "src_infrastructure_browser_device_signals_adapter_browserdevicesignalsadapter",
-      "community": 20,
+      "community": 19,
       "norm_label": "browserdevicesignalsadapter"
     },
     {
@@ -2030,7 +2130,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_infrastructure_browser_device_signals_adapter_browserdevicesignalsadapter_constructor",
-      "community": 20,
+      "community": 19,
       "norm_label": ".constructor()"
     },
     {
@@ -2040,7 +2140,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "src_infrastructure_browser_device_signals_adapter_browserdevicesignalsadapter_readsignals",
-      "community": 20,
+      "community": 19,
       "norm_label": ".readsignals()"
     },
     {
@@ -2060,7 +2160,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "src_infrastructure_browser_pwa_registration_adapter_serviceworkerregistrar",
-      "community": 80,
+      "community": 20,
       "norm_label": "serviceworkerregistrar"
     },
     {
@@ -2070,7 +2170,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "src_infrastructure_browser_pwa_registration_adapter_serviceworkerregistrar_register",
-      "community": 80,
+      "community": 20,
       "norm_label": ".register()"
     },
     {
@@ -2080,7 +2180,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_infrastructure_browser_pwa_registration_adapter_browserpwaregistrationadapter",
-      "community": 80,
+      "community": 20,
       "norm_label": "browserpwaregistrationadapter"
     },
     {
@@ -2090,7 +2190,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_infrastructure_browser_pwa_registration_adapter_browserpwaregistrationadapter_constructor",
-      "community": 80,
+      "community": 20,
       "norm_label": ".constructor()"
     },
     {
@@ -2100,7 +2200,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_infrastructure_browser_pwa_registration_adapter_browserpwaregistrationadapter_registerserviceworker",
-      "community": 80,
+      "community": 20,
       "norm_label": ".registerserviceworker()"
     },
     {
@@ -6960,7 +7060,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill",
-      "community": 3,
+      "community": 0,
       "norm_label": "skill.md"
     },
     {
@@ -6970,7 +7070,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_netlify_mcp_servers",
-      "community": 3,
+      "community": 0,
       "norm_label": "netlify mcp servers"
     },
     {
@@ -6980,7 +7080,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_before_you_build",
-      "community": 3,
+      "community": 0,
       "norm_label": "before you build"
     },
     {
@@ -6990,7 +7090,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_stack",
-      "community": 3,
+      "community": 0,
       "norm_label": "stack"
     },
     {
@@ -7000,7 +7100,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_the_server_function",
-      "community": 3,
+      "community": 0,
       "norm_label": "the server function"
     },
     {
@@ -7010,7 +7110,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_browser_based_clients_and_cors",
-      "community": 3,
+      "community": 0,
       "norm_label": "browser-based clients and cors"
     },
     {
@@ -7020,7 +7120,7 @@
       "source_location": "L110",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_defining_tools",
-      "community": 3,
+      "community": 0,
       "norm_label": "defining tools"
     },
     {
@@ -7030,7 +7130,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_authentication",
-      "community": 3,
+      "community": 0,
       "norm_label": "authentication"
     },
     {
@@ -7040,7 +7140,7 @@
       "source_location": "L144",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_safety_and_permissions",
-      "community": 3,
+      "community": 0,
       "norm_label": "safety and permissions"
     },
     {
@@ -7050,7 +7150,7 @@
       "source_location": "L154",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_rate_limiting",
-      "community": 3,
+      "community": 0,
       "norm_label": "rate limiting"
     },
     {
@@ -7060,7 +7160,7 @@
       "source_location": "L171",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_file_uploads",
-      "community": 3,
+      "community": 0,
       "norm_label": "file uploads"
     },
     {
@@ -7070,7 +7170,7 @@
       "source_location": "L175",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_state_doesn_t_survive_between_requests",
-      "community": 3,
+      "community": 0,
       "norm_label": "state doesn't survive between requests"
     },
     {
@@ -7080,7 +7180,7 @@
       "source_location": "L179",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_connecting_a_client",
-      "community": 3,
+      "community": 0,
       "norm_label": "connecting a client"
     },
     {
@@ -7090,7 +7190,7 @@
       "source_location": "L190",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_local_dev_and_deploy",
-      "community": 3,
+      "community": 0,
       "norm_label": "local dev and deploy"
     },
     {
@@ -7100,7 +7200,7 @@
       "source_location": "L198",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_cross_cutting_rules",
-      "community": 3,
+      "community": 0,
       "norm_label": "cross-cutting rules"
     },
     {
@@ -7110,7 +7210,7 @@
       "source_location": "L204",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_related_skills_and_references",
-      "community": 3,
+      "community": 0,
       "norm_label": "related skills and references"
     },
     {
@@ -7200,7 +7300,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_references_connecting_clients",
-      "community": 3,
+      "community": 0,
       "norm_label": "connecting-clients.md"
     },
     {
@@ -7210,7 +7310,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_references_connecting_clients_connecting_clients",
-      "community": 3,
+      "community": 0,
       "norm_label": "connecting clients"
     },
     {
@@ -7220,7 +7320,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_references_connecting_clients_native_connection_preferred",
-      "community": 3,
+      "community": 0,
       "norm_label": "native connection (preferred)"
     },
     {
@@ -7230,7 +7330,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_references_connecting_clients_mcp_remote_fallback",
-      "community": 3,
+      "community": 0,
       "norm_label": "`mcp-remote` fallback"
     },
     {
@@ -7240,7 +7340,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_references_connecting_clients_local_testing_with_the_mcp_inspector",
-      "community": 3,
+      "community": 0,
       "norm_label": "local testing with the mcp inspector"
     },
     {
@@ -7250,7 +7350,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_references_connecting_clients_oauth_and_custom_connectors_deep_dive",
-      "community": 3,
+      "community": 0,
       "norm_label": "oauth and custom connectors (deep-dive)"
     },
     {
@@ -18614,6 +18714,17 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter",
+      "target": "src_application_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/infrastructure/browser-device-signals.adapter.ts",
       "source_location": "L1",
       "weight": 1.0,
@@ -18853,6 +18964,28 @@
       "source_location": "L2",
       "weight": 1.0,
       "source": "src_composition_index",
+      "target": "src_application_ports_appconfigport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter",
+      "target": "src_application_ports_appconfigport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter_auth0adapter_constructor",
       "target": "src_application_ports_appconfigport",
       "confidence_score": 1.0
     },
@@ -19256,6 +19389,28 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter",
+      "target": "src_application_ports_authport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "context": "type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter_auth0adapter",
+      "target": "src_application_ports_authport",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -19279,7 +19434,7 @@
     },
     {
       "relation": "references",
-      "context": "return_type",
+      "context": "generic_arg",
       "confidence": "EXTRACTED",
       "source_file": "src/application/ports.ts",
       "source_location": "L36",
@@ -20081,7 +20236,7 @@
     },
     {
       "relation": "references",
-      "context": "return_type",
+      "context": "generic_arg",
       "confidence": "EXTRACTED",
       "source_file": "src/application/use-cases.ts",
       "source_location": "L134",
@@ -20438,6 +20593,17 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter",
+      "target": "src_domain_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/infrastructure/browser-device-signals.adapter.ts",
       "source_location": "L2",
       "weight": 1.0,
@@ -20732,6 +20898,28 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter",
+      "target": "src_domain_models_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter_auth0adapter_getuser",
+      "target": "src_domain_models_user",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/domain/rules.ts",
@@ -20821,6 +21009,108 @@
       "weight": 1.0,
       "source": "src_domain_rules_validatesession",
       "target": "src_domain_rules_istokenexpired",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.spec.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter_spec",
+      "target": "src_infrastructure_auth0_adapter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.spec.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter_spec",
+      "target": "src_infrastructure_auth0_adapter_auth0adapter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.spec.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter_spec",
+      "target": "src_infrastructure_auth0_adapter_spec_mockappconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter_spec",
+      "target": "src_infrastructure_auth0_adapter_spec_mockauth0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter",
+      "target": "src_infrastructure_auth0_adapter_auth0adapter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter_auth0adapter",
+      "target": "src_infrastructure_auth0_adapter_auth0adapter_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter_auth0adapter",
+      "target": "src_infrastructure_auth0_adapter_auth0adapter_getuser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter_auth0adapter",
+      "target": "src_infrastructure_auth0_adapter_auth0adapter_isauthenticated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter_auth0adapter",
+      "target": "src_infrastructure_auth0_adapter_auth0adapter_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/infrastructure/auth0.adapter.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_infrastructure_auth0_adapter_auth0adapter",
+      "target": "src_infrastructure_auth0_adapter_auth0adapter_logout",
       "confidence_score": 1.0
     },
     {
@@ -34748,5 +35038,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4990a21d073a868727b5154065b5208d2e550337"
+  "built_at_commit": "49d77bf5fd2c898a7a25459d9fb507c41dffc78a"
 }

@@ -79,7 +79,6 @@
   "77": "Vite + React on Netlify",
   "78": "Vite + React on Netlify",
   "79": "ADDED Requirements",
-  "80": "PwaRegistrationPort",
   "81": "Two-Layer Pattern: Company-Only Access + Per-User Identity",
   "82": "Advanced Identity Patterns",
   "83": "Two-Layer Pattern: Company-Only Access + Per-User Identity",
@@ -121,6 +120,5 @@
   "119": "design.md",
   "120": "concept.md",
   "121": "proposal.md",
-  "122": "auth.spec.ts",
-  "123": "Home"
+  "122": "auth.spec.ts"
 }
