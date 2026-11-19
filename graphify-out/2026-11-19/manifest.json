@@ -1,69 +1,4 @@
 {
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/.openspec.yaml": {
-    "mtime": 1795053758.5111928,
-    "ast_hash": "a6e71d22c49e842442859a57da5eb654",
-    "semantic_hash": ""
-  },
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md": {
-    "mtime": 1795055187.920199,
-    "ast_hash": "44bd8a2204a1bba666723c922155ac9b",
-    "semantic_hash": ""
-  },
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md": {
-    "mtime": 1795055312.7870412,
-    "ast_hash": "7115443f794c94684cfd29775f900652",
-    "semantic_hash": ""
-  },
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md": {
-    "mtime": 1795055204.6025898,
-    "ast_hash": "20a65961386f00d3f2b06c6f23656fa4",
-    "semantic_hash": ""
-  },
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md": {
-    "mtime": 1795055230.2429917,
-    "ast_hash": "e6c3ba14936aa28d6ef0e934612338d3",
-    "semantic_hash": ""
-  },
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md": {
-    "mtime": 1795055232.073597,
-    "ast_hash": "00056873d3cc6c4001e33d8178b3a531",
-    "semantic_hash": ""
-  },
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md": {
-    "mtime": 1795055228.514955,
-    "ast_hash": "edcc381b316facefe6bcaefceadf1e30",
-    "semantic_hash": ""
-  },
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md": {
-    "mtime": 1795055225.3609405,
-    "ast_hash": "696d66a013894b3d8a705a71c1a44be7",
-    "semantic_hash": ""
-  },
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md": {
-    "mtime": 1795055226.5744143,
-    "ast_hash": "d75ef80b460387baeaefc493a4a72695",
-    "semantic_hash": ""
-  },
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md": {
-    "mtime": 1795055233.8116584,
-    "ast_hash": "4fca565a66a722f1732f7ad244188a37",
-    "semantic_hash": ""
-  },
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md": {
-    "mtime": 1795076870.911078,
-    "ast_hash": "8434508e3f06ebd66f9e6e197e06d91c",
-    "semantic_hash": ""
-  },
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md": {
-    "mtime": 1795055269.520775,
-    "ast_hash": "d6c779dc0f2b423cd5474df3399e8daf",
-    "semantic_hash": ""
-  },
-  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md": {
-    "mtime": 1795055287.8227835,
-    "ast_hash": "2e6328aa8d6b39b3e2850320d9184929",
-    "semantic_hash": ""
-  },
   "openspec/config.yaml": {
     "mtime": 1795055369.0237904,
     "ast_hash": "996f930e7e9a24fad14aa297a5542395",
@@ -304,7 +239,477 @@
     "ast_hash": "06a0520e81f698334258c73ff0de533b",
     "semantic_hash": ""
   },
-  "prd.md": {
+  ".gemini/settings.json": {
+    "mtime": 1795091239.4990284,
+    "ast_hash": "fbcce86adbd6b8a67bdfab19cf411e8a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-access-control/SKILL.md": {
+    "mtime": 1795091213.8971617,
+    "ast_hash": "09bb9f601ddcf233bb4e53c1a56a1579",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-access-control/references/two-layer-pattern.md": {
+    "mtime": 1795091213.8981614,
+    "ast_hash": "12401332b8563011b4a87b3f31f69651",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-agent-runner/SKILL.md": {
+    "mtime": 1795091213.928683,
+    "ast_hash": "f5019ae011e00a20ac18df35d87c9ad6",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-ai-gateway/SKILL.md": {
+    "mtime": 1795091213.9595401,
+    "ast_hash": "57552de094b5591277008c257c6a9b6e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-blobs/SKILL.md": {
+    "mtime": 1795091213.9895713,
+    "ast_hash": "b8690c67d54342feced75b37f172a040",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-caching/SKILL.md": {
+    "mtime": 1795091214.019675,
+    "ast_hash": "9301d9655e5e02b1c2be7b7f95f73223",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-config/SKILL.md": {
+    "mtime": 1795091214.0492458,
+    "ast_hash": "c023e56bb7e348c584b57eb91d30395c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/SKILL.md": {
+    "mtime": 1795091214.2274868,
+    "ast_hash": "85d437ece9bb896798aa6b00e9568379",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/references/cli-commands.md": {
+    "mtime": 1795091214.2284868,
+    "ast_hash": "aa811ad3d292ec52dc5ec71c0e335990",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/references/legacy-extension.md": {
+    "mtime": 1795091214.229486,
+    "ast_hash": "950f73a0eaf8830afbb12692ddd36978",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/references/local-dev.md": {
+    "mtime": 1795091214.2304866,
+    "ast_hash": "45156bf361456f30cca6dff153f4c07e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/references/migration-from-extension.md": {
+    "mtime": 1795091214.2314851,
+    "ast_hash": "00cdcc3030ebbe39ab74e95c8b1a14ef",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/references/migrations.md": {
+    "mtime": 1795091214.2314851,
+    "ast_hash": "c1330b17d2188d35d2f590de2bbbbf22",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/references/operational-footguns.md": {
+    "mtime": 1795091214.232566,
+    "ast_hash": "fc4871f9bbe640edbc8c9a55f2d28f79",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-deploy/SKILL.md": {
+    "mtime": 1795091214.339342,
+    "ast_hash": "0f53f82e2bbd0cc8147134905b8d2d20",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-deploy/references/cli-commands.md": {
+    "mtime": 1795091214.340346,
+    "ast_hash": "cadb8e9c8315ea812dca3fec590d3c5e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-deploy/references/deployment-patterns.md": {
+    "mtime": 1795091214.341356,
+    "ast_hash": "f04e112d3696d0cd882477353d709d90",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-deploy/references/netlify-toml.md": {
+    "mtime": 1795091214.341356,
+    "ast_hash": "23cd0cef3828ca7354dd6b6e68705962",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-edge-functions/SKILL.md": {
+    "mtime": 1795091214.3744059,
+    "ast_hash": "2b88519f0157e9f11fd18f756bb233e9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-forms/SKILL.md": {
+    "mtime": 1795091214.4053028,
+    "ast_hash": "7c58d590b4387276592447d88b45b4f0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/SKILL.md": {
+    "mtime": 1795091214.5950367,
+    "ast_hash": "7121e4556165d934712318f667a7adf1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/references/astro.md": {
+    "mtime": 1795091214.5960367,
+    "ast_hash": "19f8244d4d4ba97b3124eddd2bdab402",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/references/nextjs.md": {
+    "mtime": 1795091214.597037,
+    "ast_hash": "45e08deda4de8f4a9a7c08e9dd23e1ae",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/references/nuxt.md": {
+    "mtime": 1795091214.5980394,
+    "ast_hash": "1ac0bb9b1304a09a982a75b3517d7d87",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/references/sveltekit.md": {
+    "mtime": 1795091214.5980394,
+    "ast_hash": "e069cd09b23a2df38e68d2415d496008",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/references/tanstack.md": {
+    "mtime": 1795091214.5990367,
+    "ast_hash": "a6e4fdff69cb19f0b03d2e1eb36abbc4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/references/vite.md": {
+    "mtime": 1795091214.6000373,
+    "ast_hash": "0a541835583c20137d15b521e9271dcb",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-functions/SKILL.md": {
+    "mtime": 1795091214.633777,
+    "ast_hash": "8f38a99539fc3586d65718891f2dc95b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-identity/SKILL.md": {
+    "mtime": 1795091214.723722,
+    "ast_hash": "b215270e4df40f5957d9ffbad2a2bb18",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-identity/references/advanced-patterns.md": {
+    "mtime": 1795091214.7247243,
+    "ast_hash": "22f3fc876318fea6482a747e7350bea0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-identity/references/authorization-and-sessions.md": {
+    "mtime": 1795091214.7247243,
+    "ast_hash": "803d46a48594acce78bddfb5cabc9d8f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-image-cdn/SKILL.md": {
+    "mtime": 1795091214.781759,
+    "ast_hash": "6b63aeded90caa6d4f477255e38639cc",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-image-cdn/references/user-uploads.md": {
+    "mtime": 1795091214.7829137,
+    "ast_hash": "e32592e21168592262ae5314b6b5e72e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-mcp-servers/SKILL.md": {
+    "mtime": 1795091214.8880284,
+    "ast_hash": "f66adbba27b7f99e09729ce727be992a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-mcp-servers/references/authentication.md": {
+    "mtime": 1795091214.8890312,
+    "ast_hash": "64fdc65a48d37dea18090c0e75b53071",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-mcp-servers/references/connecting-clients.md": {
+    "mtime": 1795091214.890031,
+    "ast_hash": "d4d698e08dee60e9df51ed74651e473a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-mcp-servers/references/file-uploads.md": {
+    "mtime": 1795091214.890031,
+    "ast_hash": "d36f40ec5e952f1bb028ad6cca3d85d9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-server/SKILL.md": {
+    "mtime": 1795091214.9240654,
+    "ast_hash": "91934fa0d6317d51223cde09ba0321a8",
+    "semantic_hash": ""
+  },
+  ".agents/skills/prd-generator/SKILL.md": {
+    "mtime": 1795079783.7535691,
+    "ast_hash": "bc97f304a1fb3e75f9bf283a78fe0975",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-access-control/SKILL.md": {
+    "mtime": 1795091204.6280613,
+    "ast_hash": "09bb9f601ddcf233bb4e53c1a56a1579",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-access-control/references/two-layer-pattern.md": {
+    "mtime": 1795091204.6280613,
+    "ast_hash": "12401332b8563011b4a87b3f31f69651",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-agent-runner/SKILL.md": {
+    "mtime": 1795091205.012652,
+    "ast_hash": "f5019ae011e00a20ac18df35d87c9ad6",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-ai-gateway/SKILL.md": {
+    "mtime": 1795091205.2530715,
+    "ast_hash": "57552de094b5591277008c257c6a9b6e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-blobs/SKILL.md": {
+    "mtime": 1795091205.5195785,
+    "ast_hash": "b8690c67d54342feced75b37f172a040",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-caching/SKILL.md": {
+    "mtime": 1795091205.7643223,
+    "ast_hash": "9301d9655e5e02b1c2be7b7f95f73223",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-config/SKILL.md": {
+    "mtime": 1795091206.0184286,
+    "ast_hash": "c023e56bb7e348c584b57eb91d30395c",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/SKILL.md": {
+    "mtime": 1795091207.9269493,
+    "ast_hash": "85d437ece9bb896798aa6b00e9568379",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/references/cli-commands.md": {
+    "mtime": 1795091207.9279487,
+    "ast_hash": "aa811ad3d292ec52dc5ec71c0e335990",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/references/legacy-extension.md": {
+    "mtime": 1795091207.9279487,
+    "ast_hash": "950f73a0eaf8830afbb12692ddd36978",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/references/local-dev.md": {
+    "mtime": 1795091207.929949,
+    "ast_hash": "45156bf361456f30cca6dff153f4c07e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/references/migration-from-extension.md": {
+    "mtime": 1795091207.929949,
+    "ast_hash": "00cdcc3030ebbe39ab74e95c8b1a14ef",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/references/migrations.md": {
+    "mtime": 1795091207.931453,
+    "ast_hash": "c1330b17d2188d35d2f590de2bbbbf22",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/references/operational-footguns.md": {
+    "mtime": 1795091207.931453,
+    "ast_hash": "fc4871f9bbe640edbc8c9a55f2d28f79",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-deploy/SKILL.md": {
+    "mtime": 1795091208.813496,
+    "ast_hash": "0f53f82e2bbd0cc8147134905b8d2d20",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-deploy/references/cli-commands.md": {
+    "mtime": 1795091208.8144958,
+    "ast_hash": "cadb8e9c8315ea812dca3fec590d3c5e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-deploy/references/deployment-patterns.md": {
+    "mtime": 1795091208.8154964,
+    "ast_hash": "f04e112d3696d0cd882477353d709d90",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-deploy/references/netlify-toml.md": {
+    "mtime": 1795091208.816496,
+    "ast_hash": "23cd0cef3828ca7354dd6b6e68705962",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-edge-functions/SKILL.md": {
+    "mtime": 1795091209.067791,
+    "ast_hash": "2b88519f0157e9f11fd18f756bb233e9",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-forms/SKILL.md": {
+    "mtime": 1795091209.310111,
+    "ast_hash": "7c58d590b4387276592447d88b45b4f0",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/SKILL.md": {
+    "mtime": 1795091211.1296623,
+    "ast_hash": "7121e4556165d934712318f667a7adf1",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/references/astro.md": {
+    "mtime": 1795091211.1306634,
+    "ast_hash": "19f8244d4d4ba97b3124eddd2bdab402",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/references/nextjs.md": {
+    "mtime": 1795091211.1316626,
+    "ast_hash": "45e08deda4de8f4a9a7c08e9dd23e1ae",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/references/nuxt.md": {
+    "mtime": 1795091211.1321673,
+    "ast_hash": "1ac0bb9b1304a09a982a75b3517d7d87",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/references/sveltekit.md": {
+    "mtime": 1795091211.1331694,
+    "ast_hash": "e069cd09b23a2df38e68d2415d496008",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/references/tanstack.md": {
+    "mtime": 1795091211.134169,
+    "ast_hash": "a6e4fdff69cb19f0b03d2e1eb36abbc4",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/references/vite.md": {
+    "mtime": 1795091211.134169,
+    "ast_hash": "0a541835583c20137d15b521e9271dcb",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-functions/SKILL.md": {
+    "mtime": 1795091211.3800206,
+    "ast_hash": "8f38a99539fc3586d65718891f2dc95b",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-identity/SKILL.md": {
+    "mtime": 1795091212.1160524,
+    "ast_hash": "b215270e4df40f5957d9ffbad2a2bb18",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-identity/references/advanced-patterns.md": {
+    "mtime": 1795091212.1170511,
+    "ast_hash": "22f3fc876318fea6482a747e7350bea0",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-identity/references/authorization-and-sessions.md": {
+    "mtime": 1795091212.1170511,
+    "ast_hash": "803d46a48594acce78bddfb5cabc9d8f",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-image-cdn/SKILL.md": {
+    "mtime": 1795091212.611522,
+    "ast_hash": "6b63aeded90caa6d4f477255e38639cc",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-image-cdn/references/user-uploads.md": {
+    "mtime": 1795091212.61311,
+    "ast_hash": "e32592e21168592262ae5314b6b5e72e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-mcp-servers/SKILL.md": {
+    "mtime": 1795091213.5740144,
+    "ast_hash": "f66adbba27b7f99e09729ce727be992a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-mcp-servers/references/authentication.md": {
+    "mtime": 1795091213.5750148,
+    "ast_hash": "64fdc65a48d37dea18090c0e75b53071",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-mcp-servers/references/connecting-clients.md": {
+    "mtime": 1795091213.5750148,
+    "ast_hash": "d4d698e08dee60e9df51ed74651e473a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-mcp-servers/references/file-uploads.md": {
+    "mtime": 1795091213.5761642,
+    "ast_hash": "d36f40ec5e952f1bb028ad6cca3d85d9",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-server/SKILL.md": {
+    "mtime": 1795091213.8415809,
+    "ast_hash": "91934fa0d6317d51223cde09ba0321a8",
+    "semantic_hash": ""
+  },
+  ".copilot/skills/prd-generator/SKILL.md": {
+    "mtime": 1795079783.7535691,
+    "ast_hash": "bc97f304a1fb3e75f9bf283a78fe0975",
+    "semantic_hash": ""
+  },
+  "docs/DESIGN.md": {
+    "mtime": 1795086757.053095,
+    "ast_hash": "b8511ffff3c9adc8d11024f869ea06ca",
+    "semantic_hash": ""
+  },
+  "docs/prd/feature-cuidado-plantas-online-auth0-convite.md": {
+    "mtime": 1795090210.7781365,
+    "ast_hash": "7c004f0e3b2ea0d16d7c4d0b7d002538",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/.openspec.yaml": {
+    "mtime": 1795053758.5111928,
+    "ast_hash": "a6e71d22c49e842442859a57da5eb654",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/concept.md": {
+    "mtime": 1795055187.920199,
+    "ast_hash": "44bd8a2204a1bba666723c922155ac9b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/design.md": {
+    "mtime": 1795055312.7870412,
+    "ast_hash": "7115443f794c94684cfd29775f900652",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/proposal.md": {
+    "mtime": 1795055204.6025898,
+    "ast_hash": "20a65961386f00d3f2b06c6f23656fa4",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md": {
+    "mtime": 1795055230.2429917,
+    "ast_hash": "e6c3ba14936aa28d6ef0e934612338d3",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md": {
+    "mtime": 1795055232.073597,
+    "ast_hash": "00056873d3cc6c4001e33d8178b3a531",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md": {
+    "mtime": 1795055228.514955,
+    "ast_hash": "edcc381b316facefe6bcaefceadf1e30",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md": {
+    "mtime": 1795055225.3609405,
+    "ast_hash": "696d66a013894b3d8a705a71c1a44be7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md": {
+    "mtime": 1795055226.5744143,
+    "ast_hash": "d75ef80b460387baeaefc493a4a72695",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md": {
+    "mtime": 1795055233.8116584,
+    "ast_hash": "4fca565a66a722f1732f7ad244188a37",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/tasks.md": {
+    "mtime": 1795076870.911078,
+    "ast_hash": "8434508e3f06ebd66f9e6e197e06d91c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/use-cases.md": {
+    "mtime": 1795055269.520775,
+    "ast_hash": "d6c779dc0f2b423cd5474df3399e8daf",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/ux-design.md": {
+    "mtime": 1795055287.8227835,
+    "ast_hash": "2e6328aa8d6b39b3e2850320d9184929",
+    "semantic_hash": ""
+  },
+  "prd-old.md": {
     "mtime": 1795056756.9328296,
     "ast_hash": "360626d7cde900465151fa7bd9b21134",
     "semantic_hash": ""

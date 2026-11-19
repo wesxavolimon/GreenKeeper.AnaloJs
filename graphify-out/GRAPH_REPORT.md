@@ -1,16 +1,16 @@
 # Graph Report - GreenKeeper.AnaloJs  (2026-11-19)
 
 ## Corpus Check
-- 135 files · ~132,509 words
+- 137 files · ~134,139 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1428 nodes · 1489 edges · 106 communities (101 shown, 5 thin omitted)
+- 1450 nodes · 1509 edges · 108 communities (103 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4f209aa1`
+- Built from commit: `067ac548`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -116,6 +116,8 @@
 - ADDED Requirements
 - Netlify Identity — authorization and session gotchas
 - Netlify Identity — authorization and session gotchas
+- Documentation Writer
+- Documentation Writer
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 23 edges
@@ -144,7 +146,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (106 total, 5 thin omitted)
+## Communities (108 total, 5 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
 Cohesion: 0.04
@@ -530,18 +532,24 @@ Nodes (4): Admin operations run only in the Functions runtime, Netlify Identity 
 Cohesion: 0.40
 Nodes (4): Admin operations run only in the Functions runtime, Netlify Identity — authorization and session gotchas, Redirect gating only covers CDN document requests, Role changes don't affect live sessions until the JWT refreshes
 
+### Community 106 - "Documentation Writer"
+Cohesion: 0.18
+Nodes (10): Best Practices, Documentation Writer, Documents Under Management, Execution Protocol — /documentation-writer, Responsibilities, Step 1 — Explore the project, Step 2 — Compare with current documents, Step 3 — Report before editing (+2 more)
+
+### Community 107 - "Documentation Writer"
+Cohesion: 0.18
+Nodes (10): Best Practices, Documentation Writer, Documents Under Management, Execution Protocol — /documentation-writer, Responsibilities, Step 1 — Explore the project, Step 2 — Compare with current documents, Step 3 — Report before editing (+2 more)
+
 ## Knowledge Gaps
-- **1022 isolated node(s):** `First: disambiguate "auth" — three unrelated layers`, `Decision guide (this skill's job)`, `Key distinction: Private vs Password`, `Identify the visitor: `context.user``, `SSO-session symptom: 401s after ~1 hour` (+1017 more)
+- **1038 isolated node(s):** `Responsibilities`, `Documents Under Management`, `Step 1 — Explore the project`, `Step 2 — Compare with current documents`, `Step 3 — Report before editing` (+1033 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `index.ts`, `app.spec.ts`, `index.page.ts`, `scripts`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **What connects `First: disambiguate "auth" — three unrelated layers`, `Decision guide (this skill's job)`, `Key distinction: Private vs Password` to the rest of the system?**
-  _1022 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Responsibilities`, `Documents Under Management`, `Step 1 — Explore the project` to the rest of the system?**
+  _1038 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**
@@ -552,3 +560,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
 - **Should `ADDED Requirements` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+- **Should `ADDED Requirements` be split into smaller, more focused modules?**
+  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
