@@ -115,27 +115,27 @@ export class RegisterPwaUseCase {
 export class LoginUseCase {
   constructor(private readonly authPort: AuthPort) {}
 
-  execute(): void {
-    this.authPort.login();
+  async execute(): Promise<void> {
+    await this.authPort.login();
   }
 }
 
 export class LogoutUseCase {
   constructor(private readonly authPort: AuthPort) {}
 
-  execute(): void {
-    this.authPort.logout();
+  async execute(): Promise<void> {
+    await this.authPort.logout();
   }
 }
 
 export class CheckAuthUseCase {
   constructor(private readonly authPort: AuthPort) {}
 
-  execute(): User | null {
+  async execute(): Promise<User | null> {
     return this.authPort.getUser();
   }
 
-  isAuthenticated(): boolean {
+  async isAuthenticated(): Promise<boolean> {
     return this.authPort.isAuthenticated();
   }
 }

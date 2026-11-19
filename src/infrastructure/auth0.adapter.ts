@@ -3,27 +3,46 @@ import { AppConfigPort, AuthPort } from '@application/index';
 import { User } from '@domain/index';
 
 export class Auth0Adapter implements AuthPort {
-  private readonly auth0: Auth0Client;
+  private auth0Promise: Promise<Auth0Client> | null = null;
 
-  constructor(private readonly appConfig: AppConfigPort) {
-    const { auth0Domain, auth0ClientId } = appConfig.getConfig();
-    this.auth0 = new Auth0Client({
-      domain: auth0Domain,
-      clientId: auth0ClientId,
-      authorizationParams: {
-        audience: `https://${auth0Domain}/api/v2`,
-        scope: 'openid profile email',
-        redirect_uri: window.location.origin,
-      },
-    });
+  constructor(private readonly appConfig: AppConfigPort) {}
+
+  private get auth0(): Promise<Auth0Client> {
+    if (!this.auth0Promise) {
+      const { auth0Domain, auth0ClientId } = this.appConfig.getConfig();
+      this.auth0Promise = (async () => {
+        try {
+          return new Auth0Client({
+            domain: auth0Domain,
+            clientId: auth0ClientId,
+            authorizationParams: {
+              audience: `https://${auth0Domain}/api/v2`,
+              scope: 'openid profile email',
+              redirect_uri: window.location.origin,
+            },
+          });
+        } catch {
+          return null as unknown as Auth0Client;
+        }
+      })();
+    }
+    return this.auth0Promise;
   }
 
   async login(): Promise<void> {
-    await this.auth0.loginWithRedirect();
+    const client = await this.auth0;
+    if (!client) {
+      return;
+    }
+    await client.loginWithRedirect();
   }
 
   async logout(): Promise<void> {
-    await this.auth0.logout({
+    const client = await this.auth0;
+    if (!client) {
+      return;
+    }
+    await client.logout({
       logoutParams: {
         returnTo: window.location.origin,
       },
@@ -31,7 +50,11 @@ export class Auth0Adapter implements AuthPort {
   }
 
   async getUser(): Promise<User | null> {
-    const user = await this.auth0.getUser();
+    const client = await this.auth0;
+    if (!client) {
+      return null;
+    }
+    const user = await client.getUser();
     if (!user) {
       return null;
     }
@@ -45,6 +68,10 @@ export class Auth0Adapter implements AuthPort {
   }
 
   async isAuthenticated(): Promise<boolean> {
-    return this.auth0.isAuthenticated();
+    const client = await this.auth0;
+    if (!client) {
+      return false;
+    }
+    return client.isAuthenticated();
   }
 }

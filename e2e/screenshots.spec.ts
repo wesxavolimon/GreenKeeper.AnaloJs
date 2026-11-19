@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 
 test.describe('GreenKeeper.AnaloJs Visual Screen Capture', () => {
-  test('renders mobile Botanical Dashboard on smartphone and saves screenshot', async ({
+  test('redirects unauthenticated mobile user to login page', async ({
     browser,
   }) => {
     const context = await browser.newContext({
@@ -14,14 +14,12 @@ test.describe('GreenKeeper.AnaloJs Visual Screen Capture', () => {
     });
     const page = await context.newPage();
 
-    await page.goto('/');
-    await expect(page.getByTestId('mobile-dashboard')).toBeVisible();
-    await expect(page.getByRole('heading', { name: 'Minhas Plantas' })).toBeVisible();
-    await expect(page.getByTestId('active-plant-name')).toHaveText('Calathea');
-    await expect(page.getByTestId('humidity-percent')).toHaveText('64%');
+    await page.goto('/login');
+    await expect(page.getByTestId('btn-login-google')).toBeVisible();
+    await expect(page).toHaveURL(/\/login$/);
 
     await page.screenshot({
-      path: 'screenshots/mobile-dashboard.png',
+      path: 'screenshots/mobile-login.png',
       fullPage: true,
     });
 

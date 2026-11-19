@@ -5,8 +5,16 @@ const mockAuth0 = vi.hoisted(() => ({
   isAuthenticated: vi.fn(),
 }));
 
+const shouldThrow = vi.hoisted(() => ({ value: false }));
+
 vi.mock('@auth0/auth0-spa-js', () => ({
   Auth0Client: class {
+    constructor() {
+      if (shouldThrow.value) {
+        throw new Error('secure origin required');
+      }
+      return mockAuth0;
+    }
     loginWithRedirect = mockAuth0.loginWithRedirect;
     logout = mockAuth0.logout;
     getUser = mockAuth0.getUser;
@@ -90,5 +98,21 @@ describe('Auth0Adapter', () => {
 
     mockAuth0.isAuthenticated.mockResolvedValue(false);
     expect(await adapter.isAuthenticated()).toBe(false);
+  });
+
+  it('handles null client gracefully', async () => {
+    const adapter = new Auth0Adapter(mockAppConfig as never);
+    (adapter as any).auth0Promise = Promise.resolve(null);
+    await expect(adapter.login()).resolves.toBeUndefined();
+    await expect(adapter.logout()).resolves.toBeUndefined();
+    await expect(adapter.getUser()).resolves.toBeNull();
+    await expect(adapter.isAuthenticated()).resolves.toBe(false);
+  });
+
+  it('catches Auth0Client constructor error', async () => {
+    shouldThrow.value = true;
+    const adapter = new Auth0Adapter(mockAppConfig as never);
+    await expect(adapter.login()).resolves.toBeUndefined();
+    shouldThrow.value = false;
   });
 });

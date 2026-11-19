@@ -22,6 +22,7 @@ describe('Infrastructure Adapters', () => {
     expect(normalizeAppEnv('test')).toBe('test');
     expect(normalizeAppEnv('development')).toBe('development');
     expect(normalizeAppEnv(undefined)).toBe('development');
+    expect(normalizeAppEnv('staging')).toBe('development');
 
     const defaultAdapter = new ViteEnvConfigAdapter();
     expect(defaultAdapter.getConfig().appEnv).toBeDefined();
@@ -39,6 +40,15 @@ describe('Infrastructure Adapters', () => {
       supabaseAnonKey: 'anon-key',
       auth0Domain: 'example.us.auth0.com',
       auth0ClientId: 'client-123',
+    });
+
+    const emptyAdapter = new ViteEnvConfigAdapter({});
+    expect(emptyAdapter.getConfig()).toEqual({
+      appEnv: 'development',
+      supabaseUrl: '',
+      supabaseAnonKey: '',
+      auth0Domain: '',
+      auth0ClientId: '',
     });
   });
 

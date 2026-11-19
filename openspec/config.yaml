@@ -1,13 +1,7 @@
 schema: genova-workflow
 
 context: |
-  Workspace: Genova — ecossistema pessoal de Wesley (GreenKeeper.AnaloJs — PWA AnalogJS sem backend próprio)
-  Executor: Claude Code/Gemini/Codex — Atua diretamente como executor via OpenSpec
-  Regra absoluta: nunca implementar sem change aprovada — ver AGENTS.md antes de qualquer execução
-  Worktrees: branches isoladas em GreenKeeper.AnaloJs/worktrees/{branch}/ — ignorado no .gitignore
-  Nomenclatura de changes: c<YYYYMMDDhhmmss>-<nome-kebab> (ex: c20261118230237-analogjs-pwa-skeleton)
-  Branch de feature: feature/<nome-sem-timestamp> (sem o prefixo c nem timestamp)
-  PR destino padrão: develop (criar branch develop a partir do commit inicial no repo vazio)
-  Docker: todo o ambiente (AnalogJS dev/build, Vitest 100%, Playwright para prints) roda via Docker Compose
-  Governança: rtk init --agent antigravity + graphify . inicial; obrigatório rodar graphify update . antes de todo git add
-  Commit a cada grupo de tasks concluído (mediante autorização explícita); PR criado ao finalizar a última task
+  Criar etapa nas taks:
+  - Especificação de Tests (Vitest) e Prints (Playwright) para cada feature implementada; obrigatória a aprovação de testes e prints antes do merge
+  - Para Rodar o /documentation-writer  após os testes estar ok.
+

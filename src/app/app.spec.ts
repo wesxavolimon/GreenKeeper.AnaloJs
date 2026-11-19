@@ -2,18 +2,21 @@ import { TestBed } from '@angular/core/testing';
 import {
   ActivatedRouteSnapshot,
   provideRouter,
+  Router,
   RouterStateSnapshot,
   UrlTree,
 } from '@angular/router';
 import { provideLocationMocks } from '@angular/common/testing';
 import {
   APP_CONFIG_PORT,
+  AUTH_PORT,
   DEVICE_SIGNALS_PORT,
   provideGreenKeeperDependencies,
 } from '@composition/index';
 import { App } from './app';
 import { appConfig } from './app.config';
 import { mobileOnlyGuard } from './guards/mobile-only.guard';
+import { authGuard } from './guards/auth.guard';
 import DesktopInfoPage from './pages/desktop-info.page';
 import Home, { routeMeta } from './pages/index.page';
 
@@ -25,19 +28,32 @@ describe('UI Pages, Guards, and App Bootstrap', () => {
         provideRouter([]),
         provideLocationMocks(),
         ...provideGreenKeeperDependencies(),
+        {
+          provide: AUTH_PORT,
+          useClass: class {
+            login = vi.fn().mockResolvedValue(undefined);
+            logout = vi.fn().mockResolvedValue(undefined);
+            getUser = vi.fn().mockResolvedValue(null);
+            isAuthenticated = vi.fn().mockResolvedValue(false);
+          },
+        },
       ],
     }).compileComponents();
   });
 
-  it('creates App, runs ngOnInit PWA registration, and exposes appConfig', () => {
+  it('creates App, runs ngOnInit PWA registration, and exposes appConfig', async () => {
+    const router = TestBed.inject(Router);
+    vi.spyOn(router, 'url', 'get').mockReturnValue('/');
+    vi.spyOn(router, 'navigate').mockResolvedValue(true);
     const fixture = TestBed.createComponent(App);
     fixture.detectChanges();
+    await fixture.whenStable();
     expect(fixture.componentInstance).toBeTruthy();
     expect(appConfig.providers?.length).toBeGreaterThan(0);
-    expect(routeMeta).toEqual({
-      title: 'GreenKeeper - Cuidados Botânicos',
-      canActivate: [mobileOnlyGuard],
-    });
+    const meta = routeMeta as any;
+    expect(meta.title).toBe('GreenKeeper - Cuidados Botânicos');
+    expect(meta.canActivate).toContain(mobileOnlyGuard);
+    expect(meta.canActivate).toContain(authGuard);
   });
 
   it('renders DesktopInfoPage for non-mobile visitors', () => {
@@ -129,6 +145,18 @@ describe('UI Pages, Guards, and App Bootstrap', () => {
               maxTouchPoints: 5,
               viewportWidth: 390,
               devOverrideRequested: false,
+            }),
+          },
+        },
+        {
+          provide: APP_CONFIG_PORT,
+          useValue: {
+            getConfig: () => ({
+              appEnv: 'production',
+              supabaseUrl: '',
+              supabaseAnonKey: '',
+              auth0Domain: '',
+              auth0ClientId: '',
             }),
           },
         },

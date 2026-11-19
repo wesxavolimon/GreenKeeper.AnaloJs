@@ -40,12 +40,12 @@
     "semantic_hash": ""
   },
   "src/app/app.spec.ts": {
-    "mtime": 1795107113.360269,
-    "ast_hash": "116179ddf51eff838287bce1eba80db9",
+    "mtime": 1795112379.1451795,
+    "ast_hash": "f15824d6e8c5e55bb7f7a88dac938a6d",
     "semantic_hash": ""
   },
   "src/app/app.ts": {
-    "mtime": 1795100044.6541698,
+    "mtime": 1795112423.561123,
     "ast_hash": "c7949c920f695896be3d812d84be3d11",
     "semantic_hash": ""
   },
@@ -130,8 +130,8 @@
     "semantic_hash": ""
   },
   "src/composition/composition.spec.ts": {
-    "mtime": 1795106990.6494339,
-    "ast_hash": "7fd7e1d1d75e8e4685d60bc5f1fdcfd5",
+    "mtime": 1795112790.3100595,
+    "ast_hash": "086cffd0e1ef7271b030bb3db6561463",
     "semantic_hash": ""
   },
   "src/composition/index.ts": {
@@ -180,8 +180,8 @@
     "semantic_hash": ""
   },
   "src/infrastructure/infrastructure.spec.ts": {
-    "mtime": 1795100044.6678007,
-    "ast_hash": "c4981e6ac7b0b93cfb7a04bfd135a3a9",
+    "mtime": 1795113151.3811498,
+    "ast_hash": "7b3516668c76121c78587430541a3942",
     "semantic_hash": ""
   },
   "src/infrastructure/vite-env-config.adapter.ts": {
@@ -200,8 +200,8 @@
     "semantic_hash": ""
   },
   "e2e/screenshots.spec.ts": {
-    "mtime": 1795100044.6150367,
-    "ast_hash": "51e9a5d69b19a2959f2df47b7c7f3241",
+    "mtime": 1795112506.2214527,
+    "ast_hash": "c65909c02e9e4115e43be147d1b6386e",
     "semantic_hash": ""
   },
   "playwright.config.ts": {
@@ -825,13 +825,13 @@
     "semantic_hash": ""
   },
   "src/infrastructure/auth0.adapter.spec.ts": {
-    "mtime": 1795106766.077818,
-    "ast_hash": "4654a01c7fdafe0ca1ec9b6637df893d",
+    "mtime": 1795113095.784719,
+    "ast_hash": "a19e98e3069ed31302436bbe926c7b21",
     "semantic_hash": ""
   },
   "src/infrastructure/auth0.adapter.ts": {
-    "mtime": 1795106620.684014,
-    "ast_hash": "62c4bcc40465db7e4e6b824b570dbbae",
+    "mtime": 1795107368.0885487,
+    "ast_hash": "766ea354e61a53cd9e2272c1673ecdc1",
     "semantic_hash": ""
   },
   "src/app/guards/auth.guard.spec.ts": {
@@ -845,13 +845,98 @@
     "semantic_hash": ""
   },
   "src/app/pages/login.page.spec.ts": {
-    "mtime": 1795106886.4062407,
-    "ast_hash": "170e186f02746f14012f23cd74453523",
+    "mtime": 1795112556.1952517,
+    "ast_hash": "ed15094d92c7bbc665ffd4ee5693653d",
     "semantic_hash": ""
   },
   "src/app/pages/login.page.ts": {
-    "mtime": 1795106806.4384978,
-    "ast_hash": "d21a9cecd4a9f32751ff7a6029c47568",
+    "mtime": 1795107479.1190333,
+    "ast_hash": "4d42665861374a2189d6d9b3092037a1",
+    "semantic_hash": ""
+  },
+  "e2e/auth.spec.ts": {
+    "mtime": 1795112500.6951747,
+    "ast_hash": "da00d87d11d9952a92f81c5b70e27716",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191449-spec-02-user-profile-address/.openspec.yaml": {
+    "mtime": 1795110681.2387152,
+    "ast_hash": "a6e71d22c49e842442859a57da5eb654",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191449-spec-02-user-profile-address/concept.md": {
+    "mtime": 1795112006.1916227,
+    "ast_hash": "9d752ee548acc12be535a6ae9573a84b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191449-spec-02-user-profile-address/design.md": {
+    "mtime": 1795112308.3617766,
+    "ast_hash": "1dacb6977374412a19828ea398d81b9c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191449-spec-02-user-profile-address/proposal.md": {
+    "mtime": 1795112029.7691445,
+    "ast_hash": "a1ae3265b2fdabfc877173db0eb6ae40",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191449-spec-02-user-profile-address/specs/user-profile/spec.md": {
+    "mtime": 1795112055.0609272,
+    "ast_hash": "a93b8880ae74e3dcc15de426159c2408",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191449-spec-02-user-profile-address/tasks.md": {
+    "mtime": 1795112353.4808137,
+    "ast_hash": "a9a101d871adb3f4814e6ab669066a1d",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191449-spec-02-user-profile-address/use-cases.md": {
+    "mtime": 1795112151.3571084,
+    "ast_hash": "d7306001533e84ff0fc7e195d9c4ddad",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191449-spec-02-user-profile-address/ux-design.md": {
+    "mtime": 1795112277.7964292,
+    "ast_hash": "47fbba0cf2cb13fe75ce3ef40c7f4e1e",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261119145505-spec-03-gestao-ambientes/.openspec.yaml": {
+    "mtime": 1795110913.6051562,
+    "ast_hash": "a6e71d22c49e842442859a57da5eb654",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261119145505-spec-03-gestao-ambientes/concept.md": {
+    "mtime": 1795112565.2429738,
+    "ast_hash": "04ac4184c48f4d712e038c766b38d0e0",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261119145505-spec-03-gestao-ambientes/design.md": {
+    "mtime": 1795112686.5692463,
+    "ast_hash": "03f690861cb101565ee720cc62837e9f",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261119145505-spec-03-gestao-ambientes/proposal.md": {
+    "mtime": 1795112589.3660576,
+    "ast_hash": "2ebfbd8907326befc96178cf524ac25d",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261119145505-spec-03-gestao-ambientes/specs/environments/spec.md": {
+    "mtime": 1795112616.930307,
+    "ast_hash": "a19ebd5f803844e210a0367a9b1e1fd7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261119145505-spec-03-gestao-ambientes/tasks.md": {
+    "mtime": 1795112730.3259046,
+    "ast_hash": "01b3d12aa22072c17a6ccc6119d3b6be",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261119145505-spec-03-gestao-ambientes/use-cases.md": {
+    "mtime": 1795112644.4510982,
+    "ast_hash": "a5089d02ee74fef2e2075468abd1e795",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261119145505-spec-03-gestao-ambientes/ux-design.md": {
+    "mtime": 1795112667.256675,
+    "ast_hash": "168a8b1703959ae067a5d919ac9c3993",
     "semantic_hash": ""
   }
 }

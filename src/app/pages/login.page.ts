@@ -49,7 +49,7 @@ import { CheckAuthUseCase, LoginUseCase } from '@application/index';
     </main>
   `,
 })
-export class LoginPage {
+export default class LoginPage {
   private readonly login = inject(LoginUseCase);
   private readonly checkAuth = inject(CheckAuthUseCase);
   private readonly router = inject(Router);

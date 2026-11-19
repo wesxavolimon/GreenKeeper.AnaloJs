@@ -1,8 +1,8 @@
 import { TestBed } from '@angular/core/testing';
-import { provideRouter } from '@angular/router';
+import { provideRouter, Router } from '@angular/router';
 import { provideLocationMocks } from '@angular/common/testing';
 import { provideGreenKeeperDependencies } from '@composition/index';
-import { LoginPage } from './login.page';
+import LoginPage from './login.page';
 import { LoginUseCase, CheckAuthUseCase } from '@application/index';
 
 describe('LoginPage', () => {
@@ -46,5 +46,16 @@ describe('LoginPage', () => {
     (root.querySelector('[data-testid="btn-login-google"]') as HTMLElement).click();
     fixture.detectChanges();
     expect(loginUseCase.execute).toHaveBeenCalledTimes(1);
+  });
+
+  it('redirects to dashboard when already authenticated on init', async () => {
+    const router = TestBed.inject(Router);
+    vi.spyOn(router, 'navigate').mockResolvedValue(true);
+    const checkAuth = TestBed.inject(CheckAuthUseCase);
+    vi.spyOn(checkAuth, 'isAuthenticated').mockResolvedValue(true);
+
+    TestBed.createComponent(LoginPage);
+    await TestBed.flushEffects();
+    expect(router.navigate).toHaveBeenCalledWith(['/dashboard']);
   });
 });

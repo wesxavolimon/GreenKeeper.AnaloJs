@@ -1,16 +1,16 @@
 # Graph Report - GreenKeeper.AnaloJs  (2026-11-19)
 
 ## Corpus Check
-- 162 files · ~144,264 words
+- 177 files · ~166,457 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1711 nodes · 1819 edges · 124 communities (120 shown, 4 thin omitted)
+- 1994 nodes · 2090 edges · 139 communities (135 shown, 4 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `17713dfe`
+- Built from commit: `3a293cfb`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -134,6 +134,20 @@
 - proposal.md
 - auth.spec.ts
 - LoginPage
+- ADDED Requirements
+- ADDED Requirements
+- use-cases.md
+- Tela: Ambientes
+- index.ts
+- Decisions
+- Tasks
+- Tela: Perfil (modo edição)
+- design.md
+- Tasks
+- concept.md
+- concept.md
+- proposal.md
+- proposal.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 23 edges
@@ -148,21 +162,21 @@
 10. `Netlify MCP Servers` - 15 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `provideGreenKeeperDependencies()` --indirect_call--> `SelectRoomUseCase`  [INFERRED]
-  src/composition/index.ts → src/application/use-cases.ts
-- `provideGreenKeeperDependencies()` --indirect_call--> `CompletePlantTaskUseCase`  [INFERRED]
-  src/composition/index.ts → src/application/use-cases.ts
-- `provideGreenKeeperDependencies()` --indirect_call--> `ToggleFocusFavoriteUseCase`  [INFERRED]
-  src/composition/index.ts → src/application/use-cases.ts
-- `provideGreenKeeperDependencies()` --indirect_call--> `TriggerPlannedFeatureNoticeUseCase`  [INFERRED]
-  src/composition/index.ts → src/application/use-cases.ts
+- `mobileOnlyGuard()` --indirect_call--> `EvaluateDeviceAccessUseCase`  [INFERRED]
+  src/app/guards/mobile-only.guard.ts → src/application/use-cases.ts
 - `provideGreenKeeperDependencies()` --indirect_call--> `LoginUseCase`  [INFERRED]
   src/composition/index.ts → src/application/use-cases.ts
+- `provideGreenKeeperDependencies()` --indirect_call--> `LogoutUseCase`  [INFERRED]
+  src/composition/index.ts → src/application/use-cases.ts
+- `provideGreenKeeperDependencies()` --indirect_call--> `CheckAuthUseCase`  [INFERRED]
+  src/composition/index.ts → src/application/use-cases.ts
+- `authGuard()` --indirect_call--> `CheckAuthUseCase`  [INFERRED]
+  src/app/guards/auth.guard.ts → src/application/use-cases.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (124 total, 4 thin omitted)
+## Communities (139 total, 4 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
 Cohesion: 0.04
@@ -234,15 +248,15 @@ Nodes (19): Custom headers, Environment variables, Functions, Ignore builds, Inj
 
 ### Community 17 - "greenkeeper-analojs"
 Cohesion: 0.13
-Nodes (8): DashboardRepositoryPort, CompletePlantTaskUseCase, SelectRoomUseCase, ToggleFocusFavoriteUseCase, TriggerPlannedFeatureNoticeUseCase, DashboardSnapshot, INITIAL_BOTANICAL_SNAPSHOT, InMemoryDashboardRepository
+Nodes (4): DashboardRepositoryPort, DashboardSnapshot, INITIAL_BOTANICAL_SNAPSHOT, InMemoryDashboardRepository
 
 ### Community 18 - "devDependencies"
 Cohesion: 0.04
 Nodes (44): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, @auth0/auth0-spa-js (+36 more)
 
 ### Community 19 - "app.spec.ts"
-Cohesion: 0.17
-Nodes (12): sampleSnapshot, DeviceAccessDecision, DeviceAccessReason, FocusInspectionTask, PlantFocusSummary, PlantMetrics, RoomTone, clampHumidityLevel() (+4 more)
+Cohesion: 0.13
+Nodes (15): sampleSnapshot, DeviceAccessDecision, DeviceAccessReason, FocusInspectionTask, PlantFocusSummary, PlantMetrics, RoomPlantSummary, RoomTone (+7 more)
 
 ### Community 20 - "scripts"
 Cohesion: 0.14
@@ -265,8 +279,8 @@ Cohesion: 0.10
 Nodes (19): Background work after responding, Client reconnect, Configuration, Context (`context` arg or `getContext()`), Edge caching, Entry file and detection, Errors, Examples (+11 more)
 
 ### Community 34 - "index.ts"
-Cohesion: 0.16
-Nodes (17): App, appConfig, Component, mobileOnlyGuard(), DesktopInfoPage, Component, AdjustHumidifierUseCase, EvaluateDeviceAccessUseCase (+9 more)
+Cohesion: 0.13
+Nodes (9): App, appConfig, Component, mobileOnlyGuard(), DesktopInfoPage, Component, Home, routeMeta (+1 more)
 
 ### Community 35 - "Netlify caching"
 Cohesion: 0.12
@@ -305,8 +319,8 @@ Cohesion: 0.13
 Nodes (14): Audit log (Pro plans or higher), CDN-edge RBAC (redirect rules), Client auth (browser), Configuration (dashboard-only), CSRF: required for server-side auth endpoints, Emails (Pro plans or higher), External JWT providers (Enterprise), Identity event functions (+6 more)
 
 ### Community 44 - "index.page.ts"
-Cohesion: 0.16
-Nodes (6): Home, routeMeta, Component, RoomPlantSummary, countPendingTasks(), getActiveRoom()
+Cohesion: 0.04
+Nodes (45): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E (+37 more)
 
 ### Community 45 - "Netlify Agent Runner"
 Cohesion: 0.14
@@ -617,29 +631,85 @@ Cohesion: 0.29
 Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ### Community 122 - "auth.spec.ts"
-Cohesion: 0.14
-Nodes (5): AuthPort, User, Auth0Adapter, mockAppConfig, mockAuth0
+Cohesion: 0.12
+Nodes (6): AuthPort, User, Auth0Adapter, mockAppConfig, mockAuth0, shouldThrow
 
 ### Community 123 - "LoginPage"
+Cohesion: 0.17
+Nodes (6): authGuard(), LoginPage, Component, CheckAuthUseCase, LoginUseCase, LogoutUseCase
+
+### Community 124 - "ADDED Requirements"
+Cohesion: 0.05
+Nodes (36): ADDED Requirements, Requirement: Cadastro e edição de casa, Requirement: Cadastro e edição de área, Requirement: Cadastro guiado da primeira casa, Requirement: Exclusão de área, Requirement: Inativação segura de casa, Requirement: Isolamento por usuário autenticado, Requirement: Listagem de casas e áreas (+28 more)
+
+### Community 125 - "ADDED Requirements"
+Cohesion: 0.06
+Nodes (35): ADDED Requirements, Requirement: Acesso à tela de Perfil, Requirement: Busca de endereço por CEP, Requirement: Captura de coordenadas GPS, Requirement: Edição de dados pessoais, Requirement: Edição do endereço, Requirement: Persistência e isolamento dos dados do perfil, Requirement: Validação das entradas do perfil (+27 more)
+
+### Community 126 - "use-cases.md"
+Cohesion: 0.06
+Nodes (35): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend Unit (+27 more)
+
+### Community 127 - "Tela: Ambientes"
+Cohesion: 0.08
+Nodes (25): Ações e Navegação, Ações e Navegação, Ações e Navegação, Ações e Navegação, Componentes, Componentes, Componentes, Componentes (+17 more)
+
+### Community 128 - "index.ts"
+Cohesion: 0.32
+Nodes (14): AdjustHumidifierUseCase, CompletePlantTaskUseCase, EvaluateDeviceAccessUseCase, LoadDashboardUseCase, RegisterPwaUseCase, SelectRoomUseCase, ToggleFocusFavoriteUseCase, TriggerPlannedFeatureNoticeUseCase (+6 more)
+
+### Community 129 - "Decisions"
+Cohesion: 0.12
+Nodes (16): 10. Avatar no header do dashboard, à direita, com o sino deslocado para a esquerda, 1. Persistência: tabela `profiles` no Supabase com RLS por `auth_id`, 2. RLS como barreira de isolamento, não apenas filtro no cliente, 3. `ProfilePort` na camada `application`, com `SupabaseProfileAdapter` na `infrastructure`, 4. `AuthPort` estendido com `getAccessToken()` para autenticar as chamadas ao Supabase, 5. Schema Zod no `domain`, com mensagens de erro em português por campo, 6. ViaCEP para busca de endereço por CEP, 7. Geolocation API do navegador para o GPS (+8 more)
+
+### Community 130 - "Tasks"
+Cohesion: 0.15
+Nodes (12): 0. Branch, 1. Dependências, 2. Banco de dados — tabela `profiles` e RLS, 3. Domain — modelos e schema de validação, 4. Application — ports e use cases, 5. Infrastructure — adapters, 6. Composition — bindings de DI, 7. App — tela de Perfil (+4 more)
+
+### Community 131 - "Tela: Perfil (modo edição)"
+Cohesion: 0.15
+Nodes (12): Ações e Navegação, Ações e Navegação, Componentes, Componentes, Estados da Tela, Estados da Tela, Fluxo de Navegação, Tela: Perfil (modo edição) (+4 more)
+
+### Community 132 - "design.md"
+Cohesion: 0.17
+Nodes (11): 1. Modelar casas e áreas como entidades de domínio puras, com regras em funções/exportações, 2. `EnvironmentRepositoryPort` com um único snapshot agregado (casas + áreas), 3. Adapter em memória agora, Supabase depois — port já isolado, 4. Estrutura de arquivos seguindo o padrão existente, 5. Substituir os cômodos de exemplo do dashboard por dados derivados do repositório de ambientes, Context, Decisions, Goals / Non-Goals (+3 more)
+
+### Community 133 - "Tasks"
+Cohesion: 0.18
+Nodes (10): 0. Branch, 1. Domain — modelos de ambientes, 2. Application — port e use cases de ambientes, 3. Infrastructure — adapter em memória, 4. Composition — DI wiring, 5. App — telas de ambientes, 6. E2E e prints (Playwright), 7. Build e verificação (+2 more)
+
+### Community 134 - "concept.md"
 Cohesion: 0.22
-Nodes (5): authGuard(), LoginPage, Component, CheckAuthUseCase, LoginUseCase
+Nodes (8): Arquitetura Macro, Fora de Escopo, Funcionalidades por Área, Jornadas de Usuário, Mapa Funcional, Riscos Iniciais, Viabilidade, Visão
+
+### Community 135 - "concept.md"
+Cohesion: 0.22
+Nodes (8): Arquitetura Macro, Fora de Escopo, Funcionalidades por Área, Jornadas de Usuário, Mapa Funcional, Riscos Iniciais, Viabilidade, Visão
+
+### Community 136 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 137 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ## Knowledge Gaps
-- **1213 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1208 more)
+- **1429 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1424 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `BrowserPwaRegistrationAdapter` connect `Auth0Adapter` to `index.ts`, `scripts`?**
+- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `index.ts`, `index.ts`, `app.spec.ts`, `scripts`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `app.spec.ts`, `index.page.ts`, `scripts`?**
+- **Why does `RegisterPwaUseCase` connect `index.ts` to `Auth0Adapter`, `index.ts`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **Are the 11 inferred relationships involving `provideGreenKeeperDependencies()` (e.g. with `AdjustHumidifierUseCase` and `CheckAuthUseCase`) actually correct?**
   _`provideGreenKeeperDependencies()` has 11 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
-  _1213 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1429 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**

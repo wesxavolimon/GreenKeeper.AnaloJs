@@ -33,6 +33,6 @@ export interface PwaRegistrationPort {
 export interface AuthPort {
   login(): void;
   logout(): void;
-  getUser(): User | null;
-  isAuthenticated(): boolean;
+  getUser(): Promise<User | null>;
+  isAuthenticated(): Promise<boolean>;
 }

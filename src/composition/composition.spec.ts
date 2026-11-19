@@ -1,6 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import {
   AdjustHumidifierUseCase,
+  AppConfigPort,
   CheckAuthUseCase,
   CompletePlantTaskUseCase,
   EvaluateDeviceAccessUseCase,
@@ -12,6 +13,7 @@ import {
   ToggleFocusFavoriteUseCase,
   TriggerPlannedFeatureNoticeUseCase,
 } from '@application/index';
+import { Auth0Adapter } from '@infrastructure/index';
 import {
   APP_CONFIG_PORT,
   AUTH_PORT,
@@ -24,18 +26,7 @@ import {
 describe('Composition Root', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [
-        ...provideGreenKeeperDependencies(),
-        {
-          provide: AUTH_PORT,
-          useClass: class {
-            login = vi.fn().mockResolvedValue(undefined);
-            logout = vi.fn().mockResolvedValue(undefined);
-            getUser = vi.fn().mockResolvedValue(null);
-            isAuthenticated = vi.fn().mockResolvedValue(false);
-          },
-        },
-      ],
+      providers: [...provideGreenKeeperDependencies()],
     });
   });
 
