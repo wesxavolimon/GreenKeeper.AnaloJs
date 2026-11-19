@@ -9,6 +9,7 @@ O **GreenKeeper** (rebatizado visualmente como **PlantumHibis**) é um ecossiste
 
 ---
 
+
 ## 2. Ecossistema de Aplicações e Plataformas
 
 | Repositório | Papel no Produto | Stack Principal | Status |
