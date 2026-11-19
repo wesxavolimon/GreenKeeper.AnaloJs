@@ -113,5 +113,12 @@
   "111": "Formato do relatório — Security Audit",
   "112": "Falsos positivos — não reportar sem evidência",
   "113": "Headers de segurança (CSP, HSTS, etc.) — cautela por versão e deploy",
-  "114": "Proxy vs Middleware (Next.js por versão instalada)"
+  "114": "Proxy vs Middleware (Next.js por versão instalada)",
+  "115": "Tela: Dashboard",
+  "116": "UC-01: Login com Google via Auth0",
+  "117": "ADDED Requirements",
+  "118": "Tasks",
+  "119": "design.md",
+  "120": "concept.md",
+  "121": "proposal.md"
 }

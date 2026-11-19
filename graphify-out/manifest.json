@@ -1,7 +1,7 @@
 {
   "openspec/config.yaml": {
-    "mtime": 1795055369.0237904,
-    "ast_hash": "996f930e7e9a24fad14aa297a5542395",
+    "mtime": 1795103391.0980616,
+    "ast_hash": "c9ab8e36210177a17f8415774f7276a4",
     "semantic_hash": ""
   },
   ".agents/rules/antigravity-rtk-rules.md": {
@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1795100044.6089768,
+    "mtime": 1795103171.6379817,
     "ast_hash": "e6508e1ab5b6eef886adb3e7af55003d",
     "semantic_hash": ""
   },
@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1795100044.6451027,
-    "ast_hash": "65738fde10be3c71278718fff3689533",
+    "mtime": 1795106426.636017,
+    "ast_hash": "161199e433fd06723c8282c904408013",
     "semantic_hash": ""
   },
   "public/sw.js": {
@@ -772,6 +772,46 @@
   ".agents/skills/security-audit/refs/security-headers.md": {
     "mtime": 1795101908.8462667,
     "ast_hash": "4503d69c94629f46bef40c1ebadddadd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/.openspec.yaml": {
+    "mtime": 1795102305.4799192,
+    "ast_hash": "a6e71d22c49e842442859a57da5eb654",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/concept.md": {
+    "mtime": 1795103433.6943588,
+    "ast_hash": "e4987919dff82d3dfd7a708117b25612",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/design.md": {
+    "mtime": 1795106050.8208728,
+    "ast_hash": "8e7c8f19bba7d3c7cfb17de84177d538",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/proposal.md": {
+    "mtime": 1795103458.2910054,
+    "ast_hash": "5b613327e9aa88f21cf056e5ced662bd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/specs/google-auth/spec.md": {
+    "mtime": 1795103489.9271069,
+    "ast_hash": "a37e468b07f0254e0d1f9b3f7abb54eb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/tasks.md": {
+    "mtime": 1795106085.4797773,
+    "ast_hash": "40cbc41d7710acda1e64cc5df4918992",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/use-cases.md": {
+    "mtime": 1795105249.3336878,
+    "ast_hash": "19046a76b115e1057a977ec630d2ca84",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/ux-design.md": {
+    "mtime": 1795106014.405653,
+    "ast_hash": "f2ec57497099c299fbc3fb9bcfffb1ae",
     "semantic_hash": ""
   }
 }

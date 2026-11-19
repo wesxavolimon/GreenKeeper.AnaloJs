@@ -107,5 +107,18 @@
   "105": "Netlify Identity — authorization and session gotchas",
   "106": "Documentation Writer",
   "107": "Documentation Writer",
-  "108": "Steps"
+  "108": "Steps",
+  "109": "Fluxo de execução (ordem fixa)",
+  "110": "Stack do projeto — versões instaladas (multi-repo)",
+  "111": "Formato do relatório — Security Audit",
+  "112": "Falsos positivos — não reportar sem evidência",
+  "113": "Headers de segurança (CSP, HSTS, etc.) — cautela por versão e deploy",
+  "114": "Proxy vs Middleware (Next.js por versão instalada)",
+  "115": "Tela: Dashboard",
+  "116": "UC-01: Login com Google via Auth0",
+  "117": "ADDED Requirements",
+  "118": "Tasks",
+  "119": "design.md",
+  "120": "concept.md",
+  "121": "proposal.md"
 }

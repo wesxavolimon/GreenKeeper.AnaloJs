@@ -1,7 +1,7 @@
 {
   "openspec/config.yaml": {
-    "mtime": 1795055369.0237904,
-    "ast_hash": "996f930e7e9a24fad14aa297a5542395",
+    "mtime": 1795103391.0980616,
+    "ast_hash": "c9ab8e36210177a17f8415774f7276a4",
     "semantic_hash": ""
   },
   ".agents/rules/antigravity-rtk-rules.md": {
@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1795100044.6089768,
+    "mtime": 1795103171.6379817,
     "ast_hash": "e6508e1ab5b6eef886adb3e7af55003d",
     "semantic_hash": ""
   },
@@ -216,16 +216,6 @@
   },
   ".agents/skills/frontend-design/SKILL.md": {
     "mtime": 1795100044.5464237,
-    "ast_hash": "400c8b8231420f30b48aed0a6f37df9f",
-    "semantic_hash": ""
-  },
-  ".copilot/skills/frontend-design/LICENSE.txt": {
-    "mtime": 1795100044.603474,
-    "ast_hash": "29256199be2a609aac596980ffc11996",
-    "semantic_hash": ""
-  },
-  ".copilot/skills/frontend-design/SKILL.md": {
-    "mtime": 1795100044.603474,
     "ast_hash": "400c8b8231420f30b48aed0a6f37df9f",
     "semantic_hash": ""
   },
@@ -629,11 +619,6 @@
     "ast_hash": "d05464e72c66e74c9a714055fc58a5fc",
     "semantic_hash": ""
   },
-  ".copilot/skills/prd-generator/SKILL.md": {
-    "mtime": 1795100044.6044743,
-    "ast_hash": "96ab55dd762329dd434356aa26849b92",
-    "semantic_hash": ""
-  },
   "docs/DESIGN.md": {
     "mtime": 1795100044.611981,
     "ast_hash": "0ea4c5fa466d6736e1e1f18837d67074",
@@ -719,11 +704,6 @@
     "ast_hash": "60dd723dbd93e081bf5957a5ca5d7449",
     "semantic_hash": ""
   },
-  ".copilot/skills/documentation-writer/SKILL.md": {
-    "mtime": 1795100044.6024737,
-    "ast_hash": "60dd723dbd93e081bf5957a5ca5d7449",
-    "semantic_hash": ""
-  },
   ".copilot/settings.json": {
     "mtime": 1795100044.6014698,
     "ast_hash": "11009998e18c56d0676c22b963a2d04b",
@@ -747,6 +727,91 @@
   "docs/project-overview.md": {
     "mtime": 1795100044.6150367,
     "ast_hash": "5903eb3905cfd5de774e56bcd93add57",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/README.md": {
+    "mtime": 1795101908.8089447,
+    "ast_hash": "dd83bf02060ff9f5eca0728e2e169dd4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/SKILL.md": {
+    "mtime": 1795101908.8164618,
+    "ast_hash": "951e7b98e2b543a6e25968ef6513af2a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/false-positives.md": {
+    "mtime": 1795101908.8229754,
+    "ast_hash": "f337b0812686e97b19eee500b498eea3",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/language.md": {
+    "mtime": 1795101908.826518,
+    "ast_hash": "63a82723d1fe0cea4e7d00805b87183e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/nextjs-checklist.md": {
+    "mtime": 1795101908.8300326,
+    "ast_hash": "82f8854cdab6a8b8f4ec477226619102",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/project-stack.md": {
+    "mtime": 1795101908.8340294,
+    "ast_hash": "84d4bd513884af82f3b68b309f73eb77",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/proxy-middleware.md": {
+    "mtime": 1795101908.8370306,
+    "ast_hash": "bb0b979aba79b4913757afcef5351af7",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/report.md": {
+    "mtime": 1795101908.8402684,
+    "ast_hash": "33f19b5bf5533b90effcf0c3d71391db",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/security-headers.md": {
+    "mtime": 1795101908.8462667,
+    "ast_hash": "4503d69c94629f46bef40c1ebadddadd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/.openspec.yaml": {
+    "mtime": 1795102305.4799192,
+    "ast_hash": "a6e71d22c49e842442859a57da5eb654",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/concept.md": {
+    "mtime": 1795103433.6943588,
+    "ast_hash": "e4987919dff82d3dfd7a708117b25612",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/design.md": {
+    "mtime": 1795106050.8208728,
+    "ast_hash": "8e7c8f19bba7d3c7cfb17de84177d538",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/proposal.md": {
+    "mtime": 1795103458.2910054,
+    "ast_hash": "5b613327e9aa88f21cf056e5ced662bd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/specs/google-auth/spec.md": {
+    "mtime": 1795103489.9271069,
+    "ast_hash": "a37e468b07f0254e0d1f9b3f7abb54eb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/tasks.md": {
+    "mtime": 1795106085.4797773,
+    "ast_hash": "40cbc41d7710acda1e64cc5df4918992",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/use-cases.md": {
+    "mtime": 1795105249.3336878,
+    "ast_hash": "19046a76b115e1057a977ec630d2ca84",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c202611191230-spec-01-auth0-google-auth/ux-design.md": {
+    "mtime": 1795106014.405653,
+    "ast_hash": "f2ec57497099c299fbc3fb9bcfffb1ae",
     "semantic_hash": ""
   }
 }

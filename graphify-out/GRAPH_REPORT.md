@@ -1,16 +1,16 @@
 # Graph Report - GreenKeeper.AnaloJs  (2026-11-19)
 
 ## Corpus Check
-- 147 files · ~138,198 words
+- 154 files · ~142,650 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1583 nodes · 1641 edges · 115 communities (110 shown, 5 thin omitted)
+- 1670 nodes · 1721 edges · 122 communities (117 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `91c72d4d`
+- Built from commit: `81b9ad90`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -125,6 +125,13 @@
 - Falsos positivos — não reportar sem evidência
 - Headers de segurança (CSP, HSTS, etc.) — cautela por versão e deploy
 - Proxy vs Middleware (Next.js por versão instalada)
+- Tela: Dashboard
+- UC-01: Login com Google via Auth0
+- ADDED Requirements
+- Tasks
+- design.md
+- concept.md
+- proposal.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 23 edges
@@ -153,11 +160,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (115 total, 5 thin omitted)
+## Communities (122 total, 5 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
-Cohesion: 0.08
-Nodes (24): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+16 more)
+Cohesion: 0.04
+Nodes (44): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+36 more)
 
 ### Community 1 - "1. Dashboard Botânico (`Minhas Plantas`)"
 Cohesion: 0.08
@@ -168,8 +175,8 @@ Cohesion: 0.05
 Nodes (36): 10. Stack, 11. Justificativa da stack, 12. Fases de construção, 13. Specs funcionais detalhadas, 14. Ordem recomendada de implementação, 1. Visão geral, 2. Problema que resolve, 3. Público-alvo (+28 more)
 
 ### Community 3 - "concept.md"
-Cohesion: 0.04
-Nodes (45): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+37 more)
+Cohesion: 0.07
+Nodes (25): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+17 more)
 
 ### Community 4 - "ADDED Requirements"
 Cohesion: 0.04
@@ -228,8 +235,8 @@ Cohesion: 0.13
 Nodes (3): DashboardRepositoryPort, DashboardSnapshot, InMemoryDashboardRepository
 
 ### Community 18 - "devDependencies"
-Cohesion: 0.05
-Nodes (43): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, rxjs (+35 more)
+Cohesion: 0.04
+Nodes (44): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, @auth0/auth0-spa-js (+36 more)
 
 ### Community 19 - "app.spec.ts"
 Cohesion: 0.15
@@ -575,8 +582,36 @@ Nodes (10): 1. O que verificar ANTES de sugerir qualquer header, 2. Severidade p
 Cohesion: 0.20
 Nodes (9): 1. Regra por major do `next` (lockfile), 2. O que NÃO reportar, 3. O que verificar na auditoria, 4. Auth.js / NextAuth, 5. Headers de segurança na borda, 6. Texto modelo — falso positivo descartado, 7. Texto modelo — INFO migração, 8. Integração (+1 more)
 
+### Community 115 - "Tela: Dashboard"
+Cohesion: 0.12
+Nodes (16): Ações e Navegação, Ações e Navegação, Componentes, Componentes, Definição de cada nó, Estados da Tela, Estados da Tela, Fluxo de Navegação (+8 more)
+
+### Community 116 - "UC-01: Login com Google via Auth0"
+Cohesion: 0.12
+Nodes (15): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Fluxo Principal, Fluxo Principal (+7 more)
+
+### Community 117 - "ADDED Requirements"
+Cohesion: 0.14
+Nodes (13): ADDED Requirements, Requirement: Guard de rota (proteção de telas), Requirement: Login com Google via Auth0, Requirement: Logout e encerramento de sessão, Requirement: Validação de token JWT, Scenario: Autenticado acessa rota interna, Scenario: Não-autenticado tenta acessar rota interna, Scenario: Retorno bem-sucedido do Auth0 (+5 more)
+
+### Community 118 - "Tasks"
+Cohesion: 0.17
+Nodes (11): 0. Setup, 1. Dependências, 2. Domain — modelo e regras de autenticação, 3. Application — ports e use cases, 4. Infrastructure — adapter Auth0, 5. App — guard de rota, tela de login e rotas, 6. Composition — DI wiring, 7. Testes E2E (Playwright) (+3 more)
+
+### Community 119 - "design.md"
+Cohesion: 0.18
+Nodes (10): 1. SDK de Auth0: `@auth0/auth0-spa-js` sobre implementação custom com `auth0-js`, 2. Armazenamento do token: memória do SDK (in-memory) sem `localStorage`, 3. Guard de rota no nível do AnalogJS Router (`canActivate`), 4. Estrutura de pastas seguindo Clean Architecture, Context, Decisions, Goals / Non-Goals, Migration Plan (+2 more)
+
+### Community 120 - "concept.md"
+Cohesion: 0.22
+Nodes (8): Arquitetura Macro, Fora de Escopo, Funcionalidades por Área, Jornadas de Usuário, Mapa Funcional, Riscos Iniciais, Viabilidade, Visão
+
+### Community 121 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
 ## Knowledge Gaps
-- **1146 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1141 more)
+- **1211 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1206 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -586,14 +621,14 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `index.ts`, `app.spec.ts`, `index.page.ts`, `scripts`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
-  _1146 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1211 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
-  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Decisions` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
 - **Should `concept.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
 - **Should `ADDED Requirements` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._

@@ -24,6 +24,7 @@
     "@angular/core": "^22.0.0",
     "@angular/platform-browser": "^22.0.0",
     "@angular/router": "^22.0.0",
+    "@auth0/auth0-spa-js": "^2.2.0",
     "@tailwindcss/vite": "^4.1.4",
     "rxjs": "~7.8.0",
     "tailwindcss": "^4.1.4",
