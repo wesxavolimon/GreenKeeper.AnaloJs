@@ -1,0 +1,752 @@
+{
+  "openspec/config.yaml": {
+    "mtime": 1795055369.0237904,
+    "ast_hash": "996f930e7e9a24fad14aa297a5542395",
+    "semantic_hash": ""
+  },
+  ".agents/rules/antigravity-rtk-rules.md": {
+    "mtime": 1795076870.8529427,
+    "ast_hash": "f35bc5f83b89536ea1788c5c86377968",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1795093968.617898,
+    "ast_hash": "e6508e1ab5b6eef886adb3e7af55003d",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1795093313.1601436,
+    "ast_hash": "8334b2443cae83c5aa0c7096c87edcd4",
+    "semantic_hash": ""
+  },
+  "angular.json": {
+    "mtime": 1795076870.8676808,
+    "ast_hash": "5c681c9096b8a2894dad6adf6411ba67",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1795076870.9203873,
+    "ast_hash": "65738fde10be3c71278718fff3689533",
+    "semantic_hash": ""
+  },
+  "public/sw.js": {
+    "mtime": 1795076870.9293368,
+    "ast_hash": "5d2ac2dfb8d43eddd1119eab0e2ee069",
+    "semantic_hash": ""
+  },
+  "src/app/app.config.ts": {
+    "mtime": 1795076870.945114,
+    "ast_hash": "8ea22260591bb38caeb06e221a3f1eb6",
+    "semantic_hash": ""
+  },
+  "src/app/app.spec.ts": {
+    "mtime": 1795076870.945114,
+    "ast_hash": "5165fb1f059a2d922de4973686e2c91e",
+    "semantic_hash": ""
+  },
+  "src/app/app.ts": {
+    "mtime": 1795076870.946113,
+    "ast_hash": "c7949c920f695896be3d812d84be3d11",
+    "semantic_hash": ""
+  },
+  "src/app/pages/index.page.ts": {
+    "mtime": 1795076870.9471123,
+    "ast_hash": "4a10a234e66497d0710d86fafac94dd0",
+    "semantic_hash": ""
+  },
+  "src/main.ts": {
+    "mtime": 1795076870.9623082,
+    "ast_hash": "bd22c1e8da99ab69d6c39c56e4d13bdb",
+    "semantic_hash": ""
+  },
+  "src/test-setup.ts": {
+    "mtime": 1795076870.9643073,
+    "ast_hash": "33661b26966845451bf6d0a64ec4ff9c",
+    "semantic_hash": ""
+  },
+  "src/vite-env.d.ts": {
+    "mtime": 1795076870.9643073,
+    "ast_hash": "8f68c27c3fc38817b2726b20e2d4f1ee",
+    "semantic_hash": ""
+  },
+  "tsconfig.app.json": {
+    "mtime": 1795076870.965307,
+    "ast_hash": "a596985e3add1778fc41a8929d1d48ec",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1795076870.965307,
+    "ast_hash": "64b9db1474fe2ee37efbeead88317a3b",
+    "semantic_hash": ""
+  },
+  "tsconfig.spec.json": {
+    "mtime": 1795076870.9663072,
+    "ast_hash": "97baf427bbf648afefee987eeedd2458",
+    "semantic_hash": ""
+  },
+  "vite.config.ts": {
+    "mtime": 1795076870.9663072,
+    "ast_hash": "6b6149eeced0b9f65db74dec6b5fc7b4",
+    "semantic_hash": ""
+  },
+  "docker-compose.yml": {
+    "mtime": 1795076870.8676808,
+    "ast_hash": "d87d2fc9b1aaa0da827762811454544e",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1795076870.9080544,
+    "ast_hash": "7e249ef7f89de2046cf49c74da9a8f03",
+    "semantic_hash": ""
+  },
+  "public/icons/icon.svg": {
+    "mtime": 1795076870.9253318,
+    "ast_hash": "1f6161cd419b2750fc060315b801ff66",
+    "semantic_hash": ""
+  },
+  "src/application/application.spec.ts": {
+    "mtime": 1795076870.9503038,
+    "ast_hash": "e49ed78c94592a67c7343df63f7ed2df",
+    "semantic_hash": ""
+  },
+  "src/application/index.ts": {
+    "mtime": 1795076870.9503038,
+    "ast_hash": "71ea6d68a482cfc54b26ac1a22635522",
+    "semantic_hash": ""
+  },
+  "src/application/ports.ts": {
+    "mtime": 1795076870.9503038,
+    "ast_hash": "46752bfb0fff61e5a54b02650279f2e9",
+    "semantic_hash": ""
+  },
+  "src/application/use-cases.ts": {
+    "mtime": 1795076870.9513073,
+    "ast_hash": "b069de3229bcf3e871a65507d7d0cf92",
+    "semantic_hash": ""
+  },
+  "src/architecture.spec.ts": {
+    "mtime": 1795076870.952309,
+    "ast_hash": "84f4fe67db8e1ce1703743b2d43e0399",
+    "semantic_hash": ""
+  },
+  "src/composition/composition.spec.ts": {
+    "mtime": 1795076870.952309,
+    "ast_hash": "75d52fa438b76246b2bc928613679ecb",
+    "semantic_hash": ""
+  },
+  "src/composition/index.ts": {
+    "mtime": 1795076870.9533072,
+    "ast_hash": "a6f39882ea8066126b4193a8223575be",
+    "semantic_hash": ""
+  },
+  "src/domain/domain.spec.ts": {
+    "mtime": 1795076870.9543073,
+    "ast_hash": "b2b7fb23f3ff131e5d1ef2a7d889a940",
+    "semantic_hash": ""
+  },
+  "src/domain/index.ts": {
+    "mtime": 1795076870.9543073,
+    "ast_hash": "0266ad89d1ef0b39e6774ed28862ff5e",
+    "semantic_hash": ""
+  },
+  "src/domain/models.ts": {
+    "mtime": 1795076870.955307,
+    "ast_hash": "e9ce65557ff68252c5ee77965a842870",
+    "semantic_hash": ""
+  },
+  "src/domain/rules.ts": {
+    "mtime": 1795084666.9473524,
+    "ast_hash": "bc3a9e7d56e830675bfe2b62d88fface",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/browser-device-signals.adapter.ts": {
+    "mtime": 1795076870.9563074,
+    "ast_hash": "824aaa1bccd7fccbe1c601549eaf96d1",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/browser-pwa-registration.adapter.ts": {
+    "mtime": 1795076870.9573073,
+    "ast_hash": "2b4571881452c717288c1b865a362eea",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/in-memory-dashboard.repository.ts": {
+    "mtime": 1795076870.960307,
+    "ast_hash": "4e1e6aac7533c25cebb80541cea98e73",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/index.ts": {
+    "mtime": 1795076870.960307,
+    "ast_hash": "f84ab51bf04a3df0720cac1ddaf2eb49",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/infrastructure.spec.ts": {
+    "mtime": 1795076870.9613078,
+    "ast_hash": "c4981e6ac7b0b93cfb7a04bfd135a3a9",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/vite-env-config.adapter.ts": {
+    "mtime": 1795076870.9613078,
+    "ast_hash": "15b7c5b2a8fec2a9bfaf7fa84dbd74c6",
+    "semantic_hash": ""
+  },
+  "src/app/guards/mobile-only.guard.ts": {
+    "mtime": 1795076870.946113,
+    "ast_hash": "aaa943ab10df78c73235d2caca31cb05",
+    "semantic_hash": ""
+  },
+  "src/app/pages/desktop-info.page.ts": {
+    "mtime": 1795076870.9471123,
+    "ast_hash": "e02ec84c82c156eb38f7b649f985ee73",
+    "semantic_hash": ""
+  },
+  "e2e/screenshots.spec.ts": {
+    "mtime": 1795076870.8686776,
+    "ast_hash": "51e9a5d69b19a2959f2df47b7c7f3241",
+    "semantic_hash": ""
+  },
+  "playwright.config.ts": {
+    "mtime": 1795076870.9203873,
+    "ast_hash": "bef1f09f28d76e8d5df69b8ec9ad6f0b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/frontend-design/LICENSE.txt": {
+    "mtime": 1794920079.0053465,
+    "ast_hash": "2ee41112a44fe7014dce33e26468ba93",
+    "semantic_hash": ""
+  },
+  ".agents/skills/frontend-design/SKILL.md": {
+    "mtime": 1794920079.0083466,
+    "ast_hash": "06a0520e81f698334258c73ff0de533b",
+    "semantic_hash": ""
+  },
+  ".copilot/skills/frontend-design/LICENSE.txt": {
+    "mtime": 1794920079.0053465,
+    "ast_hash": "2ee41112a44fe7014dce33e26468ba93",
+    "semantic_hash": ""
+  },
+  ".copilot/skills/frontend-design/SKILL.md": {
+    "mtime": 1794920079.0083466,
+    "ast_hash": "06a0520e81f698334258c73ff0de533b",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/frontend-design/LICENSE.txt": {
+    "mtime": 1794920079.0053465,
+    "ast_hash": "2ee41112a44fe7014dce33e26468ba93",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/frontend-design/SKILL.md": {
+    "mtime": 1794920079.0083466,
+    "ast_hash": "06a0520e81f698334258c73ff0de533b",
+    "semantic_hash": ""
+  },
+  ".gemini/settings.json": {
+    "mtime": 1795094520.5338545,
+    "ast_hash": "28a8b19c9ee01dd8e8ebe076375a1418",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-access-control/SKILL.md": {
+    "mtime": 1795091213.8971617,
+    "ast_hash": "09bb9f601ddcf233bb4e53c1a56a1579",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-access-control/references/two-layer-pattern.md": {
+    "mtime": 1795091213.8981614,
+    "ast_hash": "12401332b8563011b4a87b3f31f69651",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-agent-runner/SKILL.md": {
+    "mtime": 1795091213.928683,
+    "ast_hash": "f5019ae011e00a20ac18df35d87c9ad6",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-ai-gateway/SKILL.md": {
+    "mtime": 1795091213.9595401,
+    "ast_hash": "57552de094b5591277008c257c6a9b6e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-blobs/SKILL.md": {
+    "mtime": 1795091213.9895713,
+    "ast_hash": "b8690c67d54342feced75b37f172a040",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-caching/SKILL.md": {
+    "mtime": 1795091214.019675,
+    "ast_hash": "9301d9655e5e02b1c2be7b7f95f73223",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-config/SKILL.md": {
+    "mtime": 1795091214.0492458,
+    "ast_hash": "c023e56bb7e348c584b57eb91d30395c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/SKILL.md": {
+    "mtime": 1795091214.2274868,
+    "ast_hash": "85d437ece9bb896798aa6b00e9568379",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/references/cli-commands.md": {
+    "mtime": 1795091214.2284868,
+    "ast_hash": "aa811ad3d292ec52dc5ec71c0e335990",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/references/legacy-extension.md": {
+    "mtime": 1795091214.229486,
+    "ast_hash": "950f73a0eaf8830afbb12692ddd36978",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/references/local-dev.md": {
+    "mtime": 1795091214.2304866,
+    "ast_hash": "45156bf361456f30cca6dff153f4c07e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/references/migration-from-extension.md": {
+    "mtime": 1795091214.2314851,
+    "ast_hash": "00cdcc3030ebbe39ab74e95c8b1a14ef",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/references/migrations.md": {
+    "mtime": 1795091214.2314851,
+    "ast_hash": "c1330b17d2188d35d2f590de2bbbbf22",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-database/references/operational-footguns.md": {
+    "mtime": 1795091214.232566,
+    "ast_hash": "fc4871f9bbe640edbc8c9a55f2d28f79",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-deploy/SKILL.md": {
+    "mtime": 1795091214.339342,
+    "ast_hash": "0f53f82e2bbd0cc8147134905b8d2d20",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-deploy/references/cli-commands.md": {
+    "mtime": 1795091214.340346,
+    "ast_hash": "cadb8e9c8315ea812dca3fec590d3c5e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-deploy/references/deployment-patterns.md": {
+    "mtime": 1795091214.341356,
+    "ast_hash": "f04e112d3696d0cd882477353d709d90",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-deploy/references/netlify-toml.md": {
+    "mtime": 1795091214.341356,
+    "ast_hash": "23cd0cef3828ca7354dd6b6e68705962",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-edge-functions/SKILL.md": {
+    "mtime": 1795091214.3744059,
+    "ast_hash": "2b88519f0157e9f11fd18f756bb233e9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-forms/SKILL.md": {
+    "mtime": 1795091214.4053028,
+    "ast_hash": "7c58d590b4387276592447d88b45b4f0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/SKILL.md": {
+    "mtime": 1795091214.5950367,
+    "ast_hash": "7121e4556165d934712318f667a7adf1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/references/astro.md": {
+    "mtime": 1795091214.5960367,
+    "ast_hash": "19f8244d4d4ba97b3124eddd2bdab402",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/references/nextjs.md": {
+    "mtime": 1795091214.597037,
+    "ast_hash": "45e08deda4de8f4a9a7c08e9dd23e1ae",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/references/nuxt.md": {
+    "mtime": 1795091214.5980394,
+    "ast_hash": "1ac0bb9b1304a09a982a75b3517d7d87",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/references/sveltekit.md": {
+    "mtime": 1795091214.5980394,
+    "ast_hash": "e069cd09b23a2df38e68d2415d496008",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/references/tanstack.md": {
+    "mtime": 1795091214.5990367,
+    "ast_hash": "a6e4fdff69cb19f0b03d2e1eb36abbc4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-frameworks/references/vite.md": {
+    "mtime": 1795091214.6000373,
+    "ast_hash": "0a541835583c20137d15b521e9271dcb",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-functions/SKILL.md": {
+    "mtime": 1795091214.633777,
+    "ast_hash": "8f38a99539fc3586d65718891f2dc95b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-identity/SKILL.md": {
+    "mtime": 1795091214.723722,
+    "ast_hash": "b215270e4df40f5957d9ffbad2a2bb18",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-identity/references/advanced-patterns.md": {
+    "mtime": 1795091214.7247243,
+    "ast_hash": "22f3fc876318fea6482a747e7350bea0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-identity/references/authorization-and-sessions.md": {
+    "mtime": 1795091214.7247243,
+    "ast_hash": "803d46a48594acce78bddfb5cabc9d8f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-image-cdn/SKILL.md": {
+    "mtime": 1795091214.781759,
+    "ast_hash": "6b63aeded90caa6d4f477255e38639cc",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-image-cdn/references/user-uploads.md": {
+    "mtime": 1795091214.7829137,
+    "ast_hash": "e32592e21168592262ae5314b6b5e72e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-mcp-servers/SKILL.md": {
+    "mtime": 1795091214.8880284,
+    "ast_hash": "f66adbba27b7f99e09729ce727be992a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-mcp-servers/references/authentication.md": {
+    "mtime": 1795091214.8890312,
+    "ast_hash": "64fdc65a48d37dea18090c0e75b53071",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-mcp-servers/references/connecting-clients.md": {
+    "mtime": 1795091214.890031,
+    "ast_hash": "d4d698e08dee60e9df51ed74651e473a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-mcp-servers/references/file-uploads.md": {
+    "mtime": 1795091214.890031,
+    "ast_hash": "d36f40ec5e952f1bb028ad6cca3d85d9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/netlify-server/SKILL.md": {
+    "mtime": 1795091214.9240654,
+    "ast_hash": "91934fa0d6317d51223cde09ba0321a8",
+    "semantic_hash": ""
+  },
+  ".agents/skills/prd-generator/SKILL.md": {
+    "mtime": 1795079783.7535691,
+    "ast_hash": "bc97f304a1fb3e75f9bf283a78fe0975",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-access-control/SKILL.md": {
+    "mtime": 1795091204.6280613,
+    "ast_hash": "09bb9f601ddcf233bb4e53c1a56a1579",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-access-control/references/two-layer-pattern.md": {
+    "mtime": 1795091204.6280613,
+    "ast_hash": "12401332b8563011b4a87b3f31f69651",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-agent-runner/SKILL.md": {
+    "mtime": 1795091205.012652,
+    "ast_hash": "f5019ae011e00a20ac18df35d87c9ad6",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-ai-gateway/SKILL.md": {
+    "mtime": 1795091205.2530715,
+    "ast_hash": "57552de094b5591277008c257c6a9b6e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-blobs/SKILL.md": {
+    "mtime": 1795091205.5195785,
+    "ast_hash": "b8690c67d54342feced75b37f172a040",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-caching/SKILL.md": {
+    "mtime": 1795091205.7643223,
+    "ast_hash": "9301d9655e5e02b1c2be7b7f95f73223",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-config/SKILL.md": {
+    "mtime": 1795091206.0184286,
+    "ast_hash": "c023e56bb7e348c584b57eb91d30395c",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/SKILL.md": {
+    "mtime": 1795091207.9269493,
+    "ast_hash": "85d437ece9bb896798aa6b00e9568379",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/references/cli-commands.md": {
+    "mtime": 1795091207.9279487,
+    "ast_hash": "aa811ad3d292ec52dc5ec71c0e335990",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/references/legacy-extension.md": {
+    "mtime": 1795091207.9279487,
+    "ast_hash": "950f73a0eaf8830afbb12692ddd36978",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/references/local-dev.md": {
+    "mtime": 1795091207.929949,
+    "ast_hash": "45156bf361456f30cca6dff153f4c07e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/references/migration-from-extension.md": {
+    "mtime": 1795091207.929949,
+    "ast_hash": "00cdcc3030ebbe39ab74e95c8b1a14ef",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/references/migrations.md": {
+    "mtime": 1795091207.931453,
+    "ast_hash": "c1330b17d2188d35d2f590de2bbbbf22",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-database/references/operational-footguns.md": {
+    "mtime": 1795091207.931453,
+    "ast_hash": "fc4871f9bbe640edbc8c9a55f2d28f79",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-deploy/SKILL.md": {
+    "mtime": 1795091208.813496,
+    "ast_hash": "0f53f82e2bbd0cc8147134905b8d2d20",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-deploy/references/cli-commands.md": {
+    "mtime": 1795091208.8144958,
+    "ast_hash": "cadb8e9c8315ea812dca3fec590d3c5e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-deploy/references/deployment-patterns.md": {
+    "mtime": 1795091208.8154964,
+    "ast_hash": "f04e112d3696d0cd882477353d709d90",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-deploy/references/netlify-toml.md": {
+    "mtime": 1795091208.816496,
+    "ast_hash": "23cd0cef3828ca7354dd6b6e68705962",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-edge-functions/SKILL.md": {
+    "mtime": 1795091209.067791,
+    "ast_hash": "2b88519f0157e9f11fd18f756bb233e9",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-forms/SKILL.md": {
+    "mtime": 1795091209.310111,
+    "ast_hash": "7c58d590b4387276592447d88b45b4f0",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/SKILL.md": {
+    "mtime": 1795091211.1296623,
+    "ast_hash": "7121e4556165d934712318f667a7adf1",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/references/astro.md": {
+    "mtime": 1795091211.1306634,
+    "ast_hash": "19f8244d4d4ba97b3124eddd2bdab402",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/references/nextjs.md": {
+    "mtime": 1795091211.1316626,
+    "ast_hash": "45e08deda4de8f4a9a7c08e9dd23e1ae",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/references/nuxt.md": {
+    "mtime": 1795091211.1321673,
+    "ast_hash": "1ac0bb9b1304a09a982a75b3517d7d87",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/references/sveltekit.md": {
+    "mtime": 1795091211.1331694,
+    "ast_hash": "e069cd09b23a2df38e68d2415d496008",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/references/tanstack.md": {
+    "mtime": 1795091211.134169,
+    "ast_hash": "a6e4fdff69cb19f0b03d2e1eb36abbc4",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-frameworks/references/vite.md": {
+    "mtime": 1795091211.134169,
+    "ast_hash": "0a541835583c20137d15b521e9271dcb",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-functions/SKILL.md": {
+    "mtime": 1795091211.3800206,
+    "ast_hash": "8f38a99539fc3586d65718891f2dc95b",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-identity/SKILL.md": {
+    "mtime": 1795091212.1160524,
+    "ast_hash": "b215270e4df40f5957d9ffbad2a2bb18",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-identity/references/advanced-patterns.md": {
+    "mtime": 1795091212.1170511,
+    "ast_hash": "22f3fc876318fea6482a747e7350bea0",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-identity/references/authorization-and-sessions.md": {
+    "mtime": 1795091212.1170511,
+    "ast_hash": "803d46a48594acce78bddfb5cabc9d8f",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-image-cdn/SKILL.md": {
+    "mtime": 1795091212.611522,
+    "ast_hash": "6b63aeded90caa6d4f477255e38639cc",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-image-cdn/references/user-uploads.md": {
+    "mtime": 1795091212.61311,
+    "ast_hash": "e32592e21168592262ae5314b6b5e72e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-mcp-servers/SKILL.md": {
+    "mtime": 1795091213.5740144,
+    "ast_hash": "f66adbba27b7f99e09729ce727be992a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-mcp-servers/references/authentication.md": {
+    "mtime": 1795091213.5750148,
+    "ast_hash": "64fdc65a48d37dea18090c0e75b53071",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-mcp-servers/references/connecting-clients.md": {
+    "mtime": 1795091213.5750148,
+    "ast_hash": "d4d698e08dee60e9df51ed74651e473a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-mcp-servers/references/file-uploads.md": {
+    "mtime": 1795091213.5761642,
+    "ast_hash": "d36f40ec5e952f1bb028ad6cca3d85d9",
+    "semantic_hash": ""
+  },
+  ".claude/skills/netlify-server/SKILL.md": {
+    "mtime": 1795091213.8415809,
+    "ast_hash": "91934fa0d6317d51223cde09ba0321a8",
+    "semantic_hash": ""
+  },
+  ".copilot/skills/prd-generator/SKILL.md": {
+    "mtime": 1795079783.7535691,
+    "ast_hash": "bc97f304a1fb3e75f9bf283a78fe0975",
+    "semantic_hash": ""
+  },
+  "docs/DESIGN.md": {
+    "mtime": 1795086757.053095,
+    "ast_hash": "b8511ffff3c9adc8d11024f869ea06ca",
+    "semantic_hash": ""
+  },
+  "docs/prd/feature-cuidado-plantas-online-auth0-convite.md": {
+    "mtime": 1795090210.7781365,
+    "ast_hash": "7c004f0e3b2ea0d16d7c4d0b7d002538",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/.openspec.yaml": {
+    "mtime": 1795053758.5111928,
+    "ast_hash": "a6e71d22c49e842442859a57da5eb654",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/concept.md": {
+    "mtime": 1795055187.920199,
+    "ast_hash": "44bd8a2204a1bba666723c922155ac9b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/design.md": {
+    "mtime": 1795055312.7870412,
+    "ast_hash": "7115443f794c94684cfd29775f900652",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/proposal.md": {
+    "mtime": 1795055204.6025898,
+    "ast_hash": "20a65961386f00d3f2b06c6f23656fa4",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md": {
+    "mtime": 1795055230.2429917,
+    "ast_hash": "e6c3ba14936aa28d6ef0e934612338d3",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md": {
+    "mtime": 1795055232.073597,
+    "ast_hash": "00056873d3cc6c4001e33d8178b3a531",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md": {
+    "mtime": 1795055228.514955,
+    "ast_hash": "edcc381b316facefe6bcaefceadf1e30",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md": {
+    "mtime": 1795055225.3609405,
+    "ast_hash": "696d66a013894b3d8a705a71c1a44be7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md": {
+    "mtime": 1795055226.5744143,
+    "ast_hash": "d75ef80b460387baeaefc493a4a72695",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md": {
+    "mtime": 1795055233.8116584,
+    "ast_hash": "4fca565a66a722f1732f7ad244188a37",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/tasks.md": {
+    "mtime": 1795076870.911078,
+    "ast_hash": "8434508e3f06ebd66f9e6e197e06d91c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/use-cases.md": {
+    "mtime": 1795055269.520775,
+    "ast_hash": "d6c779dc0f2b423cd5474df3399e8daf",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-11-19-c20261118230237-analogjs-pwa-skeleton/ux-design.md": {
+    "mtime": 1795055287.8227835,
+    "ast_hash": "2e6328aa8d6b39b3e2850320d9184929",
+    "semantic_hash": ""
+  },
+  "prd-old.md": {
+    "mtime": 1795094810.0588403,
+    "ast_hash": "f4d1b4660015d02206ce44c239efa217",
+    "semantic_hash": ""
+  },
+  ".agents/skills/documentation-writer/SKILL.md": {
+    "mtime": 1795092744.1730974,
+    "ast_hash": "05f50b8eb9664c4bbcd29ad09406d476",
+    "semantic_hash": ""
+  },
+  ".copilot/skills/documentation-writer/SKILL.md": {
+    "mtime": 1795092744.1730974,
+    "ast_hash": "05f50b8eb9664c4bbcd29ad09406d476",
+    "semantic_hash": ""
+  },
+  ".copilot/settings.json": {
+    "mtime": 1795094556.2705617,
+    "ast_hash": "28a8b19c9ee01dd8e8ebe076375a1418",
+    "semantic_hash": ""
+  },
+  ".agents/skills/setup-pre-commit/SKILL.md": {
+    "mtime": 1795093520.5754213,
+    "ast_hash": "caffb713350d80c8bf4853893a7f0cac",
+    "semantic_hash": ""
+  },
+  ".agents/skills/setup-pre-commit/agents/openai.yaml": {
+    "mtime": 1795093520.576421,
+    "ast_hash": "37a2e85b7101b4ccd5612560083fe790",
+    "semantic_hash": ""
+  },
+  "docs/architecture.md": {
+    "mtime": 1795093268.7452097,
+    "ast_hash": "e863b07627ea6485e7865b4e63a071b6",
+    "semantic_hash": ""
+  },
+  "docs/project-overview.md": {
+    "mtime": 1795093268.7432108,
+    "ast_hash": "5903eb3905cfd5de774e56bcd93add57",
+    "semantic_hash": ""
+  }
+}
