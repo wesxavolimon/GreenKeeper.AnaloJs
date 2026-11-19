@@ -66,3 +66,27 @@ export function evaluateDeviceAccess(
     reason: 'blocked-non-mobile',
   };
 }
+
+export function isAuthenticated(token: string | null | undefined): token is string {
+  return typeof token === 'string' && token.length > 0;
+}
+
+export function isTokenExpired(token: string): boolean {
+  try {
+    const payload = JSON.parse(atob(token.split('.')[1]));
+    const exp = payload.exp;
+    if (typeof exp !== 'number') {
+      return true;
+    }
+    return Date.now() >= exp * 1000;
+  } catch {
+    return true;
+  }
+}
+
+export function validateSession(token: string | null | undefined): boolean {
+  if (!isAuthenticated(token)) {
+    return false;
+  }
+  return !isTokenExpired(token);
+}

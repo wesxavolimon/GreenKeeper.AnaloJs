@@ -56,3 +56,11 @@ export interface DeviceAccessDecision {
   readonly allowed: boolean;
   readonly reason: DeviceAccessReason;
 }
+
+export interface User {
+  readonly id: string;
+  readonly email: string;
+  readonly name: string;
+  readonly picture: string | null;
+  readonly provider: 'google';
+}

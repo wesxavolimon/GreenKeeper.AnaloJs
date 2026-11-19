@@ -1584,6 +1584,16 @@
       "norm_label": "providegreenkeeperdependencies()"
     },
     {
+      "label": "auth.spec.ts",
+      "file_type": "code",
+      "source_file": "src/domain/auth.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_domain_auth_spec",
+      "community": 19,
+      "norm_label": "auth.spec.ts"
+    },
+    {
       "label": "domain.spec.ts",
       "file_type": "code",
       "source_file": "src/domain/domain.spec.ts",
@@ -1610,7 +1620,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_domain_index",
-      "community": 20,
+      "community": 19,
       "norm_label": "index.ts"
     },
     {
@@ -1724,6 +1734,16 @@
       "norm_label": "deviceaccessdecision"
     },
     {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "src/domain/models.ts",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "src_domain_models_user",
+      "community": 19,
+      "norm_label": "user"
+    },
+    {
       "label": "rules.ts",
       "file_type": "code",
       "source_file": "src/domain/rules.ts",
@@ -1772,6 +1792,36 @@
       "id": "src_domain_rules_evaluatedeviceaccess",
       "community": 19,
       "norm_label": "evaluatedeviceaccess()"
+    },
+    {
+      "label": "isAuthenticated()",
+      "file_type": "code",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "src_domain_rules_isauthenticated",
+      "community": 19,
+      "norm_label": "isauthenticated()"
+    },
+    {
+      "label": "isTokenExpired()",
+      "file_type": "code",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L74",
+      "_origin": "ast",
+      "id": "src_domain_rules_istokenexpired",
+      "community": 19,
+      "norm_label": "istokenexpired()"
+    },
+    {
+      "label": "validateSession()",
+      "file_type": "code",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L87",
+      "_origin": "ast",
+      "id": "src_domain_rules_validatesession",
+      "community": 19,
+      "norm_label": "validatesession()"
     },
     {
       "label": "browser-device-signals.adapter.ts",
@@ -1900,7 +1950,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_infrastructure_in_memory_dashboard_repository",
-      "community": 20,
+      "community": 17,
       "norm_label": "in-memory-dashboard.repository.ts"
     },
     {
@@ -1910,7 +1960,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "src_infrastructure_in_memory_dashboard_repository_initial_botanical_snapshot",
-      "community": 20,
+      "community": 17,
       "norm_label": "initial_botanical_snapshot"
     },
     {
@@ -13010,7 +13060,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill",
-      "community": 4,
+      "community": 1,
       "norm_label": "skill.md"
     },
     {
@@ -13020,7 +13070,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_netlify_mcp_servers",
-      "community": 4,
+      "community": 1,
       "norm_label": "netlify mcp servers"
     },
     {
@@ -13030,7 +13080,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_before_you_build",
-      "community": 4,
+      "community": 1,
       "norm_label": "before you build"
     },
     {
@@ -13040,7 +13090,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_stack",
-      "community": 4,
+      "community": 1,
       "norm_label": "stack"
     },
     {
@@ -13050,7 +13100,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_the_server_function",
-      "community": 4,
+      "community": 1,
       "norm_label": "the server function"
     },
     {
@@ -13060,7 +13110,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_browser_based_clients_and_cors",
-      "community": 4,
+      "community": 1,
       "norm_label": "browser-based clients and cors"
     },
     {
@@ -13070,7 +13120,7 @@
       "source_location": "L110",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_defining_tools",
-      "community": 4,
+      "community": 1,
       "norm_label": "defining tools"
     },
     {
@@ -13080,7 +13130,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_authentication",
-      "community": 4,
+      "community": 1,
       "norm_label": "authentication"
     },
     {
@@ -13090,7 +13140,7 @@
       "source_location": "L144",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_safety_and_permissions",
-      "community": 4,
+      "community": 1,
       "norm_label": "safety and permissions"
     },
     {
@@ -13100,7 +13150,7 @@
       "source_location": "L154",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_rate_limiting",
-      "community": 4,
+      "community": 1,
       "norm_label": "rate limiting"
     },
     {
@@ -13110,7 +13160,7 @@
       "source_location": "L171",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_file_uploads",
-      "community": 4,
+      "community": 1,
       "norm_label": "file uploads"
     },
     {
@@ -13120,7 +13170,7 @@
       "source_location": "L175",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_state_doesn_t_survive_between_requests",
-      "community": 4,
+      "community": 1,
       "norm_label": "state doesn't survive between requests"
     },
     {
@@ -13130,7 +13180,7 @@
       "source_location": "L179",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_connecting_a_client",
-      "community": 4,
+      "community": 1,
       "norm_label": "connecting a client"
     },
     {
@@ -13140,7 +13190,7 @@
       "source_location": "L190",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_local_dev_and_deploy",
-      "community": 4,
+      "community": 1,
       "norm_label": "local dev and deploy"
     },
     {
@@ -13150,7 +13200,7 @@
       "source_location": "L198",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_cross_cutting_rules",
-      "community": 4,
+      "community": 1,
       "norm_label": "cross-cutting rules"
     },
     {
@@ -13160,7 +13210,7 @@
       "source_location": "L204",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_skill_related_skills_and_references",
-      "community": 4,
+      "community": 1,
       "norm_label": "related skills and references"
     },
     {
@@ -13250,7 +13300,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_references_connecting_clients",
-      "community": 4,
+      "community": 1,
       "norm_label": "connecting-clients.md"
     },
     {
@@ -13260,7 +13310,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_references_connecting_clients_connecting_clients",
-      "community": 4,
+      "community": 1,
       "norm_label": "connecting clients"
     },
     {
@@ -13270,7 +13320,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_references_connecting_clients_native_connection_preferred",
-      "community": 4,
+      "community": 1,
       "norm_label": "native connection (preferred)"
     },
     {
@@ -13280,7 +13330,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_references_connecting_clients_mcp_remote_fallback",
-      "community": 4,
+      "community": 1,
       "norm_label": "`mcp-remote` fallback"
     },
     {
@@ -13290,7 +13340,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_references_connecting_clients_local_testing_with_the_mcp_inspector",
-      "community": 4,
+      "community": 1,
       "norm_label": "local testing with the mcp inspector"
     },
     {
@@ -13300,7 +13350,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "claude_skills_netlify_mcp_servers_references_connecting_clients_oauth_and_custom_connectors_deep_dive",
-      "community": 4,
+      "community": 1,
       "norm_label": "oauth and custom connectors (deep-dive)"
     },
     {
@@ -19746,6 +19796,50 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/auth.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_domain_auth_spec",
+      "target": "src_domain_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/auth.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_domain_auth_spec",
+      "target": "src_domain_rules_isauthenticated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/auth.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_domain_auth_spec",
+      "target": "src_domain_rules_istokenexpired",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/auth.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_domain_auth_spec",
+      "target": "src_domain_rules_validatesession",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/domain/domain.spec.ts",
@@ -19988,6 +20082,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/models.ts",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "src_domain_models",
+      "target": "src_domain_models_user",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -20179,6 +20283,58 @@
       "weight": 1.0,
       "source": "src_domain_rules",
       "target": "src_domain_rules_getactiveroom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "src_domain_rules",
+      "target": "src_domain_rules_isauthenticated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "src_domain_rules",
+      "target": "src_domain_rules_istokenexpired",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "src_domain_rules",
+      "target": "src_domain_rules_validatesession",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "src_domain_rules_validatesession",
+      "target": "src_domain_rules_isauthenticated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/rules.ts",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "src_domain_rules_validatesession",
+      "target": "src_domain_rules_istokenexpired",
       "confidence_score": 1.0
     },
     {
@@ -34106,5 +34262,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "81b9ad9062eefd723d68e4f4304eb8f8833858b6"
+  "built_at_commit": "0d7d67ff35289bfb2ee98df3b0f9b448e676f632"
 }

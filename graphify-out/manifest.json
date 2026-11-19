@@ -150,13 +150,13 @@
     "semantic_hash": ""
   },
   "src/domain/models.ts": {
-    "mtime": 1795100044.6642504,
-    "ast_hash": "e9ce65557ff68252c5ee77965a842870",
+    "mtime": 1795106463.7200153,
+    "ast_hash": "c1f82a5fb96be5998db6436e35cacf0b",
     "semantic_hash": ""
   },
   "src/domain/rules.ts": {
-    "mtime": 1795100044.6647968,
-    "ast_hash": "bc3a9e7d56e830675bfe2b62d88fface",
+    "mtime": 1795106505.3731177,
+    "ast_hash": "bdda8e58260c90a9bbd489df32a3508c",
     "semantic_hash": ""
   },
   "src/infrastructure/browser-device-signals.adapter.ts": {
@@ -812,6 +812,11 @@
   "openspec/changes/c202611191230-spec-01-auth0-google-auth/ux-design.md": {
     "mtime": 1795106014.405653,
     "ast_hash": "f2ec57497099c299fbc3fb9bcfffb1ae",
+    "semantic_hash": ""
+  },
+  "src/domain/auth.spec.ts": {
+    "mtime": 1795106478.0105326,
+    "ast_hash": "3573de10517c38691c91c4d22a456241",
     "semantic_hash": ""
   }
 }

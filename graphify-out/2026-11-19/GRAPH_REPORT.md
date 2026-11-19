@@ -1,11 +1,11 @@
 # Graph Report - GreenKeeper.AnaloJs  (2026-11-19)
 
 ## Corpus Check
-- 154 files · ~142,648 words
+- 154 files · ~142,650 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1669 nodes · 1720 edges · 122 communities (117 shown, 5 thin omitted)
+- 1670 nodes · 1721 edges · 122 communities (117 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
@@ -167,8 +167,8 @@ Cohesion: 0.04
 Nodes (44): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+36 more)
 
 ### Community 1 - "1. Dashboard Botânico (`Minhas Plantas`)"
-Cohesion: 0.04
-Nodes (44): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+36 more)
+Cohesion: 0.08
+Nodes (24): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+16 more)
 
 ### Community 2 - "Decisions"
 Cohesion: 0.05
@@ -179,8 +179,8 @@ Cohesion: 0.07
 Nodes (25): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+17 more)
 
 ### Community 4 - "ADDED Requirements"
-Cohesion: 0.07
-Nodes (25): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+17 more)
+Cohesion: 0.04
+Nodes (45): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+37 more)
 
 ### Community 5 - "ADDED Requirements"
 Cohesion: 0.08
@@ -235,8 +235,8 @@ Cohesion: 0.13
 Nodes (3): DashboardRepositoryPort, DashboardSnapshot, InMemoryDashboardRepository
 
 ### Community 18 - "devDependencies"
-Cohesion: 0.05
-Nodes (43): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, rxjs (+35 more)
+Cohesion: 0.04
+Nodes (44): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, @auth0/auth0-spa-js (+36 more)
 
 ### Community 19 - "app.spec.ts"
 Cohesion: 0.15
@@ -611,7 +611,7 @@ Cohesion: 0.29
 Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ## Knowledge Gaps
-- **1210 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1205 more)
+- **1211 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1206 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -621,14 +621,14 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `index.ts`, `app.spec.ts`, `index.page.ts`, `scripts`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
-  _1210 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1211 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**
-  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Decisions` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
 - **Should `concept.md` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
 - **Should `ADDED Requirements` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
