@@ -1,0 +1,13 @@
+node_modules
+dist
+.analog
+.nitro
+.output
+.angular
+coverage
+worktrees
+graphify-out
+.git
+.env
+.env.local
+screenshots

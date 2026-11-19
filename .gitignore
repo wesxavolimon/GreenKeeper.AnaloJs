@@ -9,6 +9,8 @@ dist/
 .angular/
 .vite/
 coverage/
+test-results/
+playwright-report/
 
 # Environment
 .env
@@ -32,3 +34,7 @@ Thumbs.db
 *.log
 npm-debug.log*
 graphify-out/cache
+# Local Netlify folder
+.netlify
+screenshots/
+skills-lock.json
