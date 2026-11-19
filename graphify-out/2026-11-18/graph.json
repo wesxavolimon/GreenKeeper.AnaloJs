@@ -1,0 +1,2370 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "concept.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept",
+      "community": 3,
+      "norm_label": "concept.md"
+    },
+    {
+      "label": "Vis\u00e3o",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_vis\u00e3o",
+      "community": 3,
+      "norm_label": "visao"
+    },
+    {
+      "label": "Mapa Funcional",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_mapa_funcional",
+      "community": 3,
+      "norm_label": "mapa funcional"
+    },
+    {
+      "label": "Jornadas de Usu\u00e1rio",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_jornadas_de_usu\u00e1rio",
+      "community": 3,
+      "norm_label": "jornadas de usuario"
+    },
+    {
+      "label": "Ator 1: Usu\u00e1rio (no Celular)",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_ator_1_usu\u00e1rio_no_celular",
+      "community": 3,
+      "norm_label": "ator 1: usuario (no celular)"
+    },
+    {
+      "label": "Ator 2: Visitante (em Desktop ou Tablet)",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_ator_2_visitante_em_desktop_ou_tablet",
+      "community": 3,
+      "norm_label": "ator 2: visitante (em desktop ou tablet)"
+    },
+    {
+      "label": "Arquitetura Macro",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_arquitetura_macro",
+      "community": 3,
+      "norm_label": "arquitetura macro"
+    },
+    {
+      "label": "Funcionalidades por \u00c1rea",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_funcionalidades_por_\u00e1rea",
+      "community": 3,
+      "norm_label": "funcionalidades por area"
+    },
+    {
+      "label": "Viabilidade",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L107",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_viabilidade",
+      "community": 3,
+      "norm_label": "viabilidade"
+    },
+    {
+      "label": "Riscos Iniciais",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L115",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_riscos_iniciais",
+      "community": 3,
+      "norm_label": "riscos iniciais"
+    },
+    {
+      "label": "Fora de Escopo",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L123",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_fora_de_escopo",
+      "community": 3,
+      "norm_label": "fora de escopo"
+    },
+    {
+      "label": "design.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design",
+      "community": 2,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_context",
+      "community": 2,
+      "norm_label": "context"
+    },
+    {
+      "label": "Goals / Non-Goals",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_goals_non_goals",
+      "community": 2,
+      "norm_label": "goals / non-goals"
+    },
+    {
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_decisions",
+      "community": 2,
+      "norm_label": "decisions"
+    },
+    {
+      "label": "1. AnalogJS configurado como SPA est\u00e1tica (`ssr: false`) para Netlify",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_1_analogjs_configurado_como_spa_est\u00e1tica_ssr_false_para_netlify",
+      "community": 2,
+      "norm_label": "1. analogjs configurado como spa estatica (`ssr: false`) para netlify"
+    },
+    {
+      "label": "2. Clean Architecture pragm\u00e1tica para Frontend em TypeScript",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_2_clean_architecture_pragm\u00e1tica_para_frontend_em_typescript",
+      "community": 2,
+      "norm_label": "2. clean architecture pragmatica para frontend em typescript"
+    },
+    {
+      "label": "3. Regra pura para Mobile-Only Gate + Override controlado",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_3_regra_pura_para_mobile_only_gate_override_controlado",
+      "community": 2,
+      "norm_label": "3. regra pura para mobile-only gate + override controlado"
+    },
+    {
+      "label": "4. Visual do Dashboard fiel ao HTML *GreenKeeper \u2014 Cuidados Bot\u00e2nicos* adaptado a `100dvh`",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_4_visual_do_dashboard_fiel_ao_html_greenkeeper_cuidados_bot\u00e2nicos_adaptado_a_100dvh",
+      "community": 2,
+      "norm_label": "4. visual do dashboard fiel ao html *greenkeeper \u2014 cuidados botanicos* adaptado a `100dvh`"
+    },
+    {
+      "label": "5. Estrat\u00e9gia de Cobertura Unit\u00e1ria 100% (Vitest + v8)",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_5_estrat\u00e9gia_de_cobertura_unit\u00e1ria_100_vitest_v8",
+      "community": 2,
+      "norm_label": "5. estrategia de cobertura unitaria 100% (vitest + v8)"
+    },
+    {
+      "label": "6. Captura automatizada de prints via Playwright em Docker",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_6_captura_automatizada_de_prints_via_playwright_em_docker",
+      "community": 2,
+      "norm_label": "6. captura automatizada de prints via playwright em docker"
+    },
+    {
+      "label": "7. Configura\u00e7\u00e3o Local vs Produ\u00e7\u00e3o (Netlify) e Roadmap de Pr\u00f3ximos Proposes",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_7_configura\u00e7\u00e3o_local_vs_produ\u00e7\u00e3o_netlify_e_roadmap_de_pr\u00f3ximos_proposes",
+      "community": 2,
+      "norm_label": "7. configuracao local vs producao (netlify) e roadmap de proximos proposes"
+    },
+    {
+      "label": "Risks / Trade-offs",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_risks_trade_offs",
+      "community": 2,
+      "norm_label": "risks / trade-offs"
+    },
+    {
+      "label": "proposal.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal",
+      "community": 7,
+      "norm_label": "proposal.md"
+    },
+    {
+      "label": "Why",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_why",
+      "community": 7,
+      "norm_label": "why"
+    },
+    {
+      "label": "What Changes",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_what_changes",
+      "community": 7,
+      "norm_label": "what changes"
+    },
+    {
+      "label": "Explicitamente diferido para pr\u00f3ximos proposes (registrado no `README.md` / `AGENTS.md`)",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_explicitamente_diferido_para_pr\u00f3ximos_proposes_registrado_no_readme_md_agents_md",
+      "community": 7,
+      "norm_label": "explicitamente diferido para proximos proposes (registrado no `readme.md` / `agents.md`)"
+    },
+    {
+      "label": "Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_capabilities",
+      "community": 7,
+      "norm_label": "capabilities"
+    },
+    {
+      "label": "New Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_new_capabilities",
+      "community": 7,
+      "norm_label": "new capabilities"
+    },
+    {
+      "label": "Modified Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_modified_capabilities",
+      "community": 7,
+      "norm_label": "modified capabilities"
+    },
+    {
+      "label": "Impact",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_impact",
+      "community": 7,
+      "norm_label": "impact"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec",
+      "community": 5,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_added_requirements",
+      "community": 5,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: Direct Entry to Dashboard Without Login",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_requirement_direct_entry_to_dashboard_without_login",
+      "community": 5,
+      "norm_label": "requirement: direct entry to dashboard without login"
+    },
+    {
+      "label": "Scenario: Mobile user opens the root URL",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_scenario_mobile_user_opens_the_root_url",
+      "community": 5,
+      "norm_label": "scenario: mobile user opens the root url"
+    },
+    {
+      "label": "Requirement: Botanical Dashboard Visual Structure Adapted to Real Mobile Viewport",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_requirement_botanical_dashboard_visual_structure_adapted_to_real_mobile_viewport",
+      "community": 5,
+      "norm_label": "requirement: botanical dashboard visual structure adapted to real mobile viewport"
+    },
+    {
+      "label": "Scenario: Mobile viewport displays full botanical dashboard without simulated bezel",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_scenario_mobile_viewport_displays_full_botanical_dashboard_without_simulated_bezel",
+      "community": 5,
+      "norm_label": "scenario: mobile viewport displays full botanical dashboard without simulated bezel"
+    },
+    {
+      "label": "Requirement: In-Memory Repository Adapter and Local Dashboard Interactions",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_requirement_in_memory_repository_adapter_and_local_dashboard_interactions",
+      "community": 5,
+      "norm_label": "requirement: in-memory repository adapter and local dashboard interactions"
+    },
+    {
+      "label": "Scenario: User completes pending watering task on active plant card",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_scenario_user_completes_pending_watering_task_on_active_plant_card",
+      "community": 5,
+      "norm_label": "scenario: user completes pending watering task on active plant card"
+    },
+    {
+      "label": "Scenario: User adjusts humidifier target level",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_scenario_user_adjusts_humidifier_target_level",
+      "community": 5,
+      "norm_label": "scenario: user adjusts humidifier target level"
+    },
+    {
+      "label": "Scenario: User selects a stacked room card",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_scenario_user_selects_a_stacked_room_card",
+      "community": 5,
+      "norm_label": "scenario: user selects a stacked room card"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec",
+      "community": 8,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_added_requirements",
+      "community": 8,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: Fully Containerized Local Workflow via Docker Compose",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_requirement_fully_containerized_local_workflow_via_docker_compose",
+      "community": 8,
+      "norm_label": "requirement: fully containerized local workflow via docker compose"
+    },
+    {
+      "label": "Scenario: Running unit tests inside Docker",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_scenario_running_unit_tests_inside_docker",
+      "community": 8,
+      "norm_label": "scenario: running unit tests inside docker"
+    },
+    {
+      "label": "Requirement: 100% Unit Test Coverage Enforcement",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_requirement_100_unit_test_coverage_enforcement",
+      "community": 8,
+      "norm_label": "requirement: 100% unit test coverage enforcement"
+    },
+    {
+      "label": "Scenario: Coverage check fails below 100%",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_scenario_coverage_check_fails_below_100",
+      "community": 8,
+      "norm_label": "scenario: coverage check fails below 100%"
+    },
+    {
+      "label": "Requirement: Automated Screen Capture via Playwright",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_requirement_automated_screen_capture_via_playwright",
+      "community": 8,
+      "norm_label": "requirement: automated screen capture via playwright"
+    },
+    {
+      "label": "Scenario: Generating mobile and desktop screenshots",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_scenario_generating_mobile_and_desktop_screenshots",
+      "community": 8,
+      "norm_label": "scenario: generating mobile and desktop screenshots"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec",
+      "community": 6,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_added_requirements",
+      "community": 6,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: Mobile-Only Access Detection",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_requirement_mobile_only_access_detection",
+      "community": 6,
+      "norm_label": "requirement: mobile-only access detection"
+    },
+    {
+      "label": "Scenario: Standard mobile phone browser accesses the app",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_scenario_standard_mobile_phone_browser_accesses_the_app",
+      "community": 6,
+      "norm_label": "scenario: standard mobile phone browser accesses the app"
+    },
+    {
+      "label": "Scenario: Desktop or tablet browser accesses the app",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_scenario_desktop_or_tablet_browser_accesses_the_app",
+      "community": 6,
+      "norm_label": "scenario: desktop or tablet browser accesses the app"
+    },
+    {
+      "label": "Requirement: Controlled Development and Test Override",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_requirement_controlled_development_and_test_override",
+      "community": 6,
+      "norm_label": "requirement: controlled development and test override"
+    },
+    {
+      "label": "Scenario: Production build ignores dev override query parameters",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_scenario_production_build_ignores_dev_override_query_parameters",
+      "community": 6,
+      "norm_label": "scenario: production build ignores dev override query parameters"
+    },
+    {
+      "label": "Requirement: Informative Screen for Non-Mobile Visitors",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_requirement_informative_screen_for_non_mobile_visitors",
+      "community": 6,
+      "norm_label": "requirement: informative screen for non-mobile visitors"
+    },
+    {
+      "label": "Scenario: Non-mobile visitor lands on root or deep route",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_scenario_non_mobile_visitor_lands_on_root_or_deep_route",
+      "community": 6,
+      "norm_label": "scenario: non-mobile visitor lands on root or deep route"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec",
+      "community": 4,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_added_requirements",
+      "community": 4,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: 100% Frontend AnalogJS Architecture Without Custom Backend",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_requirement_100_frontend_analogjs_architecture_without_custom_backend",
+      "community": 4,
+      "norm_label": "requirement: 100% frontend analogjs architecture without custom backend"
+    },
+    {
+      "label": "Scenario: Static SPA production build without server runtime",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_scenario_static_spa_production_build_without_server_runtime",
+      "community": 4,
+      "norm_label": "scenario: static spa production build without server runtime"
+    },
+    {
+      "label": "Requirement: Pragmatic Frontend Clean Architecture Layering",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_requirement_pragmatic_frontend_clean_architecture_layering",
+      "community": 4,
+      "norm_label": "requirement: pragmatic frontend clean architecture layering"
+    },
+    {
+      "label": "Scenario: Domain layer isolation",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_scenario_domain_layer_isolation",
+      "community": 4,
+      "norm_label": "scenario: domain layer isolation"
+    },
+    {
+      "label": "Scenario: Application layer dependency direction",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_scenario_application_layer_dependency_direction",
+      "community": 4,
+      "norm_label": "scenario: application layer dependency direction"
+    },
+    {
+      "label": "Scenario: Composition root dependency wiring",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_scenario_composition_root_dependency_wiring",
+      "community": 4,
+      "norm_label": "scenario: composition root dependency wiring"
+    },
+    {
+      "label": "Requirement: Local and Production Environment Configuration",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_requirement_local_and_production_environment_configuration",
+      "community": 4,
+      "norm_label": "requirement: local and production environment configuration"
+    },
+    {
+      "label": "Scenario: Reading public environment configuration",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_scenario_reading_public_environment_configuration",
+      "community": 4,
+      "norm_label": "scenario: reading public environment configuration"
+    },
+    {
+      "label": "Scenario: Netlify build configuration present",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_scenario_netlify_build_configuration_present",
+      "community": 4,
+      "norm_label": "scenario: netlify build configuration present"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec",
+      "community": 10,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_added_requirements",
+      "community": 10,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: Installable Web App Manifest",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_requirement_installable_web_app_manifest",
+      "community": 10,
+      "norm_label": "requirement: installable web app manifest"
+    },
+    {
+      "label": "Scenario: Browser evaluates PWA installability metadata",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_scenario_browser_evaluates_pwa_installability_metadata",
+      "community": 10,
+      "norm_label": "scenario: browser evaluates pwa installability metadata"
+    },
+    {
+      "label": "Requirement: Service Worker Registration for PWA Shell",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_requirement_service_worker_registration_for_pwa_shell",
+      "community": 10,
+      "norm_label": "requirement: service worker registration for pwa shell"
+    },
+    {
+      "label": "Scenario: Production build emits service worker assets",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_scenario_production_build_emits_service_worker_assets",
+      "community": 10,
+      "norm_label": "scenario: production build emits service worker assets"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec",
+      "community": 11,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_added_requirements",
+      "community": 11,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: Project README and AGENTS Documentation",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_requirement_project_readme_and_agents_documentation",
+      "community": 11,
+      "norm_label": "requirement: project readme and agents documentation"
+    },
+    {
+      "label": "Scenario: Developer or AI agent inspects repository root docs",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_scenario_developer_or_ai_agent_inspects_repository_root_docs",
+      "community": 11,
+      "norm_label": "scenario: developer or ai agent inspects repository root docs"
+    },
+    {
+      "label": "Requirement: RTK and Graphify Initialization with Mandatory Pre-Stage Update Rule",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_requirement_rtk_and_graphify_initialization_with_mandatory_pre_stage_update_rule",
+      "community": 11,
+      "norm_label": "requirement: rtk and graphify initialization with mandatory pre-stage update rule"
+    },
+    {
+      "label": "Scenario: Graphify and RTK initialized in repository",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_scenario_graphify_and_rtk_initialized_in_repository",
+      "community": 11,
+      "norm_label": "scenario: graphify and rtk initialized in repository"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks",
+      "community": 9,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "Tasks",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_tasks",
+      "community": 9,
+      "norm_label": "tasks"
+    },
+    {
+      "label": "0. Branch",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_0_branch",
+      "community": 9,
+      "norm_label": "0. branch"
+    },
+    {
+      "label": "1. Governan\u00e7a, RTK, Graphify e Documenta\u00e7\u00e3o Base",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_1_governan\u00e7a_rtk_graphify_e_documenta\u00e7\u00e3o_base",
+      "community": 9,
+      "norm_label": "1. governanca, rtk, graphify e documentacao base"
+    },
+    {
+      "label": "2. Funda\u00e7\u00e3o AnalogJS, Docker e Configura\u00e7\u00f5es Local/Produ\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_2_funda\u00e7\u00e3o_analogjs_docker_e_configura\u00e7\u00f5es_local_produ\u00e7\u00e3o",
+      "community": 9,
+      "norm_label": "2. fundacao analogjs, docker e configuracoes local/producao"
+    },
+    {
+      "label": "3. Clean Architecture TS: Domain, Application, Infrastructure e Composition",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_3_clean_architecture_ts_domain_application_infrastructure_e_composition",
+      "community": 9,
+      "norm_label": "3. clean architecture ts: domain, application, infrastructure e composition"
+    },
+    {
+      "label": "4. UI AnalogJS: Mobile-Only Gate, Tela Informativa e Dashboard Bot\u00e2nico",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_4_ui_analogjs_mobile_only_gate_tela_informativa_e_dashboard_bot\u00e2nico",
+      "community": 9,
+      "norm_label": "4. ui analogjs: mobile-only gate, tela informativa e dashboard botanico"
+    },
+    {
+      "label": "5. Captura Automatizada de Prints (Playwright) e Valida\u00e7\u00e3o Final",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_5_captura_automatizada_de_prints_playwright_e_valida\u00e7\u00e3o_final",
+      "community": 9,
+      "norm_label": "5. captura automatizada de prints (playwright) e validacao final"
+    },
+    {
+      "label": "use-cases.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases",
+      "community": 0,
+      "norm_label": "use-cases.md"
+    },
+    {
+      "label": "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_01_validar_acesso_exclusivo_por_celular_mobile_only_gate",
+      "community": 0,
+      "norm_label": "uc-01: validar acesso exclusivo por celular (mobile-only gate)"
+    },
+    {
+      "label": "Fluxo Principal",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxo_principal",
+      "community": 0,
+      "norm_label": "fluxo principal"
+    },
+    {
+      "label": "Fluxos Alternativos",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxos_alternativos",
+      "community": 0,
+      "norm_label": "fluxos alternativos"
+    },
+    {
+      "label": "Cen\u00e1rios de Teste \u2014 Frontend Unit",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_unit",
+      "community": 0,
+      "norm_label": "cenarios de teste \u2014 frontend unit"
+    },
+    {
+      "label": "Cen\u00e1rios de Teste \u2014 Frontend E2E",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_e2e",
+      "community": 0,
+      "norm_label": "cenarios de teste \u2014 frontend e2e"
+    },
+    {
+      "label": "UC-02: Carregar Dashboard Bot\u00e2nico Direto (Sem Login)",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_02_carregar_dashboard_bot\u00e2nico_direto_sem_login",
+      "community": 0,
+      "norm_label": "uc-02: carregar dashboard botanico direto (sem login)"
+    },
+    {
+      "label": "Fluxo Principal",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxo_principal_46",
+      "community": 0,
+      "norm_label": "fluxo principal"
+    },
+    {
+      "label": "Fluxos Alternativos",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxos_alternativos_51",
+      "community": 0,
+      "norm_label": "fluxos alternativos"
+    },
+    {
+      "label": "Cen\u00e1rios de Teste \u2014 Frontend Unit",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_unit_54",
+      "community": 0,
+      "norm_label": "cenarios de teste \u2014 frontend unit"
+    },
+    {
+      "label": "Cen\u00e1rios de Teste \u2014 Frontend E2E",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_e2e_62",
+      "community": 0,
+      "norm_label": "cenarios de teste \u2014 frontend e2e"
+    },
+    {
+      "label": "UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_03_interagir_localmente_com_o_dashboard_concluir_tarefa_selecionar_ambiente_ajustar_umidificador",
+      "community": 12,
+      "norm_label": "uc-03: interagir localmente com o dashboard (concluir tarefa, selecionar ambiente, ajustar umidificador)"
+    },
+    {
+      "label": "Fluxo Principal",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxo_principal_75",
+      "community": 12,
+      "norm_label": "fluxo principal"
+    },
+    {
+      "label": "Fluxos Alternativos",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxos_alternativos_80",
+      "community": 12,
+      "norm_label": "fluxos alternativos"
+    },
+    {
+      "label": "Cen\u00e1rios de Teste \u2014 Frontend Unit",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_unit_84",
+      "community": 12,
+      "norm_label": "cenarios de teste \u2014 frontend unit"
+    },
+    {
+      "label": "Cen\u00e1rios de Teste \u2014 Frontend E2E",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_e2e_95",
+      "community": 12,
+      "norm_label": "cenarios de teste \u2014 frontend e2e"
+    },
+    {
+      "label": "UC-04: Instala\u00e7\u00e3o PWA e Captura Automatizada de Prints",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_04_instala\u00e7\u00e3o_pwa_e_captura_automatizada_de_prints",
+      "community": 0,
+      "norm_label": "uc-04: instalacao pwa e captura automatizada de prints"
+    },
+    {
+      "label": "Fluxo Principal",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L108",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxo_principal_108",
+      "community": 0,
+      "norm_label": "fluxo principal"
+    },
+    {
+      "label": "Fluxos Alternativos",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L112",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxos_alternativos_112",
+      "community": 0,
+      "norm_label": "fluxos alternativos"
+    },
+    {
+      "label": "Cen\u00e1rios de Teste \u2014 Frontend Unit",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L115",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_unit_115",
+      "community": 0,
+      "norm_label": "cenarios de teste \u2014 frontend unit"
+    },
+    {
+      "label": "Cen\u00e1rios de Teste \u2014 Frontend E2E",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L120",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_e2e_120",
+      "community": 0,
+      "norm_label": "cenarios de teste \u2014 frontend e2e"
+    },
+    {
+      "label": "ux-design.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design",
+      "community": 1,
+      "norm_label": "ux-design.md"
+    },
+    {
+      "label": "Fluxo de Navega\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_fluxo_de_navega\u00e7\u00e3o",
+      "community": 1,
+      "norm_label": "fluxo de navegacao"
+    },
+    {
+      "label": "Telas",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_telas",
+      "community": 1,
+      "norm_label": "telas"
+    },
+    {
+      "label": "1. Dashboard Bot\u00e2nico (`Minhas Plantas`)",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_1_dashboard_bot\u00e2nico_minhas_plantas",
+      "community": 1,
+      "norm_label": "1. dashboard botanico (`minhas plantas`)"
+    },
+    {
+      "label": "Tokens Visuais (fi\u00e9is ao HTML de refer\u00eancia)",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_tokens_visuais_fi\u00e9is_ao_html_de_refer\u00eancia",
+      "community": 1,
+      "norm_label": "tokens visuais (fieis ao html de referencia)"
+    },
+    {
+      "label": "Wireframe",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_wireframe",
+      "community": 1,
+      "norm_label": "wireframe"
+    },
+    {
+      "label": "Estados da Tela",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_estados_da_tela",
+      "community": 1,
+      "norm_label": "estados da tela"
+    },
+    {
+      "label": "Componentes",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_componentes",
+      "community": 1,
+      "norm_label": "componentes"
+    },
+    {
+      "label": "A\u00e7\u00f5es e Navega\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_a\u00e7\u00f5es_e_navega\u00e7\u00e3o",
+      "community": 1,
+      "norm_label": "acoes e navegacao"
+    },
+    {
+      "label": "2. Tela Informativa (Exclusiva Desktop / Tablet)",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_2_tela_informativa_exclusiva_desktop_tablet",
+      "community": 1,
+      "norm_label": "2. tela informativa (exclusiva desktop / tablet)"
+    },
+    {
+      "label": "Wireframe",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_wireframe_92",
+      "community": 1,
+      "norm_label": "wireframe"
+    },
+    {
+      "label": "Estados da Tela",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L116",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_estados_da_tela_116",
+      "community": 1,
+      "norm_label": "estados da tela"
+    },
+    {
+      "label": "Componentes",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_componentes_121",
+      "community": 1,
+      "norm_label": "componentes"
+    },
+    {
+      "label": "A\u00e7\u00f5es e Navega\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L124",
+      "_origin": "ast",
+      "id": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_a\u00e7\u00f5es_e_navega\u00e7\u00e3o_124",
+      "community": 1,
+      "norm_label": "acoes e navegacao"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_arquitetura_macro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_fora_de_escopo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_funcionalidades_por_\u00e1rea",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_jornadas_de_usu\u00e1rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_mapa_funcional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_riscos_iniciais",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_viabilidade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_vis\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_jornadas_de_usu\u00e1rio",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_ator_1_usu\u00e1rio_no_celular",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_jornadas_de_usu\u00e1rio",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_concept_ator_2_visitante_em_desktop_ou_tablet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_goals_non_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_risks_trade_offs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_decisions",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_1_analogjs_configurado_como_spa_est\u00e1tica_ssr_false_para_netlify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_decisions",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_2_clean_architecture_pragm\u00e1tica_para_frontend_em_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_decisions",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_3_regra_pura_para_mobile_only_gate_override_controlado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_decisions",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_4_visual_do_dashboard_fiel_ao_html_greenkeeper_cuidados_bot\u00e2nicos_adaptado_a_100dvh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_decisions",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_5_estrat\u00e9gia_de_cobertura_unit\u00e1ria_100_vitest_v8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_decisions",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_6_captura_automatizada_de_prints_via_playwright_em_docker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_decisions",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_design_7_configura\u00e7\u00e3o_local_vs_produ\u00e7\u00e3o_netlify_e_roadmap_de_pr\u00f3ximos_proposes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_what_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_why",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_what_changes",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_explicitamente_diferido_para_pr\u00f3ximos_proposes_registrado_no_readme_md_agents_md",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_capabilities",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_modified_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_capabilities",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_proposal_new_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_added_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_requirement_botanical_dashboard_visual_structure_adapted_to_real_mobile_viewport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_requirement_direct_entry_to_dashboard_without_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_requirement_in_memory_repository_adapter_and_local_dashboard_interactions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_requirement_direct_entry_to_dashboard_without_login",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_scenario_mobile_user_opens_the_root_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_requirement_botanical_dashboard_visual_structure_adapted_to_real_mobile_viewport",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_scenario_mobile_viewport_displays_full_botanical_dashboard_without_simulated_bezel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_requirement_in_memory_repository_adapter_and_local_dashboard_interactions",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_scenario_user_adjusts_humidifier_target_level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_requirement_in_memory_repository_adapter_and_local_dashboard_interactions",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_scenario_user_completes_pending_watering_task_on_active_plant_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_requirement_in_memory_repository_adapter_and_local_dashboard_interactions",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_botanical_dashboard_spec_scenario_user_selects_a_stacked_room_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_added_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_requirement_100_unit_test_coverage_enforcement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_requirement_automated_screen_capture_via_playwright",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_requirement_fully_containerized_local_workflow_via_docker_compose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_requirement_fully_containerized_local_workflow_via_docker_compose",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_scenario_running_unit_tests_inside_docker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_requirement_100_unit_test_coverage_enforcement",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_scenario_coverage_check_fails_below_100",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_requirement_automated_screen_capture_via_playwright",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_docker_quality_and_visual_capture_spec_scenario_generating_mobile_and_desktop_screenshots",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_added_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_requirement_controlled_development_and_test_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_requirement_informative_screen_for_non_mobile_visitors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_requirement_mobile_only_access_detection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_requirement_mobile_only_access_detection",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_scenario_desktop_or_tablet_browser_accesses_the_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_requirement_mobile_only_access_detection",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_scenario_standard_mobile_phone_browser_accesses_the_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_requirement_controlled_development_and_test_override",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_scenario_production_build_ignores_dev_override_query_parameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_requirement_informative_screen_for_non_mobile_visitors",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_mobile_only_gate_spec_scenario_non_mobile_visitor_lands_on_root_or_deep_route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_added_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_requirement_100_frontend_analogjs_architecture_without_custom_backend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_requirement_local_and_production_environment_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_requirement_pragmatic_frontend_clean_architecture_layering",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_requirement_100_frontend_analogjs_architecture_without_custom_backend",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_scenario_static_spa_production_build_without_server_runtime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_requirement_pragmatic_frontend_clean_architecture_layering",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_scenario_application_layer_dependency_direction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_requirement_pragmatic_frontend_clean_architecture_layering",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_scenario_composition_root_dependency_wiring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_requirement_pragmatic_frontend_clean_architecture_layering",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_scenario_domain_layer_isolation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_requirement_local_and_production_environment_configuration",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_scenario_netlify_build_configuration_present",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_requirement_local_and_production_environment_configuration",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_project_foundation_spec_scenario_reading_public_environment_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_added_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_requirement_installable_web_app_manifest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_requirement_service_worker_registration_for_pwa_shell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_requirement_installable_web_app_manifest",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_scenario_browser_evaluates_pwa_installability_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_requirement_service_worker_registration_for_pwa_shell",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_pwa_shell_spec_scenario_production_build_emits_service_worker_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_added_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_requirement_project_readme_and_agents_documentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_added_requirements",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_requirement_rtk_and_graphify_initialization_with_mandatory_pre_stage_update_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_requirement_project_readme_and_agents_documentation",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_scenario_developer_or_ai_agent_inspects_repository_root_docs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_requirement_rtk_and_graphify_initialization_with_mandatory_pre_stage_update_rule",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_specs_repo_governance_and_docs_spec_scenario_graphify_and_rtk_initialized_in_repository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_tasks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_tasks",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_0_branch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_tasks",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_1_governan\u00e7a_rtk_graphify_e_documenta\u00e7\u00e3o_base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_tasks",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_2_funda\u00e7\u00e3o_analogjs_docker_e_configura\u00e7\u00f5es_local_produ\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_tasks",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_3_clean_architecture_ts_domain_application_infrastructure_e_composition",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_tasks",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_4_ui_analogjs_mobile_only_gate_tela_informativa_e_dashboard_bot\u00e2nico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_tasks",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_tasks_5_captura_automatizada_de_prints_playwright_e_valida\u00e7\u00e3o_final",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_01_validar_acesso_exclusivo_por_celular_mobile_only_gate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_02_carregar_dashboard_bot\u00e2nico_direto_sem_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_03_interagir_localmente_com_o_dashboard_concluir_tarefa_selecionar_ambiente_ajustar_umidificador",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_04_instala\u00e7\u00e3o_pwa_e_captura_automatizada_de_prints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_01_validar_acesso_exclusivo_por_celular_mobile_only_gate",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_e2e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_01_validar_acesso_exclusivo_por_celular_mobile_only_gate",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_unit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_01_validar_acesso_exclusivo_por_celular_mobile_only_gate",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxo_principal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_01_validar_acesso_exclusivo_por_celular_mobile_only_gate",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxos_alternativos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_02_carregar_dashboard_bot\u00e2nico_direto_sem_login",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_e2e_62",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_02_carregar_dashboard_bot\u00e2nico_direto_sem_login",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_unit_54",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_02_carregar_dashboard_bot\u00e2nico_direto_sem_login",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxo_principal_46",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_02_carregar_dashboard_bot\u00e2nico_direto_sem_login",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxos_alternativos_51",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_03_interagir_localmente_com_o_dashboard_concluir_tarefa_selecionar_ambiente_ajustar_umidificador",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_e2e_95",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_03_interagir_localmente_com_o_dashboard_concluir_tarefa_selecionar_ambiente_ajustar_umidificador",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_unit_84",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_03_interagir_localmente_com_o_dashboard_concluir_tarefa_selecionar_ambiente_ajustar_umidificador",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxo_principal_75",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_03_interagir_localmente_com_o_dashboard_concluir_tarefa_selecionar_ambiente_ajustar_umidificador",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxos_alternativos_80",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_04_instala\u00e7\u00e3o_pwa_e_captura_automatizada_de_prints",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_e2e_120",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_04_instala\u00e7\u00e3o_pwa_e_captura_automatizada_de_prints",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_cen\u00e1rios_de_teste_frontend_unit_115",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_04_instala\u00e7\u00e3o_pwa_e_captura_automatizada_de_prints",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxo_principal_108",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_uc_04_instala\u00e7\u00e3o_pwa_e_captura_automatizada_de_prints",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_use_cases_fluxos_alternativos_112",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_fluxo_de_navega\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_telas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_telas",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_1_dashboard_bot\u00e2nico_minhas_plantas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_telas",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_2_tela_informativa_exclusiva_desktop_tablet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_1_dashboard_bot\u00e2nico_minhas_plantas",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_a\u00e7\u00f5es_e_navega\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_1_dashboard_bot\u00e2nico_minhas_plantas",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_componentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_1_dashboard_bot\u00e2nico_minhas_plantas",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_estados_da_tela",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_1_dashboard_bot\u00e2nico_minhas_plantas",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_tokens_visuais_fi\u00e9is_ao_html_de_refer\u00eancia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_1_dashboard_bot\u00e2nico_minhas_plantas",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_wireframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_2_tela_informativa_exclusiva_desktop_tablet",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_a\u00e7\u00f5es_e_navega\u00e7\u00e3o_124",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_2_tela_informativa_exclusiva_desktop_tablet",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_componentes_121",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_2_tela_informativa_exclusiva_desktop_tablet",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_estados_da_tela_116",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_2_tela_informativa_exclusiva_desktop_tablet",
+      "target": "openspec_changes_c20261118230237_analogjs_pwa_skeleton_ux_design_wireframe_92",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

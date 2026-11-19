@@ -1,0 +1,72 @@
+{
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/.openspec.yaml": {
+    "mtime": 1795053758.5111928,
+    "ast_hash": "a6e71d22c49e842442859a57da5eb654",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/concept.md": {
+    "mtime": 1795055187.920199,
+    "ast_hash": "44bd8a2204a1bba666723c922155ac9b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/design.md": {
+    "mtime": 1795055312.7870412,
+    "ast_hash": "7115443f794c94684cfd29775f900652",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/proposal.md": {
+    "mtime": 1795055204.6025898,
+    "ast_hash": "20a65961386f00d3f2b06c6f23656fa4",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/botanical-dashboard/spec.md": {
+    "mtime": 1795055230.2429917,
+    "ast_hash": "e6c3ba14936aa28d6ef0e934612338d3",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/docker-quality-and-visual-capture/spec.md": {
+    "mtime": 1795055232.073597,
+    "ast_hash": "00056873d3cc6c4001e33d8178b3a531",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/mobile-only-gate/spec.md": {
+    "mtime": 1795055228.514955,
+    "ast_hash": "edcc381b316facefe6bcaefceadf1e30",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/project-foundation/spec.md": {
+    "mtime": 1795055225.3609405,
+    "ast_hash": "696d66a013894b3d8a705a71c1a44be7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/pwa-shell/spec.md": {
+    "mtime": 1795055226.5744143,
+    "ast_hash": "d75ef80b460387baeaefc493a4a72695",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/specs/repo-governance-and-docs/spec.md": {
+    "mtime": 1795055233.8116584,
+    "ast_hash": "4fca565a66a722f1732f7ad244188a37",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/tasks.md": {
+    "mtime": 1795055337.0825732,
+    "ast_hash": "654b85f18d8c2e37604bd6cd3083fff5",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/use-cases.md": {
+    "mtime": 1795055269.520775,
+    "ast_hash": "d6c779dc0f2b423cd5474df3399e8daf",
+    "semantic_hash": ""
+  },
+  "openspec/changes/c20261118230237-analogjs-pwa-skeleton/ux-design.md": {
+    "mtime": 1795055287.8227835,
+    "ast_hash": "2e6328aa8d6b39b3e2850320d9184929",
+    "semantic_hash": ""
+  },
+  "openspec/config.yaml": {
+    "mtime": 1795055369.0237904,
+    "ast_hash": "996f930e7e9a24fad14aa297a5542395",
+    "semantic_hash": ""
+  }
+}

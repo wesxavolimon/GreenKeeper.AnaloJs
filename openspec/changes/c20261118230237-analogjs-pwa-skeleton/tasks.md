@@ -2,7 +2,7 @@
 
 ## 0. Branch
 
-- [ ] 0.1 **Inicializar branch base (`main` e `develop`) e worktree isolada**
+- [x] 0.1 **Inicializar branch base (`main` e `develop`) e worktree isolada**
   - **Nota:** `GreenKeeper.AnaloJs` foi clonado vazio (`git@github.com:wesxavolimon/GreenKeeper.AnaloJs.git`). Criar commit inicial de bootstrap (`.gitignore`, `.graphifyignore`, `openspec/`), criar branch `develop` e criar a worktree isolada em `GreenKeeper.AnaloJs/worktrees/analogjs-pwa-skeleton` na branch `feature/analogjs-pwa-skeleton` a partir de `develop` (mediante autorização explícita do usuário para commit/push).
   - **Done:** `git worktree list` mostra `worktrees/analogjs-pwa-skeleton [feature/analogjs-pwa-skeleton]`.
 
@@ -10,15 +10,15 @@
 
 ## 1. Governança, RTK, Graphify e Documentação Base
 
-- [ ] 1.1 **Configurar `.gitignore` e `.graphifyignore` em `GreenKeeper.AnaloJs/`**
+- [x] 1.1 **Configurar `.gitignore` e `.graphifyignore` em `GreenKeeper.AnaloJs/`**
   - Ignorar `node_modules/`, `dist/`, `.analog/`, `coverage/`, `worktrees/`, `screenshots/` (ou manter só se versionado conforme decisão), `graphify-out/cache`, `.env`, `.env.local`.
   - **Done:** `.gitignore` e `.graphifyignore` criados e validados.
 
-- [ ] 1.2 **Inicializar RTK e Graphify na raiz do projeto**
+- [x] 1.2 **Inicializar RTK e Graphify na raiz do projeto**
   - Executar `rtk init --agent antigravity` e `graphify .` dentro de `GreenKeeper.AnaloJs`.
   - **Done:** Configuração RTK para Antigravity gerada e `graphify-out/graph.json` + `GRAPH_REPORT.md` criados.
 
-- [ ] 1.3 **Criar `README.md` e `AGENTS.md` próprios de `GreenKeeper.AnaloJs`**
+- [x] 1.3 **Criar `README.md` e `AGENTS.md` próprios de `GreenKeeper.AnaloJs`**
   - `README.md`: visão do PWA AnalogJS sem backend, estrutura Clean Architecture TS, comandos Docker (dev, testes 100%, build, prints Playwright), variáveis de ambiente local vs produção (Netlify) e roadmap dos próximos proposes.
   - `AGENTS.md`: regras de arquitetura, fluxo OpenSpec/worktree, **regra obrigatória de executar `graphify update .` antes de todo `git add`**, lista curada das skills relevantes de `C:\Users\User\.skills-manager\skills` e registro detalhado dos 3 próximos proposes (1. PostgreSQL Docker + Supabase `@supabase/supabase-js`; 2. Auth0 + Google; 3. Convite familiar por email + notificação no celular + compartilhamento de database).
   - **Done:** `README.md` e `AGENTS.md` revisados e completos.

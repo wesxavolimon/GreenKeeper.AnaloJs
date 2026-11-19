@@ -1,13 +1,18 @@
-# Graph Report - GreenKeeper.AnaloJs  (2026-11-18)
+# Graph Report - analogjs-pwa-skeleton  (2026-11-18)
 
 ## Corpus Check
-- 12 files · ~7,573 words
+- 15 files · ~8,627 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 124 nodes · 112 edges · 13 communities
+- 150 nodes · 136 edges · 16 communities
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `3af90183`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)
@@ -23,23 +28,26 @@
 - ADDED Requirements
 - ADDED Requirements
 - UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)
+- AGENTS.md — GreenKeeper.AnaloJs
+- RTK - Rust Token Killer (Google Antigravity)
+- UC-04: Instalação PWA e Captura Automatizada de Prints
 
 ## God Nodes (most connected - your core abstractions)
-1. `Decisions` - 8 edges
-2. `Tasks` - 7 edges
-3. `1. Dashboard Botânico (`Minhas Plantas`)` - 6 edges
-4. `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` - 5 edges
-5. `UC-02: Carregar Dashboard Botânico Direto (Sem Login)` - 5 edges
-6. `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` - 5 edges
-7. `UC-04: Instalação PWA e Captura Automatizada de Prints` - 5 edges
-8. `2. Tela Informativa (Exclusiva Desktop / Tablet)` - 5 edges
-9. `ADDED Requirements` - 4 edges
-10. `Requirement: In-Memory Repository Adapter and Local Dashboard Interactions` - 4 edges
+1. `🌿 GreenKeeper.AnaloJs` - 9 edges
+2. `AGENTS.md — GreenKeeper.AnaloJs` - 8 edges
+3. `Decisions` - 8 edges
+4. `Tasks` - 7 edges
+5. `1. Dashboard Botânico (`Minhas Plantas`)` - 6 edges
+6. `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` - 5 edges
+7. `UC-02: Carregar Dashboard Botânico Direto (Sem Login)` - 5 edges
+8. `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` - 5 edges
+9. `UC-04: Instalação PWA e Captura Automatizada de Prints` - 5 edges
+10. `2. Tela Informativa (Exclusiva Desktop / Tablet)` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (13 total, 0 thin omitted)
+## Communities (16 total, 0 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
 Cohesion: 0.12
@@ -90,20 +98,32 @@ Cohesion: 0.33
 Nodes (5): ADDED Requirements, Requirement: Project README and AGENTS Documentation, Requirement: RTK and Graphify Initialization with Mandatory Pre-Stage Update Rule, Scenario: Developer or AI agent inspects repository root docs, Scenario: Graphify and RTK initialized in repository
 
 ### Community 12 - "UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)"
+Cohesion: 0.18
+Nodes (9): Arquitetura, Desenvolvimento com agentes, Docker (sem instalar nada no host), 🌿 GreenKeeper.AnaloJs, O que já faz, Prints das telas, Qualidade, Roadmap (próximos proposes) (+1 more)
+
+### Community 13 - "AGENTS.md — GreenKeeper.AnaloJs"
+Cohesion: 0.20
+Nodes (10): AGENTS.md — GreenKeeper.AnaloJs, Arquitetura (Clean Architecture pragmática no frontend), Escopo atual (esqueleto), Governança de ferramentas, Nomenclatura, O que é o projeto, Próximos proposes (registrados, FORA do escopo atual), Qualidade (+2 more)
+
+### Community 14 - "RTK - Rust Token Killer (Google Antigravity)"
 Cohesion: 0.40
-Nodes (5): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend Unit, Fluxo Principal, Fluxos Alternativos, UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)
+Nodes (4): Meta Commands, RTK - Rust Token Killer (Google Antigravity), Rule, Why
+
+### Community 15 - "UC-04: Instalação PWA e Captura Automatizada de Prints"
+Cohesion: 0.40
+Nodes (5): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend Unit, Fluxo Principal, Fluxos Alternativos, UC-04: Instalação PWA e Captura Automatizada de Prints
 
 ## Knowledge Gaps
-- **78 isolated node(s):** `Visão`, `Mapa Funcional`, `Ator 1: Usuário (no Celular)`, `Ator 2: Visitante (em Desktop ou Tablet)`, `Arquitetura Macro` (+73 more)
+- **97 isolated node(s):** `Rule`, `Meta Commands`, `Why`, `⛔ Regras absolutas`, `Nomenclatura` (+92 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` connect `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)` to `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
-- **What connects `Visão`, `Mapa Funcional`, `Ator 1: Usuário (no Celular)` to the rest of the system?**
-  _78 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `AGENTS.md — GreenKeeper.AnaloJs` connect `AGENTS.md — GreenKeeper.AnaloJs` to `UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)`?**
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **What connects `Rule`, `Meta Commands`, `Why` to the rest of the system?**
+  _97 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**
