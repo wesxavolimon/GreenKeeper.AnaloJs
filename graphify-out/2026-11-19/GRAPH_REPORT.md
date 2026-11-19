@@ -1,16 +1,16 @@
 # Graph Report - GreenKeeper.AnaloJs  (2026-11-19)
 
 ## Corpus Check
-- 156 files · ~143,143 words
+- 158 files · ~143,527 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1691 nodes · 1746 edges · 126 communities (121 shown, 5 thin omitted)
+- 1701 nodes · 1772 edges · 125 communities (120 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `49d77bf5`
+- Built from commit: `b9a99959`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -32,6 +32,7 @@
 - RTK - Rust Token Killer (Google Antigravity)
 - UC-04: Instalação PWA e Captura Automatizada de Prints
 - dependencies
+- greenkeeper-analojs
 - devDependencies
 - app.spec.ts
 - scripts
@@ -89,7 +90,7 @@
 - Vite + React on Netlify
 - Vite + React on Netlify
 - ADDED Requirements
-- PwaRegistrationPort
+- Auth0Adapter
 - Two-Layer Pattern: Company-Only Access + Per-User Identity
 - Advanced Identity Patterns
 - Two-Layer Pattern: Company-Only Access + Per-User Identity
@@ -132,37 +133,37 @@
 - concept.md
 - proposal.md
 - auth.spec.ts
+- PwaRegistrationPort
 - Home
-- DashboardSnapshot
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 23 edges
-2. `Netlify Functions` - 19 edges
+2. `DashboardSnapshot` - 19 edges
 3. `Netlify Functions` - 19 edges
-4. `Netlify Blobs` - 17 edges
+4. `Netlify Functions` - 19 edges
 5. `Netlify Blobs` - 17 edges
-6. `Netlify configuration` - 15 edges
-7. `Netlify Database` - 15 edges
-8. `Netlify MCP Servers` - 15 edges
-9. `Netlify configuration` - 15 edges
-10. `Netlify Database` - 15 edges
+6. `Netlify Blobs` - 17 edges
+7. `Netlify configuration` - 15 edges
+8. `Netlify Database` - 15 edges
+9. `Netlify MCP Servers` - 15 edges
+10. `Netlify configuration` - 15 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `mobileOnlyGuard()` --indirect_call--> `EvaluateDeviceAccessUseCase`  [INFERRED]
   src/app/guards/mobile-only.guard.ts → src/application/use-cases.ts
-- `InMemoryDashboardRepository` --implements--> `DashboardRepositoryPort`  [EXTRACTED]
-  src/infrastructure/in-memory-dashboard.repository.ts → src/application/ports.ts
 - `provideGreenKeeperDependencies()` --indirect_call--> `EvaluateDeviceAccessUseCase`  [INFERRED]
   src/composition/index.ts → src/application/use-cases.ts
 - `provideGreenKeeperDependencies()` --indirect_call--> `LoadDashboardUseCase`  [INFERRED]
   src/composition/index.ts → src/application/use-cases.ts
 - `provideGreenKeeperDependencies()` --indirect_call--> `SelectRoomUseCase`  [INFERRED]
   src/composition/index.ts → src/application/use-cases.ts
+- `provideGreenKeeperDependencies()` --indirect_call--> `CompletePlantTaskUseCase`  [INFERRED]
+  src/composition/index.ts → src/application/use-cases.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (126 total, 5 thin omitted)
+## Communities (125 total, 5 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
 Cohesion: 0.04
@@ -232,17 +233,21 @@ Nodes (36): build, serve, test, builder, configurations, defaultConfiguration, o
 Cohesion: 0.10
 Nodes (19): Custom headers, Environment variables, Functions, Ignore builds, Injecting env values into headers/redirects, JavaScript SPAs, Modern vs legacy syntax to reach for, Monorepos (+11 more)
 
+### Community 17 - "greenkeeper-analojs"
+Cohesion: 0.13
+Nodes (4): DashboardRepositoryPort, DashboardSnapshot, INITIAL_BOTANICAL_SNAPSHOT, InMemoryDashboardRepository
+
 ### Community 18 - "devDependencies"
 Cohesion: 0.04
 Nodes (44): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, @auth0/auth0-spa-js (+36 more)
 
 ### Community 19 - "app.spec.ts"
 Cohesion: 0.13
-Nodes (17): sampleSnapshot, DeviceAccessDecision, DeviceAccessReason, DeviceSignals, FocusInspectionTask, PlantFocusSummary, PlantMetrics, RoomPlantSummary (+9 more)
+Nodes (15): sampleSnapshot, DeviceAccessDecision, DeviceAccessReason, FocusInspectionTask, PlantFocusSummary, PlantMetrics, RoomPlantSummary, RoomTone (+7 more)
 
 ### Community 20 - "scripts"
-Cohesion: 0.14
-Nodes (10): AppConfig, AppConfigPort, DeviceSignalsPort, AppEnvironment, BrowserDeviceSignalsAdapter, BrowserDeviceSource, readDefaultBrowserDeviceSource(), normalizeAppEnv() (+2 more)
+Cohesion: 0.15
+Nodes (11): AppConfig, AppConfigPort, DeviceSignalsPort, AppEnvironment, DeviceSignals, BrowserDeviceSignalsAdapter, BrowserDeviceSource, readDefaultBrowserDeviceSource() (+3 more)
 
 ### Community 21 - "PwaRegistrationPort"
 Cohesion: 0.10
@@ -261,8 +266,8 @@ Cohesion: 0.10
 Nodes (19): Background work after responding, Client reconnect, Configuration, Context (`context` arg or `getContext()`), Edge caching, Entry file and detection, Errors, Examples (+11 more)
 
 ### Community 34 - "index.ts"
-Cohesion: 0.24
-Nodes (14): DashboardRepositoryPort, AdjustHumidifierUseCase, CompletePlantTaskUseCase, EvaluateDeviceAccessUseCase, LoadDashboardUseCase, RegisterPwaUseCase, SelectRoomUseCase, ToggleFocusFavoriteUseCase (+6 more)
+Cohesion: 0.34
+Nodes (13): AdjustHumidifierUseCase, CompletePlantTaskUseCase, EvaluateDeviceAccessUseCase, LoadDashboardUseCase, RegisterPwaUseCase, SelectRoomUseCase, ToggleFocusFavoriteUseCase, TriggerPlannedFeatureNoticeUseCase (+5 more)
 
 ### Community 35 - "Netlify caching"
 Cohesion: 0.12
@@ -444,9 +449,9 @@ Nodes (8): Build and Deploy, Forms (AJAX Pattern), Local Dev, Netlify Functions,
 Cohesion: 0.22
 Nodes (8): ADDED Requirements, Requirement: Controlled Development and Test Override, Requirement: Informative Screen for Non-Mobile Visitors, Requirement: Mobile-Only Access Detection, Scenario: Desktop or tablet browser accesses the app, Scenario: Non-mobile visitor lands on root or deep route, Scenario: Production build ignores dev override query parameters, Scenario: Standard mobile phone browser accesses the app
 
-### Community 80 - "PwaRegistrationPort"
-Cohesion: 0.24
-Nodes (3): PwaRegistrationPort, BrowserPwaRegistrationAdapter, ServiceWorkerRegistrar
+### Community 80 - "Auth0Adapter"
+Cohesion: 0.22
+Nodes (3): Auth0Adapter, mockAppConfig, mockAuth0
 
 ### Community 81 - "Two-Layer Pattern: Company-Only Access + Per-User Identity"
 Cohesion: 0.25
@@ -614,26 +619,26 @@ Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What C
 
 ### Community 122 - "auth.spec.ts"
 Cohesion: 0.17
-Nodes (4): AuthPort, CheckAuthUseCase, LoginUseCase, LogoutUseCase
+Nodes (5): AuthPort, CheckAuthUseCase, LoginUseCase, LogoutUseCase, User
 
-### Community 124 - "DashboardSnapshot"
-Cohesion: 0.48
-Nodes (3): DashboardSnapshot, INITIAL_BOTANICAL_SNAPSHOT, InMemoryDashboardRepository
+### Community 123 - "PwaRegistrationPort"
+Cohesion: 0.28
+Nodes (3): PwaRegistrationPort, BrowserPwaRegistrationAdapter, ServiceWorkerRegistrar
 
 ## Knowledge Gaps
-- **1212 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1207 more)
+- **1213 isolated node(s):** `mockAuth0`, `mockAppConfig`, `$schema`, `version`, `newProjectRoot` (+1208 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `BrowserPwaRegistrationAdapter` connect `PwaRegistrationPort` to `index.ts`, `scripts`?**
+- **Why does `RegisterPwaUseCase` connect `index.ts` to `PwaRegistrationPort`, `index.page.ts`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Why does `Home` connect `Home` to `app.spec.ts`, `index.page.ts`?**
+- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `index.ts`, `app.spec.ts`, `index.page.ts`, `scripts`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
-  _1212 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `mockAuth0`, `mockAppConfig`, `$schema` to the rest of the system?**
+  _1213 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**

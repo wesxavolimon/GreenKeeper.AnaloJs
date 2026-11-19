@@ -15,10 +15,11 @@ import {
   RoomPlantSummary,
 } from '@domain/index';
 import { mobileOnlyGuard } from '../guards/mobile-only.guard';
+import { authGuard } from '../guards/auth.guard';
 
 export const routeMeta: RouteMeta = {
   title: 'GreenKeeper - Cuidados Botânicos',
-  canActivate: [mobileOnlyGuard],
+  canActivate: [mobileOnlyGuard, authGuard],
 };
 
 @Component({

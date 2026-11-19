@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "src/app/pages/index.page.ts": {
-    "mtime": 1795100044.6571708,
-    "ast_hash": "4a10a234e66497d0710d86fafac94dd0",
+    "mtime": 1795106815.512721,
+    "ast_hash": "5595e1a340fb477e7eb661cf075228e8",
     "semantic_hash": ""
   },
   "src/main.ts": {
@@ -832,6 +832,26 @@
   "src/infrastructure/auth0.adapter.ts": {
     "mtime": 1795106620.684014,
     "ast_hash": "62c4bcc40465db7e4e6b824b570dbbae",
+    "semantic_hash": ""
+  },
+  "src/app/guards/auth.guard.spec.ts": {
+    "mtime": 1795106848.7837117,
+    "ast_hash": "09cd7db8c0054926189f8cef03b8efd3",
+    "semantic_hash": ""
+  },
+  "src/app/guards/auth.guard.ts": {
+    "mtime": 1795106795.6152115,
+    "ast_hash": "f7751784763fa95a82c0cea7120513bc",
+    "semantic_hash": ""
+  },
+  "src/app/pages/login.page.spec.ts": {
+    "mtime": 1795106886.4062407,
+    "ast_hash": "170e186f02746f14012f23cd74453523",
+    "semantic_hash": ""
+  },
+  "src/app/pages/login.page.ts": {
+    "mtime": 1795106806.4384978,
+    "ast_hash": "d21a9cecd4a9f32751ff7a6029c47568",
     "semantic_hash": ""
   }
 }
