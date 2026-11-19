@@ -219,16 +219,6 @@
     "ast_hash": "400c8b8231420f30b48aed0a6f37df9f",
     "semantic_hash": ""
   },
-  ".copilot/skills/frontend-design/LICENSE.txt": {
-    "mtime": 1795100044.603474,
-    "ast_hash": "29256199be2a609aac596980ffc11996",
-    "semantic_hash": ""
-  },
-  ".copilot/skills/frontend-design/SKILL.md": {
-    "mtime": 1795100044.603474,
-    "ast_hash": "400c8b8231420f30b48aed0a6f37df9f",
-    "semantic_hash": ""
-  },
   ".gemini/skills/frontend-design/LICENSE.txt": {
     "mtime": 1795100044.6064734,
     "ast_hash": "29256199be2a609aac596980ffc11996",
@@ -629,11 +619,6 @@
     "ast_hash": "d05464e72c66e74c9a714055fc58a5fc",
     "semantic_hash": ""
   },
-  ".copilot/skills/prd-generator/SKILL.md": {
-    "mtime": 1795100044.6044743,
-    "ast_hash": "96ab55dd762329dd434356aa26849b92",
-    "semantic_hash": ""
-  },
   "docs/DESIGN.md": {
     "mtime": 1795100044.611981,
     "ast_hash": "0ea4c5fa466d6736e1e1f18837d67074",
@@ -719,11 +704,6 @@
     "ast_hash": "60dd723dbd93e081bf5957a5ca5d7449",
     "semantic_hash": ""
   },
-  ".copilot/skills/documentation-writer/SKILL.md": {
-    "mtime": 1795100044.6024737,
-    "ast_hash": "60dd723dbd93e081bf5957a5ca5d7449",
-    "semantic_hash": ""
-  },
   ".copilot/settings.json": {
     "mtime": 1795100044.6014698,
     "ast_hash": "11009998e18c56d0676c22b963a2d04b",
@@ -747,6 +727,51 @@
   "docs/project-overview.md": {
     "mtime": 1795100044.6150367,
     "ast_hash": "5903eb3905cfd5de774e56bcd93add57",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/README.md": {
+    "mtime": 1795101908.8089447,
+    "ast_hash": "dd83bf02060ff9f5eca0728e2e169dd4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/SKILL.md": {
+    "mtime": 1795101908.8164618,
+    "ast_hash": "951e7b98e2b543a6e25968ef6513af2a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/false-positives.md": {
+    "mtime": 1795101908.8229754,
+    "ast_hash": "f337b0812686e97b19eee500b498eea3",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/language.md": {
+    "mtime": 1795101908.826518,
+    "ast_hash": "63a82723d1fe0cea4e7d00805b87183e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/nextjs-checklist.md": {
+    "mtime": 1795101908.8300326,
+    "ast_hash": "82f8854cdab6a8b8f4ec477226619102",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/project-stack.md": {
+    "mtime": 1795101908.8340294,
+    "ast_hash": "84d4bd513884af82f3b68b309f73eb77",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/proxy-middleware.md": {
+    "mtime": 1795101908.8370306,
+    "ast_hash": "bb0b979aba79b4913757afcef5351af7",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/report.md": {
+    "mtime": 1795101908.8402684,
+    "ast_hash": "33f19b5bf5533b90effcf0c3d71391db",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-audit/refs/security-headers.md": {
+    "mtime": 1795101908.8462667,
+    "ast_hash": "4503d69c94629f46bef40c1ebadddadd",
     "semantic_hash": ""
   }
 }

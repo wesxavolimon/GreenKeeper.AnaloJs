@@ -1,16 +1,16 @@
 # Graph Report - GreenKeeper.AnaloJs  (2026-11-19)
 
 ## Corpus Check
-- 141 files · ~135,408 words
+- 147 files · ~138,198 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1478 nodes · 1542 edges · 109 communities (103 shown, 6 thin omitted)
+- 1583 nodes · 1641 edges · 115 communities (110 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f150db75`
+- Built from commit: `91c72d4d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -119,6 +119,12 @@
 - Documentation Writer
 - Documentation Writer
 - Steps
+- Fluxo de execução (ordem fixa)
+- Stack do projeto — versões instaladas (multi-repo)
+- Formato do relatório — Security Audit
+- Falsos positivos — não reportar sem evidência
+- Headers de segurança (CSP, HSTS, etc.) — cautela por versão e deploy
+- Proxy vs Middleware (Next.js por versão instalada)
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 23 edges
@@ -147,11 +153,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (109 total, 6 thin omitted)
+## Communities (115 total, 5 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
-Cohesion: 0.04
-Nodes (44): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+36 more)
+Cohesion: 0.08
+Nodes (24): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+16 more)
 
 ### Community 1 - "1. Dashboard Botânico (`Minhas Plantas`)"
 Cohesion: 0.08
@@ -162,8 +168,8 @@ Cohesion: 0.05
 Nodes (36): 10. Stack, 11. Justificativa da stack, 12. Fases de construção, 13. Specs funcionais detalhadas, 14. Ordem recomendada de implementação, 1. Visão geral, 2. Problema que resolve, 3. Público-alvo (+28 more)
 
 ### Community 3 - "concept.md"
-Cohesion: 0.07
-Nodes (25): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+17 more)
+Cohesion: 0.04
+Nodes (45): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+37 more)
 
 ### Community 4 - "ADDED Requirements"
 Cohesion: 0.04
@@ -236,6 +242,10 @@ Nodes (15): AppConfig, AppConfigPort, DeviceSignalsPort, PwaRegistrationPort, Ap
 ### Community 21 - "PwaRegistrationPort"
 Cohesion: 0.10
 Nodes (19): Background work after responding, Client reconnect, Configuration, Context (`context` arg or `getContext()`), Edge caching, Entry file and detection, Errors, Examples (+11 more)
+
+### Community 30 - "SKILL.md"
+Cohesion: 0.10
+Nodes (19): APIs de alto risco (sinks), Arquivos sensíveis e `.gitignore`, Auth.js (NextAuth v5), Cliente, Express (só se existir `server.js` / API legada), Integração com outras refs, `next.config` — headers (CSP, HSTS), Next.js — App Router (13+ se `app/` existir) (+11 more)
 
 ### Community 32 - "Netlify configuration"
 Cohesion: 0.10
@@ -330,8 +340,8 @@ Cohesion: 0.15
 Nodes (12): Authentication, Build, Common Flags, Deployment, Environment variables and local dev, Exit Codes, Functions (Serverless), Logs (+4 more)
 
 ### Community 55 - "Gerador de PRD e Specs Funcionais"
-Cohesion: 0.15
-Nodes (12): Análise crítica antes de gerar, Etapa 1 — Produto / Feature, Etapa 2 — Stack (alto nível), Etapa 3 — Fases e specs, Gerador de PRD e Specs Funcionais, Geração do arquivo, Mensagem inicial, O que NÃO fazer (+4 more)
+Cohesion: 0.11
+Nodes (18): Ativação automática (agente escolhe), Ativação manual (recomendada para auditoria completa), Comandos e frases de gatilho, Como instalar no Cursor, Estrutura dos arquivos `refs/`, Manutenção desta skill, O que a skill evita (anti-ruído), O que esta skill faz (+10 more)
 
 ### Community 56 - "Design System - GreenKeeper"
 Cohesion: 0.15
@@ -534,17 +544,41 @@ Cohesion: 0.18
 Nodes (10): Best Practices, Documentation Writer, Documents Under Management, Execution Protocol — /documentation-writer, Responsibilities, Step 1 — Explore the project, Step 2 — Compare with current documents, Step 3 — Report before editing (+2 more)
 
 ### Community 107 - "Documentation Writer"
-Cohesion: 0.18
-Nodes (10): Best Practices, Documentation Writer, Documents Under Management, Execution Protocol — /documentation-writer, Responsibilities, Step 1 — Explore the project, Step 2 — Compare with current documents, Step 3 — Report before editing (+2 more)
+Cohesion: 0.11
+Nodes (18): 10. Comandos pós-scan sugeridos no relatório, 1. Mapa de superfície (Step 1), 2. Autenticação e autorização, 3. Injeção, 4. Webhooks e pagamentos (se `stripe` no package.json), 5. Upload e arquivos, 6. Dados e privacidade, 7. Configuração Next.js (versão instalada) (+10 more)
 
 ### Community 108 - "Steps"
 Cohesion: 0.15
 Nodes (12): 1. Detect package manager, 2. Install dependencies, 3. Initialize Husky, 4. Create `.husky/pre-commit`, 5. Create `.lintstagedrc`, 6. Create `.prettierrc` (if missing), 7. Verify, 8. Commit (+4 more)
 
+### Community 109 - "Fluxo de execução (ordem fixa)"
+Cohesion: 0.12
+Nodes (16): Atalhos grep (pistas, não achados), Documentação externa (por versão instalada), Fluxo de execução (ordem fixa), Guia de severidade, Princípios, Referências, Regras de saída, Security Audit (React / Next.js / TypeScript) (+8 more)
+
+### Community 110 - "Stack do projeto — versões instaladas (multi-repo)"
+Cohesion: 0.15
+Nodes (12): 10. Monorepos, 1. Onde ler versões (ordem de prioridade), 2. Pacotes a inventariar sempre, 3. Detectar “formato” do Next (filesystem), 4. Regras por major do Next (instalado), 5. Regras por major do React (instalado), 6. Auth.js / NextAuth, 7. Dependências (Step 2) — escopo do projeto atual (+4 more)
+
+### Community 111 - "Formato do relatório — Security Audit"
+Cohesion: 0.17
+Nodes (11): 1. Resumo executivo (obrigatório — primeiro bloco), 2. Card de achado (por categoria), 3. Auditoria de dependências, 4. Scan de segredos, 5. Propostas de patch (CRITICAL + HIGH), 6. Falsos positivos descartados (quando aplicável), 7. Cobertura e próximos passos, Cabeçalho (+3 more)
+
+### Community 112 - "Falsos positivos — não reportar sem evidência"
+Cohesion: 0.18
+Nodes (10): Arquivos e pastas — excluir do scan profundo, Auth.js (NextAuth v5), Dependências, Falsos positivos — não reportar sem evidência, Next.js App Router, Prisma / SQL, React / JSX, Regra geral (+2 more)
+
+### Community 113 - "Headers de segurança (CSP, HSTS, etc.) — cautela por versão e deploy"
+Cohesion: 0.18
+Nodes (10): 1. O que verificar ANTES de sugerir qualquer header, 2. Severidade permitida, 3. HSTS — não exigir em `next.config` à cegas, 4. CSP e Next.js — por que sugestões genéricas falham, 5. API de `headers` no `next.config` — depende da versão, 6. Onde headers podem já existir (não reportar “ausência”), 7. Texto modelo para relatório (INFO), 8. Quando ESCALAR além de INFO (+2 more)
+
+### Community 114 - "Proxy vs Middleware (Next.js por versão instalada)"
+Cohesion: 0.20
+Nodes (9): 1. Regra por major do `next` (lockfile), 2. O que NÃO reportar, 3. O que verificar na auditoria, 4. Auth.js / NextAuth, 5. Headers de segurança na borda, 6. Texto modelo — falso positivo descartado, 7. Texto modelo — INFO migração, 8. Integração (+1 more)
+
 ## Knowledge Gaps
-- **1059 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1054 more)
+- **1146 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1141 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -552,14 +586,14 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `index.ts`, `app.spec.ts`, `index.page.ts`, `scripts`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
-  _1059 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1146 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
-  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Decisions` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
 - **Should `concept.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `ADDED Requirements` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._

@@ -542,7 +542,7 @@ Cohesion: 0.15
 Nodes (12): 1. Detect package manager, 2. Install dependencies, 3. Initialize Husky, 4. Create `.husky/pre-commit`, 5. Create `.lintstagedrc`, 6. Create `.prettierrc` (if missing), 7. Verify, 8. Commit (+4 more)
 
 ## Knowledge Gaps
-- **1059 isolated node(s):** `1. Visão do Produto e Proposta de Valor`, `2. Ecossistema de Aplicações e Plataformas`, `3.1. Autenticação, Cadastro Local-First e Sessão`, `3.2. Perfil do Usuário e Configurações (`ConfigSheet` & `PerfilPage`)`, `3.3. Gestão de Ambientes: Casas e Áreas` (+1054 more)
+- **1059 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1054 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -550,8 +550,8 @@ Nodes (12): 1. Detect package manager, 2. Install dependencies, 3. Initialize Hu
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `index.ts`, `app.spec.ts`, `index.page.ts`, `scripts`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **What connects `1. Visão do Produto e Proposta de Valor`, `2. Ecossistema de Aplicações e Plataformas`, `3.1. Autenticação, Cadastro Local-First e Sessão` to the rest of the system?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
   _1059 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._

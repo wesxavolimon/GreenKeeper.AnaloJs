@@ -6740,7 +6740,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill",
-      "community": 0,
+      "community": 3,
       "norm_label": "skill.md"
     },
     {
@@ -6750,7 +6750,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_netlify_mcp_servers",
-      "community": 0,
+      "community": 3,
       "norm_label": "netlify mcp servers"
     },
     {
@@ -6760,7 +6760,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_before_you_build",
-      "community": 0,
+      "community": 3,
       "norm_label": "before you build"
     },
     {
@@ -6770,7 +6770,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_stack",
-      "community": 0,
+      "community": 3,
       "norm_label": "stack"
     },
     {
@@ -6780,7 +6780,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_the_server_function",
-      "community": 0,
+      "community": 3,
       "norm_label": "the server function"
     },
     {
@@ -6790,7 +6790,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_browser_based_clients_and_cors",
-      "community": 0,
+      "community": 3,
       "norm_label": "browser-based clients and cors"
     },
     {
@@ -6800,7 +6800,7 @@
       "source_location": "L110",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_defining_tools",
-      "community": 0,
+      "community": 3,
       "norm_label": "defining tools"
     },
     {
@@ -6810,7 +6810,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_authentication",
-      "community": 0,
+      "community": 3,
       "norm_label": "authentication"
     },
     {
@@ -6820,7 +6820,7 @@
       "source_location": "L144",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_safety_and_permissions",
-      "community": 0,
+      "community": 3,
       "norm_label": "safety and permissions"
     },
     {
@@ -6830,7 +6830,7 @@
       "source_location": "L154",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_rate_limiting",
-      "community": 0,
+      "community": 3,
       "norm_label": "rate limiting"
     },
     {
@@ -6840,7 +6840,7 @@
       "source_location": "L171",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_file_uploads",
-      "community": 0,
+      "community": 3,
       "norm_label": "file uploads"
     },
     {
@@ -6850,7 +6850,7 @@
       "source_location": "L175",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_state_doesn_t_survive_between_requests",
-      "community": 0,
+      "community": 3,
       "norm_label": "state doesn't survive between requests"
     },
     {
@@ -6860,7 +6860,7 @@
       "source_location": "L179",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_connecting_a_client",
-      "community": 0,
+      "community": 3,
       "norm_label": "connecting a client"
     },
     {
@@ -6870,7 +6870,7 @@
       "source_location": "L190",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_local_dev_and_deploy",
-      "community": 0,
+      "community": 3,
       "norm_label": "local dev and deploy"
     },
     {
@@ -6880,7 +6880,7 @@
       "source_location": "L198",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_cross_cutting_rules",
-      "community": 0,
+      "community": 3,
       "norm_label": "cross-cutting rules"
     },
     {
@@ -6890,7 +6890,7 @@
       "source_location": "L204",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_skill_related_skills_and_references",
-      "community": 0,
+      "community": 3,
       "norm_label": "related skills and references"
     },
     {
@@ -6980,7 +6980,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_references_connecting_clients",
-      "community": 0,
+      "community": 3,
       "norm_label": "connecting-clients.md"
     },
     {
@@ -6990,7 +6990,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_references_connecting_clients_connecting_clients",
-      "community": 0,
+      "community": 3,
       "norm_label": "connecting clients"
     },
     {
@@ -7000,7 +7000,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_references_connecting_clients_native_connection_preferred",
-      "community": 0,
+      "community": 3,
       "norm_label": "native connection (preferred)"
     },
     {
@@ -7010,7 +7010,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_references_connecting_clients_mcp_remote_fallback",
-      "community": 0,
+      "community": 3,
       "norm_label": "`mcp-remote` fallback"
     },
     {
@@ -7020,7 +7020,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_references_connecting_clients_local_testing_with_the_mcp_inspector",
-      "community": 0,
+      "community": 3,
       "norm_label": "local testing with the mcp inspector"
     },
     {
@@ -7030,7 +7030,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "agents_skills_netlify_mcp_servers_references_connecting_clients_oauth_and_custom_connectors_deep_dive",
-      "community": 0,
+      "community": 3,
       "norm_label": "oauth and custom connectors (deep-dive)"
     },
     {
@@ -7422,6 +7422,1326 @@
       "id": "agents_skills_prd_generator_skill_o_que_n\u00e3o_fazer",
       "community": 53,
       "norm_label": "o que nao fazer"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme",
+      "community": 55,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "security-audit",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_security_audit",
+      "community": 55,
+      "norm_label": "security-audit"
+    },
+    {
+      "label": "Reposit\u00f3rio",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_reposit\u00f3rio",
+      "community": 55,
+      "norm_label": "repositorio"
+    },
+    {
+      "label": "O que esta skill faz",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_o_que_esta_skill_faz",
+      "community": 55,
+      "norm_label": "o que esta skill faz"
+    },
+    {
+      "label": "Como instalar no Cursor",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_como_instalar_no_cursor",
+      "community": 55,
+      "norm_label": "como instalar no cursor"
+    },
+    {
+      "label": "Op\u00e7\u00e3o A \u2014 Skill no projeto que voc\u00ea audita",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_op\u00e7\u00e3o_a_skill_no_projeto_que_voc\u00ea_audita",
+      "community": 55,
+      "norm_label": "opcao a \u2014 skill no projeto que voce audita"
+    },
+    {
+      "label": "Op\u00e7\u00e3o B \u2014 Reposit\u00f3rio central + c\u00f3pia ou submodule",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_op\u00e7\u00e3o_b_reposit\u00f3rio_central_c\u00f3pia_ou_submodule",
+      "community": 55,
+      "norm_label": "opcao b \u2014 repositorio central + copia ou submodule"
+    },
+    {
+      "label": "Op\u00e7\u00e3o C \u2014 Skill pessoal (todos os projetos)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_op\u00e7\u00e3o_c_skill_pessoal_todos_os_projetos",
+      "community": 55,
+      "norm_label": "opcao c \u2014 skill pessoal (todos os projetos)"
+    },
+    {
+      "label": "Quando a skill \u00e9 acionada",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_quando_a_skill_\u00e9_acionada",
+      "community": 55,
+      "norm_label": "quando a skill e acionada"
+    },
+    {
+      "label": "Ativa\u00e7\u00e3o autom\u00e1tica (agente escolhe)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_ativa\u00e7\u00e3o_autom\u00e1tica_agente_escolhe",
+      "community": 55,
+      "norm_label": "ativacao automatica (agente escolhe)"
+    },
+    {
+      "label": "Ativa\u00e7\u00e3o manual (recomendada para auditoria completa)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_ativa\u00e7\u00e3o_manual_recomendada_para_auditoria_completa",
+      "community": 55,
+      "norm_label": "ativacao manual (recomendada para auditoria completa)"
+    },
+    {
+      "label": "Regra opcional no projeto (gatilho mais forte)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L103",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_regra_opcional_no_projeto_gatilho_mais_forte",
+      "community": 55,
+      "norm_label": "regra opcional no projeto (gatilho mais forte)"
+    },
+    {
+      "label": "Comandos e frases de gatilho",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_comandos_e_frases_de_gatilho",
+      "community": 55,
+      "norm_label": "comandos e frases de gatilho"
+    },
+    {
+      "label": "Pr\u00e9-requisitos no projeto auditado",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L148",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_pr\u00e9_requisitos_no_projeto_auditado",
+      "community": 55,
+      "norm_label": "pre-requisitos no projeto auditado"
+    },
+    {
+      "label": "Vers\u00f5es do Next.js (importante)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L157",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_vers\u00f5es_do_next_js_importante",
+      "community": 55,
+      "norm_label": "versoes do next.js (importante)"
+    },
+    {
+      "label": "O que voc\u00ea recebe",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L170",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_o_que_voc\u00ea_recebe",
+      "community": 55,
+      "norm_label": "o que voce recebe"
+    },
+    {
+      "label": "O que a skill evita (anti-ru\u00eddo)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L184",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_o_que_a_skill_evita_anti_ru\u00eddo",
+      "community": 55,
+      "norm_label": "o que a skill evita (anti-ruido)"
+    },
+    {
+      "label": "Estrutura dos arquivos `refs/`",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L196",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_estrutura_dos_arquivos_refs",
+      "community": 55,
+      "norm_label": "estrutura dos arquivos `refs/`"
+    },
+    {
+      "label": "Manuten\u00e7\u00e3o desta skill",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L211",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_readme_manuten\u00e7\u00e3o_desta_skill",
+      "community": 55,
+      "norm_label": "manutencao desta skill"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill",
+      "community": 109,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Security Audit (React / Next.js / TypeScript)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_security_audit_react_next_js_typescript",
+      "community": 109,
+      "norm_label": "security audit (react / next.js / typescript)"
+    },
+    {
+      "label": "Princ\u00edpios",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_princ\u00edpios",
+      "community": 109,
+      "norm_label": "principios"
+    },
+    {
+      "label": "Fluxo de execu\u00e7\u00e3o (ordem fixa)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_fluxo_de_execu\u00e7\u00e3o_ordem_fixa",
+      "community": 109,
+      "norm_label": "fluxo de execucao (ordem fixa)"
+    },
+    {
+      "label": "Step 1 \u2014 Escopo, stack e vers\u00f5es",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_step_1_escopo_stack_e_vers\u00f5es",
+      "community": 109,
+      "norm_label": "step 1 \u2014 escopo, stack e versoes"
+    },
+    {
+      "label": "Step 2 \u2014 Depend\u00eancias do projeto atual",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_step_2_depend\u00eancias_do_projeto_atual",
+      "community": 109,
+      "norm_label": "step 2 \u2014 dependencias do projeto atual"
+    },
+    {
+      "label": "Step 3 \u2014 Segredos e exposi\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_step_3_segredos_e_exposi\u00e7\u00e3o",
+      "community": 109,
+      "norm_label": "step 3 \u2014 segredos e exposicao"
+    },
+    {
+      "label": "Step 4 \u2014 Scan profundo (c\u00f3digo)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_step_4_scan_profundo_c\u00f3digo",
+      "community": 109,
+      "norm_label": "step 4 \u2014 scan profundo (codigo)"
+    },
+    {
+      "label": "Step 5 \u2014 Fluxo entre arquivos",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_step_5_fluxo_entre_arquivos",
+      "community": 109,
+      "norm_label": "step 5 \u2014 fluxo entre arquivos"
+    },
+    {
+      "label": "Step 6 \u2014 Anti-falso-positivo",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_step_6_anti_falso_positivo",
+      "community": 109,
+      "norm_label": "step 6 \u2014 anti-falso-positivo"
+    },
+    {
+      "label": "Step 7 \u2014 Relat\u00f3rio",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_step_7_relat\u00f3rio",
+      "community": 109,
+      "norm_label": "step 7 \u2014 relatorio"
+    },
+    {
+      "label": "Step 8 \u2014 Patches (CRITICAL e HIGH)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_step_8_patches_critical_e_high",
+      "community": 109,
+      "norm_label": "step 8 \u2014 patches (critical e high)"
+    },
+    {
+      "label": "Guia de severidade",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_guia_de_severidade",
+      "community": 109,
+      "norm_label": "guia de severidade"
+    },
+    {
+      "label": "Regras de sa\u00edda",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_regras_de_sa\u00edda",
+      "community": 109,
+      "norm_label": "regras de saida"
+    },
+    {
+      "label": "Refer\u00eancias",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_refer\u00eancias",
+      "community": 109,
+      "norm_label": "referencias"
+    },
+    {
+      "label": "Documenta\u00e7\u00e3o externa (por vers\u00e3o instalada)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L124",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_documenta\u00e7\u00e3o_externa_por_vers\u00e3o_instalada",
+      "community": 109,
+      "norm_label": "documentacao externa (por versao instalada)"
+    },
+    {
+      "label": "Atalhos grep (pistas, n\u00e3o achados)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L128",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_skill_atalhos_grep_pistas_n\u00e3o_achados",
+      "community": 109,
+      "norm_label": "atalhos grep (pistas, nao achados)"
+    },
+    {
+      "label": "false-positives.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_false_positives",
+      "community": 112,
+      "norm_label": "false-positives.md"
+    },
+    {
+      "label": "Falsos positivos \u2014 n\u00e3o reportar sem evid\u00eancia",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_false_positives_falsos_positivos_n\u00e3o_reportar_sem_evid\u00eancia",
+      "community": 112,
+      "norm_label": "falsos positivos \u2014 nao reportar sem evidencia"
+    },
+    {
+      "label": "Regra geral",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_false_positives_regra_geral",
+      "community": 112,
+      "norm_label": "regra geral"
+    },
+    {
+      "label": "React / JSX",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_false_positives_react_jsx",
+      "community": 112,
+      "norm_label": "react / jsx"
+    },
+    {
+      "label": "Next.js App Router",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_false_positives_next_js_app_router",
+      "community": 112,
+      "norm_label": "next.js app router"
+    },
+    {
+      "label": "Auth.js (NextAuth v5)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_false_positives_auth_js_nextauth_v5",
+      "community": 112,
+      "norm_label": "auth.js (nextauth v5)"
+    },
+    {
+      "label": "Prisma / SQL",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_false_positives_prisma_sql",
+      "community": 112,
+      "norm_label": "prisma / sql"
+    },
+    {
+      "label": "Segredos",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_false_positives_segredos",
+      "community": 112,
+      "norm_label": "segredos"
+    },
+    {
+      "label": "Depend\u00eancias",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_false_positives_depend\u00eancias",
+      "community": 112,
+      "norm_label": "dependencias"
+    },
+    {
+      "label": "Arquivos e pastas \u2014 excluir do scan profundo",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_false_positives_arquivos_e_pastas_excluir_do_scan_profundo",
+      "community": 112,
+      "norm_label": "arquivos e pastas \u2014 excluir do scan profundo"
+    },
+    {
+      "label": "Severidade \u2014 quando rebaixar",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_false_positives_severidade_quando_rebaixar",
+      "community": 112,
+      "norm_label": "severidade \u2014 quando rebaixar"
+    },
+    {
+      "label": "language.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language",
+      "community": 30,
+      "norm_label": "language.md"
+    },
+    {
+      "label": "Padr\u00f5es por linguagem \u2014 JavaScript / TypeScript / React / Next.js",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "community": 30,
+      "norm_label": "padroes por linguagem \u2014 javascript / typescript / react / next.js"
+    },
+    {
+      "label": "APIs de alto risco (sinks)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_apis_de_alto_risco_sinks",
+      "community": 30,
+      "norm_label": "apis de alto risco (sinks)"
+    },
+    {
+      "label": "React (vers\u00e3o instalada \u2014 major 18 ou 19+)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_react_vers\u00e3o_instalada_major_18_ou_19",
+      "community": 30,
+      "norm_label": "react (versao instalada \u2014 major 18 ou 19+)"
+    },
+    {
+      "label": "XSS \u2014 reportar quando",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_xss_reportar_quando",
+      "community": 30,
+      "norm_label": "xss \u2014 reportar quando"
+    },
+    {
+      "label": "Cliente",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_cliente",
+      "community": 30,
+      "norm_label": "cliente"
+    },
+    {
+      "label": "Next.js \u2014 App Router (13+ se `app/` existir)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_next_js_app_router_13_se_app_existir",
+      "community": 30,
+      "norm_label": "next.js \u2014 app router (13+ se `app/` existir)"
+    },
+    {
+      "label": "Server Actions (15+ comum; 14+ poss\u00edvel)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_server_actions_15_comum_14_poss\u00edvel",
+      "community": 30,
+      "norm_label": "server actions (15+ comum; 14+ possivel)"
+    },
+    {
+      "label": "Route Handlers (`app/api/**/route.ts`)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L124",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_route_handlers_app_api_route_ts",
+      "community": 30,
+      "norm_label": "route handlers (`app/api/**/route.ts`)"
+    },
+    {
+      "label": "Proxy / Middleware na borda (opcional)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L148",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_proxy_middleware_na_borda_opcional",
+      "community": 30,
+      "norm_label": "proxy / middleware na borda (opcional)"
+    },
+    {
+      "label": "Rotas p\u00fablicas vs painel",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L166",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_rotas_p\u00fablicas_vs_painel",
+      "community": 30,
+      "norm_label": "rotas publicas vs painel"
+    },
+    {
+      "label": "RSC e cache",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L171",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_rsc_e_cache",
+      "community": 30,
+      "norm_label": "rsc e cache"
+    },
+    {
+      "label": "Auth.js (NextAuth v5)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L178",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_auth_js_nextauth_v5",
+      "community": 30,
+      "norm_label": "auth.js (nextauth v5)"
+    },
+    {
+      "label": "Prisma 7",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L199",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_prisma_7",
+      "community": 30,
+      "norm_label": "prisma 7"
+    },
+    {
+      "label": "Stripe (webhooks)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L207",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_stripe_webhooks",
+      "community": 30,
+      "norm_label": "stripe (webhooks)"
+    },
+    {
+      "label": "Zod + react-hook-form",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L225",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_zod_react_hook_form",
+      "community": 30,
+      "norm_label": "zod + react-hook-form"
+    },
+    {
+      "label": "`next.config` \u2014 headers (CSP, HSTS)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L232",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_next_config_headers_csp_hsts",
+      "community": 30,
+      "norm_label": "`next.config` \u2014 headers (csp, hsts)"
+    },
+    {
+      "label": "Express (s\u00f3 se existir `server.js` / API legada)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L242",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_express_s\u00f3_se_existir_server_js_api_legada",
+      "community": 30,
+      "norm_label": "express (so se existir `server.js` / api legada)"
+    },
+    {
+      "label": "Arquivos sens\u00edveis e `.gitignore`",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L251",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_arquivos_sens\u00edveis_e_gitignore",
+      "community": 30,
+      "norm_label": "arquivos sensiveis e `.gitignore`"
+    },
+    {
+      "label": "Integra\u00e7\u00e3o com outras refs",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L259",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_language_integra\u00e7\u00e3o_com_outras_refs",
+      "community": 30,
+      "norm_label": "integracao com outras refs"
+    },
+    {
+      "label": "nextjs-checklist.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist",
+      "community": 107,
+      "norm_label": "nextjs-checklist.md"
+    },
+    {
+      "label": "Checklist de vulnerabilidades \u2014 Next.js / React / TypeScript",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_checklist_de_vulnerabilidades_next_js_react_typescript",
+      "community": 107,
+      "norm_label": "checklist de vulnerabilidades \u2014 next.js / react / typescript"
+    },
+    {
+      "label": "1. Mapa de superf\u00edcie (Step 1)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_1_mapa_de_superf\u00edcie_step_1",
+      "community": 107,
+      "norm_label": "1. mapa de superficie (step 1)"
+    },
+    {
+      "label": "2. Autentica\u00e7\u00e3o e autoriza\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_2_autentica\u00e7\u00e3o_e_autoriza\u00e7\u00e3o",
+      "community": 107,
+      "norm_label": "2. autenticacao e autorizacao"
+    },
+    {
+      "label": "Server Actions (`'use server'`)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_server_actions_use_server",
+      "community": 107,
+      "norm_label": "server actions (`'use server'`)"
+    },
+    {
+      "label": "Route Handlers (`route.ts`)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_route_handlers_route_ts",
+      "community": 107,
+      "norm_label": "route handlers (`route.ts`)"
+    },
+    {
+      "label": "Layouts e p\u00e1ginas",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_layouts_e_p\u00e1ginas",
+      "community": 107,
+      "norm_label": "layouts e paginas"
+    },
+    {
+      "label": "Auth.js",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_auth_js",
+      "community": 107,
+      "norm_label": "auth.js"
+    },
+    {
+      "label": "3. Inje\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_3_inje\u00e7\u00e3o",
+      "community": 107,
+      "norm_label": "3. injecao"
+    },
+    {
+      "label": "Prisma",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_prisma",
+      "community": 107,
+      "norm_label": "prisma"
+    },
+    {
+      "label": "XSS",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_xss",
+      "community": 107,
+      "norm_label": "xss"
+    },
+    {
+      "label": "Command / path",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_command_path",
+      "community": 107,
+      "norm_label": "command / path"
+    },
+    {
+      "label": "4. Webhooks e pagamentos (se `stripe` no package.json)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_4_webhooks_e_pagamentos_se_stripe_no_package_json",
+      "community": 107,
+      "norm_label": "4. webhooks e pagamentos (se `stripe` no package.json)"
+    },
+    {
+      "label": "5. Upload e arquivos",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_5_upload_e_arquivos",
+      "community": 107,
+      "norm_label": "5. upload e arquivos"
+    },
+    {
+      "label": "6. Dados e privacidade",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_6_dados_e_privacidade",
+      "community": 107,
+      "norm_label": "6. dados e privacidade"
+    },
+    {
+      "label": "7. Configura\u00e7\u00e3o Next.js (vers\u00e3o instalada)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L107",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_7_configura\u00e7\u00e3o_next_js_vers\u00e3o_instalada",
+      "community": 107,
+      "norm_label": "7. configuracao next.js (versao instalada)"
+    },
+    {
+      "label": "8. Cliente (React)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_8_cliente_react",
+      "community": 107,
+      "norm_label": "8. cliente (react)"
+    },
+    {
+      "label": "9. Fluxo de dados (Step 5)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L126",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_9_fluxo_de_dados_step_5",
+      "community": 107,
+      "norm_label": "9. fluxo de dados (step 5)"
+    },
+    {
+      "label": "10. Comandos p\u00f3s-scan sugeridos no relat\u00f3rio",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L142",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_nextjs_checklist_10_comandos_p\u00f3s_scan_sugeridos_no_relat\u00f3rio",
+      "community": 107,
+      "norm_label": "10. comandos pos-scan sugeridos no relatorio"
+    },
+    {
+      "label": "project-stack.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack",
+      "community": 110,
+      "norm_label": "project-stack.md"
+    },
+    {
+      "label": "Stack do projeto \u2014 vers\u00f5es instaladas (multi-repo)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "community": 110,
+      "norm_label": "stack do projeto \u2014 versoes instaladas (multi-repo)"
+    },
+    {
+      "label": "1. Onde ler vers\u00f5es (ordem de prioridade)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack_1_onde_ler_vers\u00f5es_ordem_de_prioridade",
+      "community": 110,
+      "norm_label": "1. onde ler versoes (ordem de prioridade)"
+    },
+    {
+      "label": "2. Pacotes a inventariar sempre",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack_2_pacotes_a_inventariar_sempre",
+      "community": 110,
+      "norm_label": "2. pacotes a inventariar sempre"
+    },
+    {
+      "label": "3. Detectar \u201cformato\u201d do Next (filesystem)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack_3_detectar_formato_do_next_filesystem",
+      "community": 110,
+      "norm_label": "3. detectar \u201cformato\u201d do next (filesystem)"
+    },
+    {
+      "label": "4. Regras por major do Next (instalado)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack_4_regras_por_major_do_next_instalado",
+      "community": 110,
+      "norm_label": "4. regras por major do next (instalado)"
+    },
+    {
+      "label": "5. Regras por major do React (instalado)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L87",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack_5_regras_por_major_do_react_instalado",
+      "community": 110,
+      "norm_label": "5. regras por major do react (instalado)"
+    },
+    {
+      "label": "6. Auth.js / NextAuth",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack_6_auth_js_nextauth",
+      "community": 110,
+      "norm_label": "6. auth.js / nextauth"
+    },
+    {
+      "label": "7. Depend\u00eancias (Step 2) \u2014 escopo do projeto atual",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L109",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack_7_depend\u00eancias_step_2_escopo_do_projeto_atual",
+      "community": 110,
+      "norm_label": "7. dependencias (step 2) \u2014 escopo do projeto atual"
+    },
+    {
+      "label": "8. Bloco obrigat\u00f3rio no relat\u00f3rio (copiar valores reais)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L126",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack_8_bloco_obrigat\u00f3rio_no_relat\u00f3rio_copiar_valores_reais",
+      "community": 110,
+      "norm_label": "8. bloco obrigatorio no relatorio (copiar valores reais)"
+    },
+    {
+      "label": "8b. Headers (CSP / HSTS)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L145",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack_8b_headers_csp_hsts",
+      "community": 110,
+      "norm_label": "8b. headers (csp / hsts)"
+    },
+    {
+      "label": "9. O que N\u00c3O fazer",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L151",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack_9_o_que_n\u00e3o_fazer",
+      "community": 110,
+      "norm_label": "9. o que nao fazer"
+    },
+    {
+      "label": "10. Monorepos",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L162",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_project_stack_10_monorepos",
+      "community": 110,
+      "norm_label": "10. monorepos"
+    },
+    {
+      "label": "proxy-middleware.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_proxy_middleware",
+      "community": 114,
+      "norm_label": "proxy-middleware.md"
+    },
+    {
+      "label": "Proxy vs Middleware (Next.js por vers\u00e3o instalada)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_proxy_middleware_proxy_vs_middleware_next_js_por_vers\u00e3o_instalada",
+      "community": 114,
+      "norm_label": "proxy vs middleware (next.js por versao instalada)"
+    },
+    {
+      "label": "1. Regra por major do `next` (lockfile)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_proxy_middleware_1_regra_por_major_do_next_lockfile",
+      "community": 114,
+      "norm_label": "1. regra por major do `next` (lockfile)"
+    },
+    {
+      "label": "2. O que N\u00c3O reportar",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_proxy_middleware_2_o_que_n\u00e3o_reportar",
+      "community": 114,
+      "norm_label": "2. o que nao reportar"
+    },
+    {
+      "label": "3. O que verificar na auditoria",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_proxy_middleware_3_o_que_verificar_na_auditoria",
+      "community": 114,
+      "norm_label": "3. o que verificar na auditoria"
+    },
+    {
+      "label": "4. Auth.js / NextAuth",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_proxy_middleware_4_auth_js_nextauth",
+      "community": 114,
+      "norm_label": "4. auth.js / nextauth"
+    },
+    {
+      "label": "5. Headers de seguran\u00e7a na borda",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_proxy_middleware_5_headers_de_seguran\u00e7a_na_borda",
+      "community": 114,
+      "norm_label": "5. headers de seguranca na borda"
+    },
+    {
+      "label": "6. Texto modelo \u2014 falso positivo descartado",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_proxy_middleware_6_texto_modelo_falso_positivo_descartado",
+      "community": 114,
+      "norm_label": "6. texto modelo \u2014 falso positivo descartado"
+    },
+    {
+      "label": "7. Texto modelo \u2014 INFO migra\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_proxy_middleware_7_texto_modelo_info_migra\u00e7\u00e3o",
+      "community": 114,
+      "norm_label": "7. texto modelo \u2014 info migracao"
+    },
+    {
+      "label": "8. Integra\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_proxy_middleware_8_integra\u00e7\u00e3o",
+      "community": 114,
+      "norm_label": "8. integracao"
+    },
+    {
+      "label": "report.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_report",
+      "community": 111,
+      "norm_label": "report.md"
+    },
+    {
+      "label": "Formato do relat\u00f3rio \u2014 Security Audit",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_report_formato_do_relat\u00f3rio_security_audit",
+      "community": 111,
+      "norm_label": "formato do relatorio \u2014 security audit"
+    },
+    {
+      "label": "Cabe\u00e7alho",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_report_cabe\u00e7alho",
+      "community": 111,
+      "norm_label": "cabecalho"
+    },
+    {
+      "label": "1. Resumo executivo (obrigat\u00f3rio \u2014 primeiro bloco)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_report_1_resumo_executivo_obrigat\u00f3rio_primeiro_bloco",
+      "community": 111,
+      "norm_label": "1. resumo executivo (obrigatorio \u2014 primeiro bloco)"
+    },
+    {
+      "label": "2. Card de achado (por categoria)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_report_2_card_de_achado_por_categoria",
+      "community": 111,
+      "norm_label": "2. card de achado (por categoria)"
+    },
+    {
+      "label": "3. Auditoria de depend\u00eancias",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_report_3_auditoria_de_depend\u00eancias",
+      "community": 111,
+      "norm_label": "3. auditoria de dependencias"
+    },
+    {
+      "label": "4. Scan de segredos",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L120",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_report_4_scan_de_segredos",
+      "community": 111,
+      "norm_label": "4. scan de segredos"
+    },
+    {
+      "label": "5. Propostas de patch (CRITICAL + HIGH)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L146",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_report_5_propostas_de_patch_critical_high",
+      "community": 111,
+      "norm_label": "5. propostas de patch (critical + high)"
+    },
+    {
+      "label": "6. Falsos positivos descartados (quando aplic\u00e1vel)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L175",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_report_6_falsos_positivos_descartados_quando_aplic\u00e1vel",
+      "community": 111,
+      "norm_label": "6. falsos positivos descartados (quando aplicavel)"
+    },
+    {
+      "label": "7. Cobertura e pr\u00f3ximos passos",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L195",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_report_7_cobertura_e_pr\u00f3ximos_passos",
+      "community": 111,
+      "norm_label": "7. cobertura e proximos passos"
+    },
+    {
+      "label": "Guia de confian\u00e7a",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L214",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_report_guia_de_confian\u00e7a",
+      "community": 111,
+      "norm_label": "guia de confianca"
+    },
+    {
+      "label": "Ordem das se\u00e7\u00f5es no output final",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L226",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_report_ordem_das_se\u00e7\u00f5es_no_output_final",
+      "community": 111,
+      "norm_label": "ordem das secoes no output final"
+    },
+    {
+      "label": "security-headers.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_security_headers",
+      "community": 113,
+      "norm_label": "security-headers.md"
+    },
+    {
+      "label": "Headers de seguran\u00e7a (CSP, HSTS, etc.) \u2014 cautela por vers\u00e3o e deploy",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_security_headers_headers_de_seguran\u00e7a_csp_hsts_etc_cautela_por_vers\u00e3o_e_deploy",
+      "community": 113,
+      "norm_label": "headers de seguranca (csp, hsts, etc.) \u2014 cautela por versao e deploy"
+    },
+    {
+      "label": "1. O que verificar ANTES de sugerir qualquer header",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_security_headers_1_o_que_verificar_antes_de_sugerir_qualquer_header",
+      "community": 113,
+      "norm_label": "1. o que verificar antes de sugerir qualquer header"
+    },
+    {
+      "label": "2. Severidade permitida",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_security_headers_2_severidade_permitida",
+      "community": 113,
+      "norm_label": "2. severidade permitida"
+    },
+    {
+      "label": "3. HSTS \u2014 n\u00e3o exigir em `next.config` \u00e0 cegas",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_security_headers_3_hsts_n\u00e3o_exigir_em_next_config_\u00e0_cegas",
+      "community": 113,
+      "norm_label": "3. hsts \u2014 nao exigir em `next.config` a cegas"
+    },
+    {
+      "label": "4. CSP e Next.js \u2014 por que sugest\u00f5es gen\u00e9ricas falham",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_security_headers_4_csp_e_next_js_por_que_sugest\u00f5es_gen\u00e9ricas_falham",
+      "community": 113,
+      "norm_label": "4. csp e next.js \u2014 por que sugestoes genericas falham"
+    },
+    {
+      "label": "5. API de `headers` no `next.config` \u2014 depende da vers\u00e3o",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_security_headers_5_api_de_headers_no_next_config_depende_da_vers\u00e3o",
+      "community": 113,
+      "norm_label": "5. api de `headers` no `next.config` \u2014 depende da versao"
+    },
+    {
+      "label": "6. Onde headers podem j\u00e1 existir (n\u00e3o reportar \u201caus\u00eancia\u201d)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_security_headers_6_onde_headers_podem_j\u00e1_existir_n\u00e3o_reportar_aus\u00eancia",
+      "community": 113,
+      "norm_label": "6. onde headers podem ja existir (nao reportar \u201causencia\u201d)"
+    },
+    {
+      "label": "7. Texto modelo para relat\u00f3rio (INFO)",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L93",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_security_headers_7_texto_modelo_para_relat\u00f3rio_info",
+      "community": 113,
+      "norm_label": "7. texto modelo para relatorio (info)"
+    },
+    {
+      "label": "8. Quando ESCALAR al\u00e9m de INFO",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_security_headers_8_quando_escalar_al\u00e9m_de_info",
+      "community": 113,
+      "norm_label": "8. quando escalar alem de info"
+    },
+    {
+      "label": "9. Integra\u00e7\u00e3o com falsos positivos",
+      "file_type": "document",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "agents_skills_security_audit_refs_security_headers_9_integra\u00e7\u00e3o_com_falsos_positivos",
+      "community": 113,
+      "norm_label": "9. integracao com falsos positivos"
     },
     {
       "label": "SKILL.md",
@@ -12232,276 +13552,6 @@
       "id": "claude_skills_netlify_server_skill_netlify_house_rules_server",
       "community": 33,
       "norm_label": "netlify house rules (server)"
-    },
-    {
-      "label": "SKILL.md",
-      "file_type": "document",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "copilot_skills_documentation_writer_skill",
-      "community": 107,
-      "norm_label": "skill.md"
-    },
-    {
-      "label": "Documentation Writer",
-      "file_type": "document",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "copilot_skills_documentation_writer_skill_documentation_writer",
-      "community": 107,
-      "norm_label": "documentation writer"
-    },
-    {
-      "label": "Responsibilities",
-      "file_type": "document",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L29",
-      "_origin": "ast",
-      "id": "copilot_skills_documentation_writer_skill_responsibilities",
-      "community": 107,
-      "norm_label": "responsibilities"
-    },
-    {
-      "label": "Documents Under Management",
-      "file_type": "document",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L39",
-      "_origin": "ast",
-      "id": "copilot_skills_documentation_writer_skill_documents_under_management",
-      "community": 107,
-      "norm_label": "documents under management"
-    },
-    {
-      "label": "Execution Protocol \u2014 /documentation-writer",
-      "file_type": "document",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L49",
-      "_origin": "ast",
-      "id": "copilot_skills_documentation_writer_skill_execution_protocol_documentation_writer",
-      "community": 107,
-      "norm_label": "execution protocol \u2014 /documentation-writer"
-    },
-    {
-      "label": "Step 1 \u2014 Explore the project",
-      "file_type": "document",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L51",
-      "_origin": "ast",
-      "id": "copilot_skills_documentation_writer_skill_step_1_explore_the_project",
-      "community": 107,
-      "norm_label": "step 1 \u2014 explore the project"
-    },
-    {
-      "label": "Step 2 \u2014 Compare with current documents",
-      "file_type": "document",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L67",
-      "_origin": "ast",
-      "id": "copilot_skills_documentation_writer_skill_step_2_compare_with_current_documents",
-      "community": 107,
-      "norm_label": "step 2 \u2014 compare with current documents"
-    },
-    {
-      "label": "Step 3 \u2014 Report before editing",
-      "file_type": "document",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L77",
-      "_origin": "ast",
-      "id": "copilot_skills_documentation_writer_skill_step_3_report_before_editing",
-      "community": 107,
-      "norm_label": "step 3 \u2014 report before editing"
-    },
-    {
-      "label": "Step 4 \u2014 Update the documents",
-      "file_type": "document",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L98",
-      "_origin": "ast",
-      "id": "copilot_skills_documentation_writer_skill_step_4_update_the_documents",
-      "community": 107,
-      "norm_label": "step 4 \u2014 update the documents"
-    },
-    {
-      "label": "Best Practices",
-      "file_type": "document",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L104",
-      "_origin": "ast",
-      "id": "copilot_skills_documentation_writer_skill_best_practices",
-      "community": 107,
-      "norm_label": "best practices"
-    },
-    {
-      "label": "What NOT to Do",
-      "file_type": "document",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L117",
-      "_origin": "ast",
-      "id": "copilot_skills_documentation_writer_skill_what_not_to_do",
-      "community": 107,
-      "norm_label": "what not to do"
-    },
-    {
-      "label": "SKILL.md",
-      "file_type": "document",
-      "source_file": ".copilot/skills/frontend-design/SKILL.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "copilot_skills_frontend_design_skill",
-      "community": 30,
-      "norm_label": "skill.md"
-    },
-    {
-      "label": "Design Thinking",
-      "file_type": "document",
-      "source_file": ".copilot/skills/frontend-design/SKILL.md",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "copilot_skills_frontend_design_skill_design_thinking",
-      "community": 30,
-      "norm_label": "design thinking"
-    },
-    {
-      "label": "Frontend Aesthetics Guidelines",
-      "file_type": "document",
-      "source_file": ".copilot/skills/frontend-design/SKILL.md",
-      "source_location": "L27",
-      "_origin": "ast",
-      "id": "copilot_skills_frontend_design_skill_frontend_aesthetics_guidelines",
-      "community": 30,
-      "norm_label": "frontend aesthetics guidelines"
-    },
-    {
-      "label": "SKILL.md",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill",
-      "community": 55,
-      "norm_label": "skill.md"
-    },
-    {
-      "label": "Gerador de PRD e Specs Funcionais",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill_gerador_de_prd_e_specs_funcionais",
-      "community": 55,
-      "norm_label": "gerador de prd e specs funcionais"
-    },
-    {
-      "label": "Princ\u00edpios",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L35",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill_princ\u00edpios",
-      "community": 55,
-      "norm_label": "principios"
-    },
-    {
-      "label": "Passo 0 \u2014 Detectar o modo",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L46",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill_passo_0_detectar_o_modo",
-      "community": 55,
-      "norm_label": "passo 0 \u2014 detectar o modo"
-    },
-    {
-      "label": "Mensagem inicial",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L61",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill_mensagem_inicial",
-      "community": 55,
-      "norm_label": "mensagem inicial"
-    },
-    {
-      "label": "Etapa 1 \u2014 Produto / Feature",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L69",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill_etapa_1_produto_feature",
-      "community": 55,
-      "norm_label": "etapa 1 \u2014 produto / feature"
-    },
-    {
-      "label": "Etapa 2 \u2014 Stack (alto n\u00edvel)",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L82",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill_etapa_2_stack_alto_n\u00edvel",
-      "community": 55,
-      "norm_label": "etapa 2 \u2014 stack (alto nivel)"
-    },
-    {
-      "label": "Etapa 3 \u2014 Fases e specs",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L97",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill_etapa_3_fases_e_specs",
-      "community": 55,
-      "norm_label": "etapa 3 \u2014 fases e specs"
-    },
-    {
-      "label": "Qualidade obrigat\u00f3ria de cada spec",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L101",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill_qualidade_obrigat\u00f3ria_de_cada_spec",
-      "community": 55,
-      "norm_label": "qualidade obrigatoria de cada spec"
-    },
-    {
-      "label": "An\u00e1lise cr\u00edtica antes de gerar",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L116",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill_an\u00e1lise_cr\u00edtica_antes_de_gerar",
-      "community": 55,
-      "norm_label": "analise critica antes de gerar"
-    },
-    {
-      "label": "Gera\u00e7\u00e3o do arquivo",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L120",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill_gera\u00e7\u00e3o_do_arquivo",
-      "community": 55,
-      "norm_label": "geracao do arquivo"
-    },
-    {
-      "label": "Template do PRD final",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L130",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill_template_do_prd_final",
-      "community": 55,
-      "norm_label": "template do prd final"
-    },
-    {
-      "label": "O que N\u00c3O fazer",
-      "file_type": "document",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L244",
-      "_origin": "ast",
-      "id": "copilot_skills_prd_generator_skill_o_que_n\u00e3o_fazer",
-      "community": 55,
-      "norm_label": "o que nao fazer"
     },
     {
       "label": "SKILL.md",
@@ -23577,6 +24627,1236 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme",
+      "target": "agents_skills_security_audit_readme_security_audit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_security_audit",
+      "target": "agents_skills_security_audit_readme_comandos_e_frases_de_gatilho",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_security_audit",
+      "target": "agents_skills_security_audit_readme_como_instalar_no_cursor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L196",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_security_audit",
+      "target": "agents_skills_security_audit_readme_estrutura_dos_arquivos_refs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_security_audit",
+      "target": "agents_skills_security_audit_readme_manuten\u00e7\u00e3o_desta_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_security_audit",
+      "target": "agents_skills_security_audit_readme_o_que_a_skill_evita_anti_ru\u00eddo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_security_audit",
+      "target": "agents_skills_security_audit_readme_o_que_esta_skill_faz",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_security_audit",
+      "target": "agents_skills_security_audit_readme_o_que_voc\u00ea_recebe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_security_audit",
+      "target": "agents_skills_security_audit_readme_pr\u00e9_requisitos_no_projeto_auditado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_security_audit",
+      "target": "agents_skills_security_audit_readme_quando_a_skill_\u00e9_acionada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_security_audit",
+      "target": "agents_skills_security_audit_readme_reposit\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_security_audit",
+      "target": "agents_skills_security_audit_readme_vers\u00f5es_do_next_js_importante",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_como_instalar_no_cursor",
+      "target": "agents_skills_security_audit_readme_op\u00e7\u00e3o_a_skill_no_projeto_que_voc\u00ea_audita",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_como_instalar_no_cursor",
+      "target": "agents_skills_security_audit_readme_op\u00e7\u00e3o_b_reposit\u00f3rio_central_c\u00f3pia_ou_submodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_como_instalar_no_cursor",
+      "target": "agents_skills_security_audit_readme_op\u00e7\u00e3o_c_skill_pessoal_todos_os_projetos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_quando_a_skill_\u00e9_acionada",
+      "target": "agents_skills_security_audit_readme_ativa\u00e7\u00e3o_autom\u00e1tica_agente_escolhe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_quando_a_skill_\u00e9_acionada",
+      "target": "agents_skills_security_audit_readme_ativa\u00e7\u00e3o_manual_recomendada_para_auditoria_completa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/README.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_readme_quando_a_skill_\u00e9_acionada",
+      "target": "agents_skills_security_audit_readme_regra_opcional_no_projeto_gatilho_mais_forte",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill",
+      "target": "agents_skills_security_audit_skill_security_audit_react_next_js_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_security_audit_react_next_js_typescript",
+      "target": "agents_skills_security_audit_skill_atalhos_grep_pistas_n\u00e3o_achados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_security_audit_react_next_js_typescript",
+      "target": "agents_skills_security_audit_skill_documenta\u00e7\u00e3o_externa_por_vers\u00e3o_instalada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_security_audit_react_next_js_typescript",
+      "target": "agents_skills_security_audit_skill_fluxo_de_execu\u00e7\u00e3o_ordem_fixa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_security_audit_react_next_js_typescript",
+      "target": "agents_skills_security_audit_skill_guia_de_severidade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_security_audit_react_next_js_typescript",
+      "target": "agents_skills_security_audit_skill_princ\u00edpios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_security_audit_react_next_js_typescript",
+      "target": "agents_skills_security_audit_skill_refer\u00eancias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_security_audit_react_next_js_typescript",
+      "target": "agents_skills_security_audit_skill_regras_de_sa\u00edda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_fluxo_de_execu\u00e7\u00e3o_ordem_fixa",
+      "target": "agents_skills_security_audit_skill_step_1_escopo_stack_e_vers\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_fluxo_de_execu\u00e7\u00e3o_ordem_fixa",
+      "target": "agents_skills_security_audit_skill_step_2_depend\u00eancias_do_projeto_atual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_fluxo_de_execu\u00e7\u00e3o_ordem_fixa",
+      "target": "agents_skills_security_audit_skill_step_3_segredos_e_exposi\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_fluxo_de_execu\u00e7\u00e3o_ordem_fixa",
+      "target": "agents_skills_security_audit_skill_step_4_scan_profundo_c\u00f3digo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_fluxo_de_execu\u00e7\u00e3o_ordem_fixa",
+      "target": "agents_skills_security_audit_skill_step_5_fluxo_entre_arquivos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_fluxo_de_execu\u00e7\u00e3o_ordem_fixa",
+      "target": "agents_skills_security_audit_skill_step_6_anti_falso_positivo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_fluxo_de_execu\u00e7\u00e3o_ordem_fixa",
+      "target": "agents_skills_security_audit_skill_step_7_relat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/SKILL.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_skill_fluxo_de_execu\u00e7\u00e3o_ordem_fixa",
+      "target": "agents_skills_security_audit_skill_step_8_patches_critical_e_high",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_false_positives",
+      "target": "agents_skills_security_audit_refs_false_positives_falsos_positivos_n\u00e3o_reportar_sem_evid\u00eancia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_false_positives_falsos_positivos_n\u00e3o_reportar_sem_evid\u00eancia",
+      "target": "agents_skills_security_audit_refs_false_positives_arquivos_e_pastas_excluir_do_scan_profundo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_false_positives_falsos_positivos_n\u00e3o_reportar_sem_evid\u00eancia",
+      "target": "agents_skills_security_audit_refs_false_positives_auth_js_nextauth_v5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_false_positives_falsos_positivos_n\u00e3o_reportar_sem_evid\u00eancia",
+      "target": "agents_skills_security_audit_refs_false_positives_depend\u00eancias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_false_positives_falsos_positivos_n\u00e3o_reportar_sem_evid\u00eancia",
+      "target": "agents_skills_security_audit_refs_false_positives_next_js_app_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_false_positives_falsos_positivos_n\u00e3o_reportar_sem_evid\u00eancia",
+      "target": "agents_skills_security_audit_refs_false_positives_prisma_sql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_false_positives_falsos_positivos_n\u00e3o_reportar_sem_evid\u00eancia",
+      "target": "agents_skills_security_audit_refs_false_positives_react_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_false_positives_falsos_positivos_n\u00e3o_reportar_sem_evid\u00eancia",
+      "target": "agents_skills_security_audit_refs_false_positives_regra_geral",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_false_positives_falsos_positivos_n\u00e3o_reportar_sem_evid\u00eancia",
+      "target": "agents_skills_security_audit_refs_false_positives_segredos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/false-positives.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_false_positives_falsos_positivos_n\u00e3o_reportar_sem_evid\u00eancia",
+      "target": "agents_skills_security_audit_refs_false_positives_severidade_quando_rebaixar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language",
+      "target": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "target": "agents_skills_security_audit_refs_language_apis_de_alto_risco_sinks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L251",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "target": "agents_skills_security_audit_refs_language_arquivos_sens\u00edveis_e_gitignore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "target": "agents_skills_security_audit_refs_language_auth_js_nextauth_v5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L242",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "target": "agents_skills_security_audit_refs_language_express_s\u00f3_se_existir_server_js_api_legada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L259",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "target": "agents_skills_security_audit_refs_language_integra\u00e7\u00e3o_com_outras_refs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L232",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "target": "agents_skills_security_audit_refs_language_next_config_headers_csp_hsts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "target": "agents_skills_security_audit_refs_language_next_js_app_router_13_se_app_existir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L199",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "target": "agents_skills_security_audit_refs_language_prisma_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "target": "agents_skills_security_audit_refs_language_react_vers\u00e3o_instalada_major_18_ou_19",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "target": "agents_skills_security_audit_refs_language_stripe_webhooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L225",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_padr\u00f5es_por_linguagem_javascript_typescript_react_next_js",
+      "target": "agents_skills_security_audit_refs_language_zod_react_hook_form",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_react_vers\u00e3o_instalada_major_18_ou_19",
+      "target": "agents_skills_security_audit_refs_language_cliente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_react_vers\u00e3o_instalada_major_18_ou_19",
+      "target": "agents_skills_security_audit_refs_language_xss_reportar_quando",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_next_js_app_router_13_se_app_existir",
+      "target": "agents_skills_security_audit_refs_language_proxy_middleware_na_borda_opcional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_next_js_app_router_13_se_app_existir",
+      "target": "agents_skills_security_audit_refs_language_rotas_p\u00fablicas_vs_painel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_next_js_app_router_13_se_app_existir",
+      "target": "agents_skills_security_audit_refs_language_route_handlers_app_api_route_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L171",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_next_js_app_router_13_se_app_existir",
+      "target": "agents_skills_security_audit_refs_language_rsc_e_cache",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/language.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_language_next_js_app_router_13_se_app_existir",
+      "target": "agents_skills_security_audit_refs_language_server_actions_15_comum_14_poss\u00edvel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_checklist_de_vulnerabilidades_next_js_react_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_checklist_de_vulnerabilidades_next_js_react_typescript",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_10_comandos_p\u00f3s_scan_sugeridos_no_relat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_checklist_de_vulnerabilidades_next_js_react_typescript",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_1_mapa_de_superf\u00edcie_step_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_checklist_de_vulnerabilidades_next_js_react_typescript",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_2_autentica\u00e7\u00e3o_e_autoriza\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_checklist_de_vulnerabilidades_next_js_react_typescript",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_3_inje\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_checklist_de_vulnerabilidades_next_js_react_typescript",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_4_webhooks_e_pagamentos_se_stripe_no_package_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_checklist_de_vulnerabilidades_next_js_react_typescript",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_5_upload_e_arquivos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_checklist_de_vulnerabilidades_next_js_react_typescript",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_6_dados_e_privacidade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_checklist_de_vulnerabilidades_next_js_react_typescript",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_7_configura\u00e7\u00e3o_next_js_vers\u00e3o_instalada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_checklist_de_vulnerabilidades_next_js_react_typescript",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_8_cliente_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_checklist_de_vulnerabilidades_next_js_react_typescript",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_9_fluxo_de_dados_step_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_2_autentica\u00e7\u00e3o_e_autoriza\u00e7\u00e3o",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_auth_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_2_autentica\u00e7\u00e3o_e_autoriza\u00e7\u00e3o",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_layouts_e_p\u00e1ginas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_2_autentica\u00e7\u00e3o_e_autoriza\u00e7\u00e3o",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_route_handlers_route_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_2_autentica\u00e7\u00e3o_e_autoriza\u00e7\u00e3o",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_server_actions_use_server",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_3_inje\u00e7\u00e3o",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_command_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_3_inje\u00e7\u00e3o",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_prisma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/nextjs-checklist.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_nextjs_checklist_3_inje\u00e7\u00e3o",
+      "target": "agents_skills_security_audit_refs_nextjs_checklist_xss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_project_stack",
+      "target": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "target": "agents_skills_security_audit_refs_project_stack_10_monorepos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "target": "agents_skills_security_audit_refs_project_stack_1_onde_ler_vers\u00f5es_ordem_de_prioridade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "target": "agents_skills_security_audit_refs_project_stack_2_pacotes_a_inventariar_sempre",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "target": "agents_skills_security_audit_refs_project_stack_3_detectar_formato_do_next_filesystem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "target": "agents_skills_security_audit_refs_project_stack_4_regras_por_major_do_next_instalado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "target": "agents_skills_security_audit_refs_project_stack_5_regras_por_major_do_react_instalado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "target": "agents_skills_security_audit_refs_project_stack_6_auth_js_nextauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "target": "agents_skills_security_audit_refs_project_stack_7_depend\u00eancias_step_2_escopo_do_projeto_atual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "target": "agents_skills_security_audit_refs_project_stack_8_bloco_obrigat\u00f3rio_no_relat\u00f3rio_copiar_valores_reais",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "target": "agents_skills_security_audit_refs_project_stack_8b_headers_csp_hsts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/project-stack.md",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_project_stack_stack_do_projeto_vers\u00f5es_instaladas_multi_repo",
+      "target": "agents_skills_security_audit_refs_project_stack_9_o_que_n\u00e3o_fazer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_proxy_middleware",
+      "target": "agents_skills_security_audit_refs_proxy_middleware_proxy_vs_middleware_next_js_por_vers\u00e3o_instalada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_proxy_middleware_proxy_vs_middleware_next_js_por_vers\u00e3o_instalada",
+      "target": "agents_skills_security_audit_refs_proxy_middleware_1_regra_por_major_do_next_lockfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_proxy_middleware_proxy_vs_middleware_next_js_por_vers\u00e3o_instalada",
+      "target": "agents_skills_security_audit_refs_proxy_middleware_2_o_que_n\u00e3o_reportar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_proxy_middleware_proxy_vs_middleware_next_js_por_vers\u00e3o_instalada",
+      "target": "agents_skills_security_audit_refs_proxy_middleware_3_o_que_verificar_na_auditoria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_proxy_middleware_proxy_vs_middleware_next_js_por_vers\u00e3o_instalada",
+      "target": "agents_skills_security_audit_refs_proxy_middleware_4_auth_js_nextauth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_proxy_middleware_proxy_vs_middleware_next_js_por_vers\u00e3o_instalada",
+      "target": "agents_skills_security_audit_refs_proxy_middleware_5_headers_de_seguran\u00e7a_na_borda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_proxy_middleware_proxy_vs_middleware_next_js_por_vers\u00e3o_instalada",
+      "target": "agents_skills_security_audit_refs_proxy_middleware_6_texto_modelo_falso_positivo_descartado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_proxy_middleware_proxy_vs_middleware_next_js_por_vers\u00e3o_instalada",
+      "target": "agents_skills_security_audit_refs_proxy_middleware_7_texto_modelo_info_migra\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/proxy-middleware.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_proxy_middleware_proxy_vs_middleware_next_js_por_vers\u00e3o_instalada",
+      "target": "agents_skills_security_audit_refs_proxy_middleware_8_integra\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_report",
+      "target": "agents_skills_security_audit_refs_report_formato_do_relat\u00f3rio_security_audit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_report_formato_do_relat\u00f3rio_security_audit",
+      "target": "agents_skills_security_audit_refs_report_1_resumo_executivo_obrigat\u00f3rio_primeiro_bloco",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_report_formato_do_relat\u00f3rio_security_audit",
+      "target": "agents_skills_security_audit_refs_report_2_card_de_achado_por_categoria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_report_formato_do_relat\u00f3rio_security_audit",
+      "target": "agents_skills_security_audit_refs_report_3_auditoria_de_depend\u00eancias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_report_formato_do_relat\u00f3rio_security_audit",
+      "target": "agents_skills_security_audit_refs_report_4_scan_de_segredos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_report_formato_do_relat\u00f3rio_security_audit",
+      "target": "agents_skills_security_audit_refs_report_5_propostas_de_patch_critical_high",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_report_formato_do_relat\u00f3rio_security_audit",
+      "target": "agents_skills_security_audit_refs_report_6_falsos_positivos_descartados_quando_aplic\u00e1vel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_report_formato_do_relat\u00f3rio_security_audit",
+      "target": "agents_skills_security_audit_refs_report_7_cobertura_e_pr\u00f3ximos_passos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_report_formato_do_relat\u00f3rio_security_audit",
+      "target": "agents_skills_security_audit_refs_report_cabe\u00e7alho",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_report_formato_do_relat\u00f3rio_security_audit",
+      "target": "agents_skills_security_audit_refs_report_guia_de_confian\u00e7a",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/report.md",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_report_formato_do_relat\u00f3rio_security_audit",
+      "target": "agents_skills_security_audit_refs_report_ordem_das_se\u00e7\u00f5es_no_output_final",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_security_headers",
+      "target": "agents_skills_security_audit_refs_security_headers_headers_de_seguran\u00e7a_csp_hsts_etc_cautela_por_vers\u00e3o_e_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_security_headers_headers_de_seguran\u00e7a_csp_hsts_etc_cautela_por_vers\u00e3o_e_deploy",
+      "target": "agents_skills_security_audit_refs_security_headers_1_o_que_verificar_antes_de_sugerir_qualquer_header",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_security_headers_headers_de_seguran\u00e7a_csp_hsts_etc_cautela_por_vers\u00e3o_e_deploy",
+      "target": "agents_skills_security_audit_refs_security_headers_2_severidade_permitida",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_security_headers_headers_de_seguran\u00e7a_csp_hsts_etc_cautela_por_vers\u00e3o_e_deploy",
+      "target": "agents_skills_security_audit_refs_security_headers_3_hsts_n\u00e3o_exigir_em_next_config_\u00e0_cegas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_security_headers_headers_de_seguran\u00e7a_csp_hsts_etc_cautela_por_vers\u00e3o_e_deploy",
+      "target": "agents_skills_security_audit_refs_security_headers_4_csp_e_next_js_por_que_sugest\u00f5es_gen\u00e9ricas_falham",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_security_headers_headers_de_seguran\u00e7a_csp_hsts_etc_cautela_por_vers\u00e3o_e_deploy",
+      "target": "agents_skills_security_audit_refs_security_headers_5_api_de_headers_no_next_config_depende_da_vers\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_security_headers_headers_de_seguran\u00e7a_csp_hsts_etc_cautela_por_vers\u00e3o_e_deploy",
+      "target": "agents_skills_security_audit_refs_security_headers_6_onde_headers_podem_j\u00e1_existir_n\u00e3o_reportar_aus\u00eancia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_security_headers_headers_de_seguran\u00e7a_csp_hsts_etc_cautela_por_vers\u00e3o_e_deploy",
+      "target": "agents_skills_security_audit_refs_security_headers_7_texto_modelo_para_relat\u00f3rio_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_security_headers_headers_de_seguran\u00e7a_csp_hsts_etc_cautela_por_vers\u00e3o_e_deploy",
+      "target": "agents_skills_security_audit_refs_security_headers_8_quando_escalar_al\u00e9m_de_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/security-audit/refs/security-headers.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "agents_skills_security_audit_refs_security_headers_headers_de_seguran\u00e7a_csp_hsts_etc_cautela_por_vers\u00e3o_e_deploy",
+      "target": "agents_skills_security_audit_refs_security_headers_9_integra\u00e7\u00e3o_com_falsos_positivos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".agents/skills/setup-pre-commit/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
@@ -28047,246 +30327,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "copilot_skills_documentation_writer_skill",
-      "target": "copilot_skills_documentation_writer_skill_documentation_writer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L104",
-      "weight": 1.0,
-      "source": "copilot_skills_documentation_writer_skill_documentation_writer",
-      "target": "copilot_skills_documentation_writer_skill_best_practices",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "copilot_skills_documentation_writer_skill_documentation_writer",
-      "target": "copilot_skills_documentation_writer_skill_documents_under_management",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "copilot_skills_documentation_writer_skill_documentation_writer",
-      "target": "copilot_skills_documentation_writer_skill_execution_protocol_documentation_writer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "copilot_skills_documentation_writer_skill_documentation_writer",
-      "target": "copilot_skills_documentation_writer_skill_responsibilities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L117",
-      "weight": 1.0,
-      "source": "copilot_skills_documentation_writer_skill_documentation_writer",
-      "target": "copilot_skills_documentation_writer_skill_what_not_to_do",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "copilot_skills_documentation_writer_skill_execution_protocol_documentation_writer",
-      "target": "copilot_skills_documentation_writer_skill_step_1_explore_the_project",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L67",
-      "weight": 1.0,
-      "source": "copilot_skills_documentation_writer_skill_execution_protocol_documentation_writer",
-      "target": "copilot_skills_documentation_writer_skill_step_2_compare_with_current_documents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L77",
-      "weight": 1.0,
-      "source": "copilot_skills_documentation_writer_skill_execution_protocol_documentation_writer",
-      "target": "copilot_skills_documentation_writer_skill_step_3_report_before_editing",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/documentation-writer/SKILL.md",
-      "source_location": "L98",
-      "weight": 1.0,
-      "source": "copilot_skills_documentation_writer_skill_execution_protocol_documentation_writer",
-      "target": "copilot_skills_documentation_writer_skill_step_4_update_the_documents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/frontend-design/SKILL.md",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "copilot_skills_frontend_design_skill",
-      "target": "copilot_skills_frontend_design_skill_design_thinking",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/frontend-design/SKILL.md",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "copilot_skills_frontend_design_skill",
-      "target": "copilot_skills_frontend_design_skill_frontend_aesthetics_guidelines",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "copilot_skills_prd_generator_skill",
-      "target": "copilot_skills_prd_generator_skill_gerador_de_prd_e_specs_funcionais",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L116",
-      "weight": 1.0,
-      "source": "copilot_skills_prd_generator_skill_gerador_de_prd_e_specs_funcionais",
-      "target": "copilot_skills_prd_generator_skill_an\u00e1lise_cr\u00edtica_antes_de_gerar",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L69",
-      "weight": 1.0,
-      "source": "copilot_skills_prd_generator_skill_gerador_de_prd_e_specs_funcionais",
-      "target": "copilot_skills_prd_generator_skill_etapa_1_produto_feature",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L82",
-      "weight": 1.0,
-      "source": "copilot_skills_prd_generator_skill_gerador_de_prd_e_specs_funcionais",
-      "target": "copilot_skills_prd_generator_skill_etapa_2_stack_alto_n\u00edvel",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L97",
-      "weight": 1.0,
-      "source": "copilot_skills_prd_generator_skill_gerador_de_prd_e_specs_funcionais",
-      "target": "copilot_skills_prd_generator_skill_etapa_3_fases_e_specs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L120",
-      "weight": 1.0,
-      "source": "copilot_skills_prd_generator_skill_gerador_de_prd_e_specs_funcionais",
-      "target": "copilot_skills_prd_generator_skill_gera\u00e7\u00e3o_do_arquivo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L61",
-      "weight": 1.0,
-      "source": "copilot_skills_prd_generator_skill_gerador_de_prd_e_specs_funcionais",
-      "target": "copilot_skills_prd_generator_skill_mensagem_inicial",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L244",
-      "weight": 1.0,
-      "source": "copilot_skills_prd_generator_skill_gerador_de_prd_e_specs_funcionais",
-      "target": "copilot_skills_prd_generator_skill_o_que_n\u00e3o_fazer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "copilot_skills_prd_generator_skill_gerador_de_prd_e_specs_funcionais",
-      "target": "copilot_skills_prd_generator_skill_passo_0_detectar_o_modo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "copilot_skills_prd_generator_skill_gerador_de_prd_e_specs_funcionais",
-      "target": "copilot_skills_prd_generator_skill_princ\u00edpios",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L130",
-      "weight": 1.0,
-      "source": "copilot_skills_prd_generator_skill_gerador_de_prd_e_specs_funcionais",
-      "target": "copilot_skills_prd_generator_skill_template_do_prd_final",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".copilot/skills/prd-generator/SKILL.md",
-      "source_location": "L101",
-      "weight": 1.0,
-      "source": "copilot_skills_prd_generator_skill_etapa_3_fases_e_specs",
-      "target": "copilot_skills_prd_generator_skill_qualidade_obrigat\u00f3ria_de_cada_spec",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": ".gemini/skills/frontend-design/SKILL.md",
       "source_location": "L11",
       "weight": 1.0,
@@ -30396,5 +32436,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f150db75d6f9e724e667942a989b163f7220e3ec"
+  "built_at_commit": "91c72d4d32d8f4778b8e14014516dbc2ae8b8934"
 }
