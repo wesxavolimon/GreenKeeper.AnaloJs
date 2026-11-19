@@ -37,3 +37,4 @@ graphify-out/cache
 # Local Netlify folder
 .netlify
 screenshots/
+skills-lock.json

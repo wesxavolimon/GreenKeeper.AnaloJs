@@ -1,16 +1,16 @@
 # Graph Report - GreenKeeper.AnaloJs  (2026-11-19)
 
 ## Corpus Check
-- 137 files · ~134,139 words
+- 141 files · ~135,408 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1450 nodes · 1509 edges · 108 communities (103 shown, 5 thin omitted)
+- 1478 nodes · 1542 edges · 109 communities (103 shown, 6 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `067ac548`
+- Built from commit: `9d07cd7d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -118,12 +118,13 @@
 - Netlify Identity — authorization and session gotchas
 - Documentation Writer
 - Documentation Writer
+- Steps
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 23 edges
-2. `Netlify Functions` - 19 edges
+2. `DashboardSnapshot` - 19 edges
 3. `Netlify Functions` - 19 edges
-4. `DashboardSnapshot` - 18 edges
+4. `Netlify Functions` - 19 edges
 5. `Netlify Blobs` - 17 edges
 6. `Netlify Blobs` - 17 edges
 7. `Netlify configuration` - 15 edges
@@ -146,15 +147,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (108 total, 5 thin omitted)
+## Communities (109 total, 6 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
 Cohesion: 0.04
 Nodes (44): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+36 more)
 
 ### Community 1 - "1. Dashboard Botânico (`Minhas Plantas`)"
-Cohesion: 0.04
-Nodes (44): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+36 more)
+Cohesion: 0.08
+Nodes (24): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+16 more)
 
 ### Community 2 - "Decisions"
 Cohesion: 0.05
@@ -165,8 +166,8 @@ Cohesion: 0.07
 Nodes (25): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+17 more)
 
 ### Community 4 - "ADDED Requirements"
-Cohesion: 0.07
-Nodes (25): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+17 more)
+Cohesion: 0.04
+Nodes (45): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+37 more)
 
 ### Community 5 - "ADDED Requirements"
 Cohesion: 0.08
@@ -197,8 +198,8 @@ Cohesion: 0.10
 Nodes (20): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit (+12 more)
 
 ### Community 12 - "UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)"
-Cohesion: 0.10
-Nodes (18): AGENTS.md — GreenKeeper.AnaloJs, Arquitetura (Clean Architecture pragmática no frontend), Escopo atual (esqueleto), Governança de ferramentas, Nomenclatura, O que é o projeto, Próximos proposes (registrados, FORA do escopo atual), Qualidade (+10 more)
+Cohesion: 0.06
+Nodes (31): AGENTS.md — GreenKeeper.AnaloJs, Arquitetura (Clean Architecture pragmática no frontend), Contexto do projeto, Diretrizes essenciais, Escopo atual, Governança de ferramentas, Nomenclatura, O que é o projeto (+23 more)
 
 ### Community 13 - "AGENTS.md — GreenKeeper.AnaloJs"
 Cohesion: 0.06
@@ -225,12 +226,12 @@ Cohesion: 0.05
 Nodes (43): dependencies, @analogjs/router, @angular/common, @angular/compiler, @angular/core, @angular/platform-browser, @angular/router, rxjs (+35 more)
 
 ### Community 19 - "app.spec.ts"
-Cohesion: 0.09
-Nodes (14): Home, Component, sampleSnapshot, DeviceAccessDecision, DeviceAccessReason, FocusInspectionTask, PlantFocusSummary, PlantMetrics (+6 more)
+Cohesion: 0.15
+Nodes (12): sampleSnapshot, DeviceAccessDecision, DeviceAccessReason, FocusInspectionTask, PlantFocusSummary, PlantMetrics, RoomPlantSummary, RoomTone (+4 more)
 
 ### Community 20 - "scripts"
-Cohesion: 0.14
-Nodes (12): AppConfig, AppConfigPort, DeviceSignalsPort, AppEnvironment, DeviceSignals, BrowserDeviceSignalsAdapter, BrowserDeviceSource, readDefaultBrowserDeviceSource() (+4 more)
+Cohesion: 0.10
+Nodes (15): AppConfig, AppConfigPort, DeviceSignalsPort, PwaRegistrationPort, AppEnvironment, DeviceSignals, BrowserDeviceSignalsAdapter, BrowserDeviceSource (+7 more)
 
 ### Community 21 - "PwaRegistrationPort"
 Cohesion: 0.10
@@ -428,10 +429,6 @@ Nodes (8): Build and Deploy, Forms (AJAX Pattern), Local Dev, Netlify Functions,
 Cohesion: 0.22
 Nodes (8): ADDED Requirements, Requirement: Controlled Development and Test Override, Requirement: Informative Screen for Non-Mobile Visitors, Requirement: Mobile-Only Access Detection, Scenario: Desktop or tablet browser accesses the app, Scenario: Non-mobile visitor lands on root or deep route, Scenario: Production build ignores dev override query parameters, Scenario: Standard mobile phone browser accesses the app
 
-### Community 80 - "PwaRegistrationPort"
-Cohesion: 0.28
-Nodes (3): PwaRegistrationPort, BrowserPwaRegistrationAdapter, ServiceWorkerRegistrar
-
 ### Community 81 - "Two-Layer Pattern: Company-Only Access + Per-User Identity"
 Cohesion: 0.25
 Nodes (7): Option A — Invite-only Netlify Identity (best default for "just my team"), Option B — Auth0 extension (best for a real org with an existing IdP), Option C — Basic Password Protection + Netlify Identity, Option D — Enterprise team-login perimeter + Netlify Identity (the genuine two-layer, double login), Two-Layer Pattern: Company-Only Access + Per-User Identity, What an agent can and can't see, Why the double login can't be wired away (today)
@@ -540,25 +537,29 @@ Nodes (10): Best Practices, Documentation Writer, Documents Under Management, Ex
 Cohesion: 0.18
 Nodes (10): Best Practices, Documentation Writer, Documents Under Management, Execution Protocol — /documentation-writer, Responsibilities, Step 1 — Explore the project, Step 2 — Compare with current documents, Step 3 — Report before editing (+2 more)
 
+### Community 108 - "Steps"
+Cohesion: 0.15
+Nodes (12): 1. Detect package manager, 2. Install dependencies, 3. Initialize Husky, 4. Create `.husky/pre-commit`, 5. Create `.lintstagedrc`, 6. Create `.prettierrc` (if missing), 7. Verify, 8. Commit (+4 more)
+
 ## Knowledge Gaps
-- **1038 isolated node(s):** `Responsibilities`, `Documents Under Management`, `Step 1 — Explore the project`, `Step 2 — Compare with current documents`, `Step 3 — Report before editing` (+1033 more)
+- **1059 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `root` (+1054 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `Responsibilities`, `Documents Under Management`, `Step 1 — Explore the project` to the rest of the system?**
-  _1038 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `index.ts`, `app.spec.ts`, `index.page.ts`, `scripts`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
+  _1059 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**
-  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Decisions` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
 - **Should `concept.md` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
 - **Should `ADDED Requirements` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
-- **Should `ADDED Requirements` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._

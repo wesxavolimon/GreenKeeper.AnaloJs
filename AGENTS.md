@@ -19,19 +19,38 @@ Instruções para agentes de IA (e humanos) neste repositório. Fonte de verdade
 - Branch base e destino de PR: `develop`.
 - `tasks.md` sempre começa com `## 0. Branch` e termina com checklist pré-PR (README + `graphify update .`) e PR.
 
+## Contexto do projeto
+
+- Visão do produto: `docs/project-overview.md`
+- Arquitetura técnica: `docs/architecture.md`
+
+## Diretrizes essenciais
+
+- Preserve a separação entre as áreas de funcionário e morador.
+- Nunca exponha `SUPABASE_SERVICE_ROLE_KEY` ou o admin client ao navegador.
+- Valide entradas externas com Zod.
+- Prefira Server Components; use Client Components somente quando necessário.
+
 ## O que é o projeto
 
 PWA **AnalogJS (Angular + Vite) 100% frontend, sem backend próprio**, para cuidado de plantas, **exclusivo para celular**. Desktop/tablet veem apenas uma Tela Informativa. Deploy estático no **Netlify**.
 
-### Escopo atual (esqueleto)
+### Escopo atual
+
+- Autenticação Google via Auth0 (login/logout, sessão, guard de rota)
+- Banco de dados Supabase/PostgreSQL em develop e production
 - Mobile-only gate + Tela Informativa
-- Dashboard direto (sem login) com adapter **em memória**
+- Dashboard Botânico com cadastro, listagem e identificação de plantas por foto
+- Registro de cuidados (rega, adubação, poda) e tarefas diárias
+- Clima local e alertas (rega atrasada, temperatura crítica, nova planta, cuidado concluído)
+- Perfil do usuário (dados pessoais, endereço com CEP e GPS)
+- Convite de familiar com edição provisória de plantas e aprovação pelo dono
 - PWA instalável, Docker, 100% de cobertura unitária, prints via Playwright
 
 ### Próximos proposes (registrados, FORA do escopo atual)
-1. **Database**: PostgreSQL + PostgREST no Docker local; `@supabase/supabase-js` apontando para PostgreSQL do Supabase em produção (Netlify); schema/tabelas; troca do adapter em memória.
-2. **Autenticação Auth0 + Google**: login/logout, sessão, JWT para o Supabase.
-3. **Convite de familiar por email**: compartilhar o mesmo database da família, convite por email e notificação no app instalado no celular da pessoa convidada (Realtime/Web Notification; Edge Functions para Web Push e email).
+
+1. **Notificações push** para lembretes de cuidado e convites de familiar
+2. **Convite de familiar por email** com notificação no PWA instalado no celular da pessoa convidada (Realtime/Web Notification; Edge Functions para Web Push e email)
 
 Não antecipar nenhum desses itens fora de uma change própria.
 

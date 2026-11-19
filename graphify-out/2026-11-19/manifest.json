@@ -10,13 +10,13 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1795076870.8666773,
-    "ast_hash": "d16179a92952e77a0eaf3aa472455806",
+    "mtime": 1795093968.617898,
+    "ast_hash": "e6508e1ab5b6eef886adb3e7af55003d",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1795076870.8676808,
-    "ast_hash": "c85b205083c5083a907b02890bb03d71",
+    "mtime": 1795093313.1601436,
+    "ast_hash": "8334b2443cae83c5aa0c7096c87edcd4",
     "semantic_hash": ""
   },
   "angular.json": {
@@ -240,8 +240,8 @@
     "semantic_hash": ""
   },
   ".gemini/settings.json": {
-    "mtime": 1795091239.4990284,
-    "ast_hash": "fbcce86adbd6b8a67bdfab19cf411e8a",
+    "mtime": 1795094520.5338545,
+    "ast_hash": "28a8b19c9ee01dd8e8ebe076375a1418",
     "semantic_hash": ""
   },
   ".agents/skills/netlify-access-control/SKILL.md": {
@@ -712,6 +712,41 @@
   "prd-old.md": {
     "mtime": 1795056756.9328296,
     "ast_hash": "360626d7cde900465151fa7bd9b21134",
+    "semantic_hash": ""
+  },
+  ".agents/skills/documentation-writer/SKILL.md": {
+    "mtime": 1795092744.1730974,
+    "ast_hash": "05f50b8eb9664c4bbcd29ad09406d476",
+    "semantic_hash": ""
+  },
+  ".copilot/skills/documentation-writer/SKILL.md": {
+    "mtime": 1795092744.1730974,
+    "ast_hash": "05f50b8eb9664c4bbcd29ad09406d476",
+    "semantic_hash": ""
+  },
+  ".copilot/settings.json": {
+    "mtime": 1795094556.2705617,
+    "ast_hash": "28a8b19c9ee01dd8e8ebe076375a1418",
+    "semantic_hash": ""
+  },
+  ".agents/skills/setup-pre-commit/SKILL.md": {
+    "mtime": 1795093520.5754213,
+    "ast_hash": "caffb713350d80c8bf4853893a7f0cac",
+    "semantic_hash": ""
+  },
+  ".agents/skills/setup-pre-commit/agents/openai.yaml": {
+    "mtime": 1795093520.576421,
+    "ast_hash": "37a2e85b7101b4ccd5612560083fe790",
+    "semantic_hash": ""
+  },
+  "docs/architecture.md": {
+    "mtime": 1795093268.7452097,
+    "ast_hash": "e863b07627ea6485e7865b4e63a071b6",
+    "semantic_hash": ""
+  },
+  "docs/project-overview.md": {
+    "mtime": 1795093268.7432108,
+    "ast_hash": "5903eb3905cfd5de774e56bcd93add57",
     "semantic_hash": ""
   }
 }

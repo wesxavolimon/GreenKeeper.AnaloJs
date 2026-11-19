@@ -1,16 +1,16 @@
 # Graph Report - GreenKeeper.AnaloJs  (2026-11-19)
 
 ## Corpus Check
-- 135 files · ~132,509 words
+- 141 files · ~135,408 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1428 nodes · 1489 edges · 106 communities (101 shown, 5 thin omitted)
+- 1478 nodes · 1536 edges · 109 communities (104 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4f209aa1`
+- Built from commit: `9d07cd7d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -116,6 +116,9 @@
 - ADDED Requirements
 - Netlify Identity — authorization and session gotchas
 - Netlify Identity — authorization and session gotchas
+- Documentation Writer
+- Documentation Writer
+- Steps
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 23 edges
@@ -144,15 +147,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (106 total, 5 thin omitted)
+## Communities (109 total, 5 thin omitted)
 
 ### Community 0 - "UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)"
 Cohesion: 0.04
 Nodes (44): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+36 more)
 
 ### Community 1 - "1. Dashboard Botânico (`Minhas Plantas`)"
-Cohesion: 0.04
-Nodes (44): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+36 more)
+Cohesion: 0.08
+Nodes (24): CLI reference (`netlify database`), Constraints, Database branches (deploy-time), Drizzle ORM, Local development, Migrations, Modern client (reach for this), Netlify Database (+16 more)
 
 ### Community 2 - "Decisions"
 Cohesion: 0.05
@@ -163,8 +166,8 @@ Cohesion: 0.07
 Nodes (25): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+17 more)
 
 ### Community 4 - "ADDED Requirements"
-Cohesion: 0.07
-Nodes (25): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+17 more)
+Cohesion: 0.04
+Nodes (45): Access control (default to private), Choosing a store type, CLI and UI, Concurrency: atomic conditional writes, Consistency, Constraints, Core writes and reads, Deleting (+37 more)
 
 ### Community 5 - "ADDED Requirements"
 Cohesion: 0.08
@@ -195,8 +198,8 @@ Cohesion: 0.10
 Nodes (20): Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend E2E, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit, Cenários de Teste — Frontend Unit (+12 more)
 
 ### Community 12 - "UC-03: Interagir Localmente com o Dashboard (Concluir Tarefa, Selecionar Ambiente, Ajustar Umidificador)"
-Cohesion: 0.10
-Nodes (18): AGENTS.md — GreenKeeper.AnaloJs, Arquitetura (Clean Architecture pragmática no frontend), Escopo atual (esqueleto), Governança de ferramentas, Nomenclatura, O que é o projeto, Próximos proposes (registrados, FORA do escopo atual), Qualidade (+10 more)
+Cohesion: 0.06
+Nodes (31): AGENTS.md — GreenKeeper.AnaloJs, Arquitetura (Clean Architecture pragmática no frontend), Contexto do projeto, Diretrizes essenciais, Escopo atual, Governança de ferramentas, Nomenclatura, O que é o projeto (+23 more)
 
 ### Community 13 - "AGENTS.md — GreenKeeper.AnaloJs"
 Cohesion: 0.06
@@ -530,8 +533,20 @@ Nodes (4): Admin operations run only in the Functions runtime, Netlify Identity 
 Cohesion: 0.40
 Nodes (4): Admin operations run only in the Functions runtime, Netlify Identity — authorization and session gotchas, Redirect gating only covers CDN document requests, Role changes don't affect live sessions until the JWT refreshes
 
+### Community 106 - "Documentation Writer"
+Cohesion: 0.18
+Nodes (10): Best Practices, Documentation Writer, Documents Under Management, Execution Protocol — /documentation-writer, Responsibilities, Step 1 — Explore the project, Step 2 — Compare with current documents, Step 3 — Report before editing (+2 more)
+
+### Community 107 - "Documentation Writer"
+Cohesion: 0.18
+Nodes (10): Best Practices, Documentation Writer, Documents Under Management, Execution Protocol — /documentation-writer, Responsibilities, Step 1 — Explore the project, Step 2 — Compare with current documents, Step 3 — Report before editing (+2 more)
+
+### Community 108 - "Steps"
+Cohesion: 0.15
+Nodes (12): 1. Detect package manager, 2. Install dependencies, 3. Initialize Husky, 4. Create `.husky/pre-commit`, 5. Create `.lintstagedrc`, 6. Create `.prettierrc` (if missing), 7. Verify, 8. Commit (+4 more)
+
 ## Knowledge Gaps
-- **1022 isolated node(s):** `First: disambiguate "auth" — three unrelated layers`, `Decision guide (this skill's job)`, `Key distinction: Private vs Password`, `Identify the visitor: `context.user``, `SSO-session symptom: 401s after ~1 hour` (+1017 more)
+- **1059 isolated node(s):** `What This Sets Up`, `1. Detect package manager`, `2. Install dependencies`, `3. Initialize Husky`, `4. Create `.husky/pre-commit`` (+1054 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -539,16 +554,16 @@ Nodes (4): Admin operations run only in the Functions runtime, Netlify Identity 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `DashboardSnapshot` connect `greenkeeper-analojs` to `index.ts`, `app.spec.ts`, `index.page.ts`, `scripts`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **What connects `First: disambiguate "auth" — three unrelated layers`, `Decision guide (this skill's job)`, `Key distinction: Private vs Password` to the rest of the system?**
-  _1022 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `DashboardRepositoryPort` connect `greenkeeper-analojs` to `index.ts`, `scripts`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **What connects `What This Sets Up`, `1. Detect package manager`, `2. Install dependencies` to the rest of the system?**
+  _1059 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UC-01: Validar Acesso Exclusivo por Celular (Mobile-Only Gate)` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `1. Dashboard Botânico (`Minhas Plantas`)` be split into smaller, more focused modules?**
-  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Decisions` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
 - **Should `concept.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
-- **Should `ADDED Requirements` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
