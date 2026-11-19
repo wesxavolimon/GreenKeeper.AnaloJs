@@ -3,9 +3,11 @@ import {
   DashboardSnapshot,
   DeviceAccessDecision,
   evaluateDeviceAccess,
+  User,
 } from '@domain/index';
 import {
   AppConfigPort,
+  AuthPort,
   DashboardRepositoryPort,
   DeviceSignalsPort,
   PwaRegistrationPort,
@@ -107,5 +109,33 @@ export class RegisterPwaUseCase {
 
   execute(): Promise<boolean> {
     return this.pwaPort.registerServiceWorker();
+  }
+}
+
+export class LoginUseCase {
+  constructor(private readonly authPort: AuthPort) {}
+
+  execute(): void {
+    this.authPort.login();
+  }
+}
+
+export class LogoutUseCase {
+  constructor(private readonly authPort: AuthPort) {}
+
+  execute(): void {
+    this.authPort.logout();
+  }
+}
+
+export class CheckAuthUseCase {
+  constructor(private readonly authPort: AuthPort) {}
+
+  execute(): User | null {
+    return this.authPort.getUser();
+  }
+
+  isAuthenticated(): boolean {
+    return this.authPort.isAuthenticated();
   }
 }

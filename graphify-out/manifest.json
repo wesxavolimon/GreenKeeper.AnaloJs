@@ -115,13 +115,13 @@
     "semantic_hash": ""
   },
   "src/application/ports.ts": {
-    "mtime": 1795100044.6591702,
-    "ast_hash": "46752bfb0fff61e5a54b02650279f2e9",
+    "mtime": 1795106533.7829182,
+    "ast_hash": "32b82343d6d27ab4e1adb49db8eede06",
     "semantic_hash": ""
   },
   "src/application/use-cases.ts": {
-    "mtime": 1795100044.6602533,
-    "ast_hash": "b069de3229bcf3e871a65507d7d0cf92",
+    "mtime": 1795106548.3709366,
+    "ast_hash": "67d6d512b2c232c714e060dd42c99062",
     "semantic_hash": ""
   },
   "src/architecture.spec.ts": {
@@ -817,6 +817,11 @@
   "src/domain/auth.spec.ts": {
     "mtime": 1795106478.0105326,
     "ast_hash": "3573de10517c38691c91c4d22a456241",
+    "semantic_hash": ""
+  },
+  "src/application/auth.spec.ts": {
+    "mtime": 1795106555.284011,
+    "ast_hash": "3513f365d5dce9567c4996db5311783a",
     "semantic_hash": ""
   }
 }

@@ -2,6 +2,7 @@ import {
   AppEnvironment,
   DashboardSnapshot,
   DeviceSignals,
+  User,
 } from '@domain/index';
 
 export interface AppConfig {
@@ -27,4 +28,11 @@ export interface DashboardRepositoryPort {
 
 export interface PwaRegistrationPort {
   registerServiceWorker(): Promise<boolean>;
+}
+
+export interface AuthPort {
+  login(): void;
+  logout(): void;
+  getUser(): User | null;
+  isAuthenticated(): boolean;
 }
