@@ -9,6 +9,8 @@ dist/
 .angular/
 .vite/
 coverage/
+test-results/
+playwright-report/
 
 # Environment
 .env
